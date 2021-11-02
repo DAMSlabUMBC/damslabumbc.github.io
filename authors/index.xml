@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors | DAMS Research Group</title>
-    <link>https://damslabumbc.github.io/authors/</link>
-      <atom:link href="https://damslabumbc.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://damslabumbc.github.io/damslab.github.io/authors/</link>
+      <atom:link href="https://damslabumbc.github.io/damslab.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus</copyright><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://damslabumbc.github.io/media/icon_hu302981aa99fa15a8a6e0a46294dd9bb8_23619_512x512_fill_lanczos_center_3.png</url>
+      <url>https://damslabumbc.github.io/damslab.github.io/media/icon_hu302981aa99fa15a8a6e0a46294dd9bb8_23619_512x512_fill_lanczos_center_3.png</url>
       <title>Authors</title>
-      <link>https://damslabumbc.github.io/authors/</link>
+      <link>https://damslabumbc.github.io/damslab.github.io/authors/</link>
     </image>
     
   </channel>
