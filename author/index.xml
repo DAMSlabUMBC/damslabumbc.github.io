@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DAMS Research Group</title>
-    <link>/author/</link>
-      <atom:link href="/author/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://damslabumbc.github.io/author/</link>
+      <atom:link href="https://damslabumbc.github.io/author/index.xml" rel="self" type="application/rss+xml" />
     <description>DAMS Research Group</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus</copyright>
     <image>
-      <url>/author/avatar_hu1f6de08a64656b12a8e06d9b100fdc5e_195507_270x270_fill_q75_lanczos_center.jpg</url>
+      <url>https://damslabumbc.github.io/author/avatar_hu1f6de08a64656b12a8e06d9b100fdc5e_195507_270x270_fill_q75_lanczos_center.jpg</url>
       <title>DAMS Research Group</title>
-      <link>/author/</link>
+      <link>https://damslabumbc.github.io/author/</link>
     </image>
     
   </channel>

@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Guoxi Wang | DAMS Research Group</title>
-    <link>/author/guoxi-wang/</link>
-      <atom:link href="/author/guoxi-wang/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://damslabumbc.github.io/author/guoxi-wang/</link>
+      <atom:link href="https://damslabumbc.github.io/author/guoxi-wang/index.xml" rel="self" type="application/rss+xml" />
     <description>Guoxi Wang</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus</copyright><lastBuildDate>Sun, 01 Nov 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hu302981aa99fa15a8a6e0a46294dd9bb8_23619_512x512_fill_lanczos_center_3.png</url>
+      <url>https://damslabumbc.github.io/media/icon_hu302981aa99fa15a8a6e0a46294dd9bb8_23619_512x512_fill_lanczos_center_3.png</url>
       <title>Guoxi Wang</title>
-      <link>/author/guoxi-wang/</link>
+      <link>https://damslabumbc.github.io/author/guoxi-wang/</link>
     </image>
     
     <item>
       <title>A Privacy-Enabled Platform for COVID-19 Applications</title>
-      <link>/publication/sensys-demo-2020/</link>
+      <link>https://damslabumbc.github.io/publication/sensys-demo-2020/</link>
       <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/sensys-demo-2020/</guid>
+      <guid>https://damslabumbc.github.io/publication/sensys-demo-2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Transitioning from testbeds to ships: an experience study in deploying the TIPPERS Internet of Things platform to the US Navy</title>
-      <link>/publication/jdms-2020/</link>
+      <link>https://damslabumbc.github.io/publication/jdms-2020/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/jdms-2020/</guid>
+      <guid>https://damslabumbc.github.io/publication/jdms-2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SemIoTic: Bridging the Semantic Gap in IoT Spaces</title>
-      <link>/publication/buildsys-demo-2019/</link>
+      <link>https://damslabumbc.github.io/publication/buildsys-demo-2019/</link>
       <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/buildsys-demo-2019/</guid>
+      <guid>https://damslabumbc.github.io/publication/buildsys-demo-2019/</guid>
       <description></description>
     </item>
     

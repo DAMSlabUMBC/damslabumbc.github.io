@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DAMS Research Group</title>
-    <link>/</link>
-      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://damslabumbc.github.io/</link>
+      <atom:link href="https://damslabumbc.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>DAMS Research Group</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus</copyright><lastBuildDate>Sun, 24 Oct 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hu302981aa99fa15a8a6e0a46294dd9bb8_23619_512x512_fill_lanczos_center_3.png</url>
+      <url>https://damslabumbc.github.io/media/icon_hu302981aa99fa15a8a6e0a46294dd9bb8_23619_512x512_fill_lanczos_center_3.png</url>
       <title>DAMS Research Group</title>
-      <link>/</link>
+      <link>https://damslabumbc.github.io/</link>
     </image>
     
     <item>
       <title>About Us</title>
-      <link>/about/</link>
+      <link>https://damslabumbc.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/about/</guid>
+      <guid>https://damslabumbc.github.io/about/</guid>
       <description>&lt;p&gt;The &lt;strong&gt;&lt;a href=&#34;&#34;&gt;UMBC DAMS Research Group&lt;/a&gt;&lt;/strong&gt; consists of faculty and students from the &lt;a href=&#34;https://www.csee.umbc.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Departments of Computer Science and Electrical Engineering&lt;/a&gt; of &lt;a href=&#34;https://www.umbc.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;University of Maryland, Baltimore County (UMBC)&lt;/a&gt;, located in Baltimore, MD.&lt;/p&gt;
 &lt;h2 id=&#34;research&#34;&gt;Research&lt;/h2&gt;
 &lt;p&gt;Our research focuses on four main areas of reseach: Data Management, Knowledge Representation &amp;amp; Reasoning, Privacy, and the IoT.&lt;/p&gt;
@@ -29,11 +29,11 @@
     
     <item>
       <title>Join the DAMS group</title>
-      <link>/join/</link>
+      <link>https://damslabumbc.github.io/join/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/join/</guid>
+      <guid>https://damslabumbc.github.io/join/</guid>
       <description>&lt;p&gt;Our group welcomes applicants from any race, ethnicity, religion, national origin, gender identity, gender expression, caregiver and family commitments, political affiliation, sexual orientation, and eligible age or disability status. Furthermore, we are committed to maintaining a supportive and collaborative group environment.&lt;/p&gt;
-&lt;p&gt;See more about &lt;a href=&#34;/uploads/DAMS_groupPolicies.pdf&#34; target=&#34;_blank&#34;&gt;our group policies&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;See more about &lt;a href=&#34;https://damslabumbc.github.io/uploads/DAMS_groupPolicies.pdf&#34; target=&#34;_blank&#34;&gt;our group policies&lt;/a&gt;.&lt;/p&gt;
 &lt;h1 id=&#34;graduate-students&#34;&gt;Graduate Students&lt;/h1&gt;
 &lt;p&gt;If you&amp;rsquo;re interested in pursuing a Ph.D. with either direct or general admit, or in thesis or project-based masters research, reach out to Prof. Yus by &lt;a href=&#34;mailto:ryus@umbc.edu&#34;&gt;email&lt;/a&gt; with your: (1) CV, (2) a description of research experience and interests, and (3) specific information about why the DAMS group interests you.&lt;/p&gt;
 &lt;h3 id=&#34;applying-to-our-graduate-program&#34;&gt;Applying to our graduate program&lt;/h3&gt;
@@ -54,25 +54,25 @@
 &lt;h3 id=&#34;what-are-the-hours-for-the-position&#34;&gt;What are the hours for the position?&lt;/h3&gt;
 &lt;p&gt;Apart from attendance at weekly group meetings, students are free to work according to a flexible schedule. So far during COVID, all work has been remote, though we do have a lab office available.&lt;/p&gt;
 &lt;h3 id=&#34;how-do-i-apply&#34;&gt;How do I apply?&lt;/h3&gt;
-&lt;p&gt;If you’re interested in applying for a lab position or for research credit, you must read the &lt;a href=&#34;/uploads/DAMS_Expectations_UGrad.pdf&#34; target=&#34;_blank&#34;&gt;DAMS Group Undergraduate Research Agreement&lt;/a&gt; carefully to make sure you understand what’s involved. Then include in a single email: (1) your resume (PDF), (2) unofficial copy of your transcript (PDF); freshman can send high school transcript (PDF), and (3) one page or less explaining why you&amp;rsquo;d like to work in our lab (PDF). To write this well, I suggest you look at some of our papers from the last few years to orient yourself to our current projects. Make the subject of your email &amp;ldquo;Undergrad Application&amp;rdquo; and send this to &lt;a href=&#34;mailto:ryus@umbc.edu&#34;&gt;Prof. Yus&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If you’re interested in applying for a lab position or for research credit, you must read the &lt;a href=&#34;https://damslabumbc.github.io/uploads/DAMS_Expectations_UGrad.pdf&#34; target=&#34;_blank&#34;&gt;DAMS Group Undergraduate Research Agreement&lt;/a&gt; carefully to make sure you understand what’s involved. Then include in a single email: (1) your resume (PDF), (2) unofficial copy of your transcript (PDF); freshman can send high school transcript (PDF), and (3) one page or less explaining why you&amp;rsquo;d like to work in our lab (PDF). To write this well, I suggest you look at some of our papers from the last few years to orient yourself to our current projects. Make the subject of your email &amp;ldquo;Undergrad Application&amp;rdquo; and send this to &lt;a href=&#34;mailto:ryus@umbc.edu&#34;&gt;Prof. Yus&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Page content inspired by &lt;a href=&#34;https://atomslab.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ATOMS lab @ UMBC&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Privacy Policy</title>
-      <link>/privacy/</link>
+      <link>https://damslabumbc.github.io/privacy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/privacy/</guid>
+      <guid>https://damslabumbc.github.io/privacy/</guid>
       <description>&lt;p&gt;&lt;strong&gt;This website doesn’t collect or store any visitor data, period&lt;/strong&gt;. I made a conscious choice not to have analytics or comment system (e.g., disqus) on this website to minimize any indirect tracking that may happen. Please let me know if you notice anything on this website that doesn’t follow this principle.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>The DAMS Research Group is officially launched!</title>
-      <link>/post/10-24-21-group-starts/</link>
+      <link>https://damslabumbc.github.io/post/10-24-21-group-starts/</link>
       <pubDate>Sun, 24 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>/post/10-24-21-group-starts/</guid>
+      <guid>https://damslabumbc.github.io/post/10-24-21-group-starts/</guid>
       <description>&lt;p&gt;The DAta Management &amp;amp; Semantics (DAMS) research group starts at the University of Maryland, Baltimore County.&lt;/p&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus augue non tempor egestas. Proin nisl nunc, dignissim in accumsan dapibus, auctor ullamcorper neque. Quisque at elit felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget elementum odio. Cras interdum eget risus sit amet aliquet. In volutpat, nisl ut fringilla dignissim, arcu nisl suscipit ante, at accumsan sapien nisl eu eros.&lt;/p&gt;
 &lt;p&gt;Sed eu dui nec ligula bibendum dapibus. Nullam imperdiet auctor tortor, vel cursus mauris malesuada non. Quisque ultrices euismod dapibus. Aenean sed gravida risus. Sed nisi tortor, vulputate nec quam non, placerat porta nisl. Nunc varius lobortis urna, condimentum facilisis ipsum molestie eu. Ut molestie eleifend ligula sed dignissim. Duis ut tellus turpis. Praesent tincidunt, nunc sed congue malesuada, mauris enim maximus massa, eget interdum turpis urna et ante. Morbi sem nisl, cursus quis mollis et, interdum luctus augue. Aliquam laoreet, leo et accumsan tincidunt, libero neque aliquet lectus, a ultricies lorem mi a orci.&lt;/p&gt;
@@ -81,65 +81,65 @@
     
     <item>
       <title>LOCATER: Cleaning WiFi Connectivity Datasets for Semantic Localization</title>
-      <link>/publication/vldb3-2020/</link>
+      <link>https://damslabumbc.github.io/publication/vldb3-2020/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/publication/vldb3-2020/</guid>
+      <guid>https://damslabumbc.github.io/publication/vldb3-2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Privacy-Enabled Platform for COVID-19 Applications</title>
-      <link>/publication/sensys-demo-2020/</link>
+      <link>https://damslabumbc.github.io/publication/sensys-demo-2020/</link>
       <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/sensys-demo-2020/</guid>
+      <guid>https://damslabumbc.github.io/publication/sensys-demo-2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Transitioning from testbeds to ships: an experience study in deploying the TIPPERS Internet of Things platform to the US Navy</title>
-      <link>/publication/jdms-2020/</link>
+      <link>https://damslabumbc.github.io/publication/jdms-2020/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/jdms-2020/</guid>
+      <guid>https://damslabumbc.github.io/publication/jdms-2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sieve: A Middleware Approach to Scalable Access Control for Database Management Systems</title>
-      <link>/publication/vldb-2020/</link>
+      <link>https://damslabumbc.github.io/publication/vldb-2020/</link>
       <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/vldb-2020/</guid>
+      <guid>https://damslabumbc.github.io/publication/vldb-2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SmartBench: A Benchmark For Data Management In Smart Spaces</title>
-      <link>/publication/vldb2-2020/</link>
+      <link>https://damslabumbc.github.io/publication/vldb2-2020/</link>
       <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/vldb2-2020/</guid>
+      <guid>https://damslabumbc.github.io/publication/vldb2-2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Abstracting Interactions with IoT Devices Towards a Semantic Vision of Smart Spaces</title>
-      <link>/publication/buildsys-2019/</link>
+      <link>https://damslabumbc.github.io/publication/buildsys-2019/</link>
       <pubDate>Sat, 02 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/buildsys-2019/</guid>
+      <guid>https://damslabumbc.github.io/publication/buildsys-2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SemIoTic: Bridging the Semantic Gap in IoT Spaces</title>
-      <link>/publication/buildsys-demo-2019/</link>
+      <link>https://damslabumbc.github.io/publication/buildsys-demo-2019/</link>
       <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/buildsys-demo-2019/</guid>
+      <guid>https://damslabumbc.github.io/publication/buildsys-demo-2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SemIoTic</title>
-      <link>/project/semiotic/</link>
+      <link>https://damslabumbc.github.io/project/semiotic/</link>
       <pubDate>Fri, 23 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>/project/semiotic/</guid>
+      <guid>https://damslabumbc.github.io/project/semiotic/</guid>
       <description>&lt;p&gt;SemIoTic is a middleware framework for IoT smart spaces that provides application developers and end-users with a semantic domain-relevant view of a smart space 
 while hiding the complexity of having to deal with/understand lower-level information generated by sensors and actuators. SemIoTic uses a metamodel based on the popular 
 SOSA/SSN ontology with some extensions to represent relationships between the low-level IoT devices&#39; world (i.e., devices, observations) and semantic concepts 
@@ -153,48 +153,48 @@ in the context of the Trident Warrior exercise 2019/2020. SemIoTic enabled testi
 regions of the ship.&lt;/p&gt;
 &lt;h4 id=&#34;useful-links-and-references&#34;&gt;Useful links and references&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;SemIoTic is developed as part of the &lt;a href=&#34;/http:/tippers.ics.uci.edu&#34; target=&#34;_blank&#34;&gt;TIPPERS&lt;/a&gt; (Testbed for IoT-based Privacy-Preserving PERvasive Spaces) DARPA research project.&lt;/li&gt;
+&lt;li&gt;SemIoTic is developed as part of the &lt;a href=&#34;http://tippers.ics.uci.edu&#34; target=&#34;_blank&#34;&gt;TIPPERS&lt;/a&gt; (Testbed for IoT-based Privacy-Preserving PERvasive Spaces) DARPA research project.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
     
     <item>
       <title>Trustworthy Privacy Policy Translation in Untrusted IoT Environments</title>
-      <link>/publication/iotbds-2018/</link>
+      <link>https://damslabumbc.github.io/publication/iotbds-2018/</link>
       <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/iotbds-2018/</guid>
+      <guid>https://damslabumbc.github.io/publication/iotbds-2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Exploring fairness in participatory thermal comfort control in smart buildings</title>
-      <link>/publication/buildsys-2017/</link>
+      <link>https://damslabumbc.github.io/publication/buildsys-2017/</link>
       <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
-      <guid>/publication/buildsys-2017/</guid>
+      <guid>https://damslabumbc.github.io/publication/buildsys-2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>/admin/config.yml</link>
+      <link>https://damslabumbc.github.io/admin/config.yml</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/admin/config.yml</guid>
+      <guid>https://damslabumbc.github.io/admin/config.yml</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>/members/</link>
+      <link>https://damslabumbc.github.io/members/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/members/</guid>
+      <guid>https://damslabumbc.github.io/members/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>/research/</link>
+      <link>https://damslabumbc.github.io/research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/research/</guid>
+      <guid>https://damslabumbc.github.io/research/</guid>
       <description></description>
     </item>
     

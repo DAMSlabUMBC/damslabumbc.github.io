@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Michael J. Carey | DAMS Research Group</title>
-    <link>/author/michael-j.-carey/</link>
-      <atom:link href="/author/michael-j.-carey/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://damslabumbc.github.io/author/michael-j.-carey/</link>
+      <atom:link href="https://damslabumbc.github.io/author/michael-j.-carey/index.xml" rel="self" type="application/rss+xml" />
     <description>Michael J. Carey</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus</copyright><lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hu302981aa99fa15a8a6e0a46294dd9bb8_23619_512x512_fill_lanczos_center_3.png</url>
+      <url>https://damslabumbc.github.io/media/icon_hu302981aa99fa15a8a6e0a46294dd9bb8_23619_512x512_fill_lanczos_center_3.png</url>
       <title>Michael J. Carey</title>
-      <link>/author/michael-j.-carey/</link>
+      <link>https://damslabumbc.github.io/author/michael-j.-carey/</link>
     </image>
     
     <item>
       <title>SmartBench: A Benchmark For Data Management In Smart Spaces</title>
-      <link>/publication/vldb2-2020/</link>
+      <link>https://damslabumbc.github.io/publication/vldb2-2020/</link>
       <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/vldb2-2020/</guid>
+      <guid>https://damslabumbc.github.io/publication/vldb2-2020/</guid>
       <description></description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Andrew Chio | DAMS Research Group</title>
-    <link>/author/andrew-chio/</link>
-      <atom:link href="/author/andrew-chio/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://damslabumbc.github.io/author/andrew-chio/</link>
+      <atom:link href="https://damslabumbc.github.io/author/andrew-chio/index.xml" rel="self" type="application/rss+xml" />
     <description>Andrew Chio</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus</copyright><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hu302981aa99fa15a8a6e0a46294dd9bb8_23619_512x512_fill_lanczos_center_3.png</url>
+      <url>https://damslabumbc.github.io/media/icon_hu302981aa99fa15a8a6e0a46294dd9bb8_23619_512x512_fill_lanczos_center_3.png</url>
       <title>Andrew Chio</title>
-      <link>/author/andrew-chio/</link>
+      <link>https://damslabumbc.github.io/author/andrew-chio/</link>
     </image>
     
     <item>
       <title>LOCATER: Cleaning WiFi Connectivity Datasets for Semantic Localization</title>
-      <link>/publication/vldb3-2020/</link>
+      <link>https://damslabumbc.github.io/publication/vldb3-2020/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/publication/vldb3-2020/</guid>
+      <guid>https://damslabumbc.github.io/publication/vldb3-2020/</guid>
       <description></description>
     </item>
     

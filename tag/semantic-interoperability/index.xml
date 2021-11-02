@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Semantic interoperability | DAMS Research Group</title>
-    <link>/tag/semantic-interoperability/</link>
-      <atom:link href="/tag/semantic-interoperability/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://damslabumbc.github.io/tag/semantic-interoperability/</link>
+      <atom:link href="https://damslabumbc.github.io/tag/semantic-interoperability/index.xml" rel="self" type="application/rss+xml" />
     <description>Semantic interoperability</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus</copyright><lastBuildDate>Sat, 02 Nov 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hu302981aa99fa15a8a6e0a46294dd9bb8_23619_512x512_fill_lanczos_center_3.png</url>
+      <url>https://damslabumbc.github.io/media/icon_hu302981aa99fa15a8a6e0a46294dd9bb8_23619_512x512_fill_lanczos_center_3.png</url>
       <title>Semantic interoperability</title>
-      <link>/tag/semantic-interoperability/</link>
+      <link>https://damslabumbc.github.io/tag/semantic-interoperability/</link>
     </image>
     
     <item>
       <title>Abstracting Interactions with IoT Devices Towards a Semantic Vision of Smart Spaces</title>
-      <link>/publication/buildsys-2019/</link>
+      <link>https://damslabumbc.github.io/publication/buildsys-2019/</link>
       <pubDate>Sat, 02 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/buildsys-2019/</guid>
+      <guid>https://damslabumbc.github.io/publication/buildsys-2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SemIoTic: Bridging the Semantic Gap in IoT Spaces</title>
-      <link>/publication/buildsys-demo-2019/</link>
+      <link>https://damslabumbc.github.io/publication/buildsys-demo-2019/</link>
       <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/buildsys-demo-2019/</guid>
+      <guid>https://damslabumbc.github.io/publication/buildsys-demo-2019/</guid>
       <description></description>
     </item>
     
