@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gerome Miklau | DAMS Research Group</title>
+    <link>/author/gerome-miklau/</link>
+      <atom:link href="/author/gerome-miklau/index.xml" rel="self" type="application/rss+xml" />
+    <description>Gerome Miklau</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus</copyright><lastBuildDate>Tue, 01 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu302981aa99fa15a8a6e0a46294dd9bb8_23619_512x512_fill_lanczos_center_3.png</url>
+      <title>Gerome Miklau</title>
+      <link>/author/gerome-miklau/</link>
+    </image>
+    
+    <item>
+      <title>Transitioning from testbeds to ships: an experience study in deploying the TIPPERS Internet of Things platform to the US Navy</title>
+      <link>/publication/jdms-2020/</link>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/jdms-2020/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
