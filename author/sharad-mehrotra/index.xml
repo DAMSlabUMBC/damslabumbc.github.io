@@ -5,12 +5,44 @@
     <link>https://damslabumbc.github.io/author/sharad-mehrotra/</link>
       <atom:link href="https://damslabumbc.github.io/author/sharad-mehrotra/index.xml" rel="self" type="application/rss+xml" />
     <description>Sharad Mehrotra</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Mon, 01 Aug 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://damslabumbc.github.io/media/icon_hu302981aa99fa15a8a6e0a46294dd9bb8_23619_512x512_fill_lanczos_center_3.png</url>
       <title>Sharad Mehrotra</title>
       <link>https://damslabumbc.github.io/author/sharad-mehrotra/</link>
     </image>
+    
+    <item>
+      <title>Sentaur: Sensor Observable Data Model for Smart Spaces</title>
+      <link>https://damslabumbc.github.io/publication/cikm-2022/</link>
+      <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/publication/cikm-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The SemIoTic Ecosystem: A Semantic Bridge between IoT Devices and Smart Spaces</title>
+      <link>https://damslabumbc.github.io/publication/acmtoit-2022/</link>
+      <pubDate>Fri, 18 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/publication/acmtoit-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SmartSPEC: Customizable Smart Space Datasets via Event-Driven Simulations</title>
+      <link>https://damslabumbc.github.io/publication/percom-2022/</link>
+      <pubDate>Thu, 17 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/publication/percom-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>JENNER: Just-in-time Enrichment in Query Processing</title>
+      <link>https://damslabumbc.github.io/publication/vldb-2022/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/publication/vldb-2022/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>LOCATER: Cleaning WiFi Connectivity Datasets for Semantic Localization</title>
