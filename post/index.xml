@@ -5,7 +5,7 @@
     <link>https://damslabumbc.github.io/post/</link>
       <atom:link href="https://damslabumbc.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Latest News</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Mon, 01 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Thu, 01 Sep 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://damslabumbc.github.io/media/icon_hu302981aa99fa15a8a6e0a46294dd9bb8_23619_512x512_fill_lanczos_center_3.png</url>
       <title>Latest News</title>
@@ -13,13 +13,24 @@
     </image>
     
     <item>
+      <title>Paper accepted at ICMLA 2022</title>
+      <link>https://damslabumbc.github.io/post/9-1-2022-icmla/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/post/9-1-2022-icmla/</guid>
+      <description>&lt;p&gt;Our paper on one-shot federated learning has been accepted at ICMLA 2022.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;One-Shot Federated Group Collaborative Filtering&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Maksim E. Eren (UMBC/LANL), Manish Bhattarai (LANL), Nicholas Solovyev (LANL), Luke E. Richards (UMBC), Roberto Yus (UMBC), Charles Nicholas (UMBC), Boian S. Alexandrov (LANL)&lt;/p&gt;
+&lt;p&gt;Non-negative matrix factorization (NMF) with missing-value completion is a well-known effective Collaborative Filtering (CF) method used to provide personalized user recommendations. However, traditional CF relies on a privacy-invasive collection of user data to build a central recommender model. One-shot federated learning has recently emerged as a method to mitigate the privacy problem while addressing the traditional communication bottleneck of federated learning. In this paper, we present the first one-shot federated CF implementation, named One-FedCF, for groups of users or collaborating organizations. In our solution, the clients first apply local CF in-parallel to build distinct, client-specific recommenders. Then, the privacy-preserving local item patterns and biases from each client are shared with the processor to perform joint factorization in order to extract the global item patterns. Extracted patterns are then aggregated to each client to build the local models via knowledge distillation. In our experiments, we demonstrate the feasibility of our approach with two MovieLens datasets. One-FedCF can obtain results competitive with the state-of-the-art federated recommender systems at a substantial decrease in the number of communications.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Paper accepted at CIKM 2022</title>
       <link>https://damslabumbc.github.io/post/8-1-2022-sentaur-cikm/</link>
       <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
       <guid>https://damslabumbc.github.io/post/8-1-2022-sentaur-cikm/</guid>
       <description>&lt;p&gt;Our paper on supporting sensor-based smart space analytical applications has been accepted at CIKM 2022.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Sentaur: Sensor Observable Data Model for Smart Spaces
-Peeyush Gupta, Sharad Mehrotra (University of California, Irvine); Shantanu Sharma (New Jersey Institute of Technology); Roberto Yus (University of Maryland, Baltimore County); and Nalini Venkatasubramanian (University of California, Irvine)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Sentaur: Sensor Observable Data Model for Smart Spaces&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Peeyush Gupta, Sharad Mehrotra (University of California, Irvine); Shantanu Sharma (New Jersey Institute of Technology); Roberto Yus (University of Maryland, Baltimore County); and Nalini Venkatasubramanian (University of California, Irvine)&lt;/p&gt;
 &lt;p&gt;This paper presents Sentaur, a middleware designed, built, and deployed to support sensor-based smart space analytical applications. Sentaur supports a powerful data model that decouples semantic data (about the application domain) from sensor data (using which the semantic data is derived). By supporting mechanisms to map/translate data, concepts, and queries between the two levels, Sentaur relieves application developers from having to know or reason about either capabilities of sensors or write sensor specific code. This paper describes Sentaur data model, its translation strategy, and highlights its benefits through real-world case studies.&lt;/p&gt;</description>
     </item>
     
@@ -29,8 +40,8 @@ Peeyush Gupta, Sharad Mehrotra (University of California, Irvine); Shantanu Shar
       <pubDate>Thu, 16 Jun 2022 00:00:00 +0000</pubDate>
       <guid>https://damslabumbc.github.io/post/6-16-2022-jenner-vldb/</guid>
       <description>&lt;p&gt;Our paper on supporting query-time enrichment has been accepted at VLDB 2022.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;JENNER:  Just-in-time Enrichment in Query Processing
-Dhrubajyoti Ghosh, Peeyush Gupta, and Sharad Mehrotra (University of California, Irvine); Roberto Yus (University of Maryland, Baltimore County); and Yasser Altowim (Saudi Data and Artificial Intelligence Authority)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;JENNER:  Just-in-time Enrichment in Query Processing&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Dhrubajyoti Ghosh, Peeyush Gupta, and Sharad Mehrotra (University of California, Irvine); Roberto Yus (University of Maryland, Baltimore County); and Yasser Altowim (Saudi Data and Artificial Intelligence Authority)&lt;/p&gt;
 &lt;p&gt;Emerging domains, such as sensor-driven smart spaces and social media analytics, require incoming data to be enriched prior to its use. Enrichment often consists of machine learning (ML) functions that are too expensive/infeasible to execute at ingestion. We develop a strategy entitled Just-in-time ENrichmeNt in quERy Processing (JENNER) to support interactive analytics over data as soon as it arrives for such application context. JENNER exploits the inherent tradeoffs of cost and quality often displayed by the ML functions to  progressively improve query answers during query execution. We describe how JENNER works for a large class of SPJ and aggregation queries that form the bulk of  data analytics workload. Our experimental results on real datasets (IoT and Tweet) show that JENNER achieves progressive answers performing significantly better than the naive strategies of achieving progressive computation.&lt;/p&gt;</description>
     </item>
     
@@ -49,8 +60,8 @@ Dhrubajyoti Ghosh, Peeyush Gupta, and Sharad Mehrotra (University of California,
       <pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate>
       <guid>https://damslabumbc.github.io/post/3-27-2022-semiotic-journal/</guid>
       <description>&lt;p&gt;Our paper on facilitating the administration of smart spaces has been accepted in ACM Transactions on Internet Technology.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;The SemIoTic Ecosystem: A Semantic Bridge between IoT Devices and Smart Spaces
-Roberto Yus (University of Maryland, Baltimore County, USA); Georgios Bouloukakis (Telecom SudParis, USA); Sharad Mehrotra and Nalini Venkatasubramanian (University of California, Irvine, USA)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;The SemIoTic Ecosystem: A Semantic Bridge between IoT Devices and Smart Spaces&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Roberto Yus (University of Maryland, Baltimore County, USA); Georgios Bouloukakis (Telecom SudParis, USA); Sharad Mehrotra and Nalini Venkatasubramanian (University of California, Irvine, USA)&lt;/p&gt;
 &lt;p&gt;Smart space administration and application development is challenging in part due to the semantic gap that exists between the high-level requirements of users and the low-level capabilities of IoT devices. The stakeholders in a smart space are required to deal with communicating with specific IoT devices, capturing data, processing it, and abstracting it out to generate useful inferences. Additionally, this makes reusability of smart space applications difficult since they are developed for specific sensor deployments. In this paper, we present a holistic approach to IoT smart spaces, the SemIoTic ecosystem, to facilitate application development, space management, and service provision to its inhabitants. The ecosystem is based on a centralized repository, where developers can advertise their space-agnostic applications; and a SemIoTic system deployed in each smart space that interacts with those applications to provide them with the required information. SemIoTic applications are developed using a metamodel that defines high-level concepts abstracted from the smart space about the space itself and the people within it. Application requirements can be expressed then in terms of user-friendly high-level concepts which are automatically translated by SemIoTic into sensor/actuator commands adapted to the underlying device deployment in each space. We present a reference implementation of the ecosystem that has been deployed at the University of California, Irvine and is abstracting data from hundreds of sensors in the space and providing applications to campus members.&lt;/p&gt;</description>
     </item>
     
@@ -60,8 +71,8 @@ Roberto Yus (University of Maryland, Baltimore County, USA); Georgios Bouloukaki
       <pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate>
       <guid>https://damslabumbc.github.io/post/3-25-2022-percom-smartspec-best-paper/</guid>
       <description>&lt;p&gt;Our paper on the generation of realistic synthetic IoT datasets won the Mark Weiser Best Paper Award at IEEE PERCOM 2022!!&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;SmartSPEC: Customizable Smart Space Datasets via Event-Driven Simulations
-Andrew Chio (University of California, Irvine, USA); Daokun Jiang (Google); Peeyush Gupta (University of California, Irvine, USA); Georgios Bouloukakis (Telecom SudParis, USA); Roberto Yus (University of Maryland, Baltimore County, USA); Sharad Mehrotra and Nalini Venkatasubramanian (University of California, Irvine, USA)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;SmartSPEC: Customizable Smart Space Datasets via Event-Driven Simulations&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Andrew Chio (University of California, Irvine, USA); Daokun Jiang (Google); Peeyush Gupta (University of California, Irvine, USA); Georgios Bouloukakis (Telecom SudParis, USA); Roberto Yus (University of Maryland, Baltimore County, USA); Sharad Mehrotra and Nalini Venkatasubramanian (University of California, Irvine, USA)&lt;/p&gt;
 &lt;p&gt;This paper presents SmartSPEC, an approach to generate customizable smart space datasets using sensorized spaces in which people and events are embedded. Smart space datasets are critical to design, deploy and evaluate robust systems and applications to ensure cost-effective operation and safety/comfort/convenience of the space occupants. Often, real-world data is difficult to obtain due to the lack of fine-grained sensing; privacy/security concerns prevent the release and sharing of individual and spatial data. SmartSPEC is a smart space simulator and data generator that can create a digital representation (twin) of a smart space and its activities. SmartSPEC uses a semantic model and ML-based approaches to characterize and learn attributes in a sensorized space, and applies an event-driven simulation strategy to generate realistic simulated data about the space (events, trajectories, sensor datasets, etc). To evaluate the realism of the data generated by SmartSPEC, we develop a structured methodology and metrics to assess various aspects of smart space datasets, including trajectories of people and occupancy of spaces. Our experimental study looks at two real-world settings/datasets: an instrumented smart campus building and a city-wide GPS dataset. Our results show that the trajectories produced by SmartSPEC are 1.4x to 4.4x more realistic than the best synthetic data baseline when compared to real-world data, depending on the scenario and configuration.&lt;/p&gt;</description>
     </item>
     
@@ -71,8 +82,8 @@ Andrew Chio (University of California, Irvine, USA); Daokun Jiang (Google); Peey
       <pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate>
       <guid>https://damslabumbc.github.io/post/2-14-2022-percom-smartspec/</guid>
       <description>&lt;p&gt;Our paper on the generation of realistic synthetic IoT datasets has been accepted at PerCom 2022. The paper has also been nominated for best paper award! More information at the &lt;a href=&#34;http://www.percom.org/full-program/#session5&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PerCom 2022 website.&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;SmartSPEC: Customizable Smart Space Datasets via Event-Driven Simulations
-Andrew Chio (University of California, Irvine, USA); Daokun Jiang (Google); Peeyush Gupta (University of California, Irvine, USA); Georgios Bouloukakis (Telecom SudParis, USA); Roberto Yus (University of Maryland, Baltimore County, USA); Sharad Mehrotra and Nalini Venkatasubramanian (University of California, Irvine, USA)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;SmartSPEC: Customizable Smart Space Datasets via Event-Driven Simulations&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Andrew Chio (University of California, Irvine, USA); Daokun Jiang (Google); Peeyush Gupta (University of California, Irvine, USA); Georgios Bouloukakis (Telecom SudParis, USA); Roberto Yus (University of Maryland, Baltimore County, USA); Sharad Mehrotra and Nalini Venkatasubramanian (University of California, Irvine, USA)&lt;/p&gt;
 &lt;p&gt;This paper presents SmartSPEC, an approach to generate customizable smart space datasets using sensorized spaces in which people and events are embedded. Smart space datasets are critical to design, deploy and evaluate robust systems and applications to ensure cost-effective operation and safety/comfort/convenience of the space occupants. Often, real-world data is difficult to obtain due to the lack of fine-grained sensing; privacy/security concerns prevent the release and sharing of individual and spatial data. SmartSPEC is a smart space simulator and data generator that can create a digital representation (twin) of a smart space and its activities. SmartSPEC uses a semantic model and ML-based approaches to characterize and learn attributes in a sensorized space, and applies an event-driven simulation strategy to generate realistic simulated data about the space (events, trajectories, sensor datasets, etc). To evaluate the realism of the data generated by SmartSPEC, we develop a structured methodology and metrics to assess various aspects of smart space datasets, including trajectories of people and occupancy of spaces. Our experimental study looks at two real-world settings/datasets: an instrumented smart campus building and a city-wide GPS dataset. Our results show that the trajectories produced by SmartSPEC are 1.4x to 4.4x more realistic than the best synthetic data baseline when compared to real-world data, depending on the scenario and configuration.&lt;/p&gt;</description>
     </item>
     
