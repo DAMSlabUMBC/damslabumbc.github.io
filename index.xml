@@ -5,7 +5,7 @@
     <link>https://damslabumbc.github.io/</link>
       <atom:link href="https://damslabumbc.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>DAMS Research Group</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Fri, 02 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Wed, 08 Mar 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://damslabumbc.github.io/media/icon_hu302981aa99fa15a8a6e0a46294dd9bb8_23619_512x512_fill_lanczos_center_3.png</url>
       <title>DAMS Research Group</title>
@@ -66,6 +66,17 @@
       <guid>https://damslabumbc.github.io/privacy/</guid>
       <description>&lt;p&gt;&lt;strong&gt;This website doesn’t collect or store any visitor data, period&lt;/strong&gt;. I made a conscious choice not to have analytics or comment system (e.g., disqus) on this website to minimize any indirect tracking that may happen. Please let me know if you notice anything on this website that doesn’t follow this principle.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Poster accepted for presentation at UMBC&#39;s URCAD 2023</title>
+      <link>https://damslabumbc.github.io/post/3-8-2023-umbc-urcad/</link>
+      <pubDate>Wed, 08 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/post/3-8-2023-umbc-urcad/</guid>
+      <description>&lt;p&gt;Our undergrad team looking at privacy issues on smart homes (Tartela, Luke, Ruhshana, and Josh) will present a poster during UMBC&amp;rsquo;s Undergraduate Research and Creative Achievement Day (URCAD) 2023.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Analyzing Privacy and Utility Tradeoffs in Smart Homes&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Tartela Tabassum, Luke Zimmermann, Ruhshana Bobojonova, Joshua Cheeks&lt;/p&gt;
+&lt;p&gt;The goal of this research is to explore the trade-off that exists between privacy and utility when using smart devices at home. Smart speakers, doorbells, and TVs are becoming pervasive but raise important privacy concerns. For instance, by collecting audio and video, one could learn private information about us such as our age, emotions, socioeconomic status, and health conditions. To increase trust, there is a need to inform people about potentially sensitive inferences that can be made about them by smart devices and give them a choice to consent to it. We have built a prototype of a framework, using open-source code and AI/ML algorithms, that generates inferences about an individual based on audio (e.g., speech data collected by a smart speaker) and video (e.g., images collected by a smart security camera). The framework also allows the user to select which of these inferences should be &amp;ldquo;hidden&amp;rdquo;. We have explored different mechanisms to hide those inferences while preserving utility such as: removing specific portions of audio/video that can lead to whether the person might be facing a respiratory disease or modifying the pitch/tone to hide their age and mood.&lt;/p&gt;</description>
     </item>
     
     <item>
