@@ -5,12 +5,21 @@
     <link>https://damslabumbc.github.io/post/</link>
       <atom:link href="https://damslabumbc.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Latest News</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Wed, 08 Mar 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Wed, 03 May 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://damslabumbc.github.io/media/icon_hu302981aa99fa15a8a6e0a46294dd9bb8_23619_512x512_fill_lanczos_center_3.png</url>
       <title>Latest News</title>
       <link>https://damslabumbc.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>Undergrad Student Presentation at UMBC&#39;s URCAD 2023</title>
+      <link>https://damslabumbc.github.io/post/5-3-2023-umbc-urcad2/</link>
+      <pubDate>Wed, 03 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/post/5-3-2023-umbc-urcad2/</guid>
+      <description>&lt;p&gt;Our undergrad team (Tartela, Luke, Ruhshana, and Josh) presented their research poster at UMBC&amp;rsquo;s Undergraduate Research and Creative Achievement Day (URCAD) 2023. UMBC has made a special mention to their work on &lt;a href=&#34;https://umbc.edu/stories/urcad-2023/#:~:text=Balancing%20privacy%20and%20utility%20in%20smart%20devices%C2%A0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;their website.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Congratulations to Tartela, Luke, Ruhshana, and Josh on their impressive group research project! Their exploration of the balance between privacy and utility in smart devices is a complex and timely topic in today&amp;rsquo;s world. The prototype framework they built showcases their creativity and technical skills in utilizing open-source code, artificial intelligence, and machine learning algorithms to generate and protect inferences based on audio and video input. Their focus on giving users more autonomy over their privacy is commendable, and their work will contribute to ongoing discussions and efforts to address privacy concerns in smart spaces. Well done to all four students on their outstanding work!&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Poster accepted for presentation at UMBC&#39;s URCAD 2023</title>
