@@ -5,12 +5,29 @@
     <link>https://damslabumbc.github.io/post/</link>
       <atom:link href="https://damslabumbc.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Latest News</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Wed, 03 May 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Thu, 27 Jul 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://damslabumbc.github.io/media/icon_hu302981aa99fa15a8a6e0a46294dd9bb8_23619_512x512_fill_lanczos_center_3.png</url>
       <title>Latest News</title>
       <link>https://damslabumbc.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>Master&#39;s Thesis Defense!</title>
+      <link>https://damslabumbc.github.io/post/07-27-2023-thesis-defense/</link>
+      <pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/post/07-27-2023-thesis-defense/</guid>
+      <description>&lt;p&gt;Sragvi Nidamarti successfully defended his Master&amp;rsquo;s Thesis &amp;lsquo;Addressing Trust Concerns in the Electric Vehicle Supply Chain: A
+Knowledge Graph Approach&amp;rsquo;. The study discusses the socio-economic impact of EV batteries and addresses the trust concerns surrounding it.&lt;/p&gt;
+&lt;p&gt;Committee : Roberto Yus (University of Maryland, Baltimore County, USA) ; Tim Finnin (University of Maryland, Baltimore County) ; Manas Gaur(University of Maryland, Baltimore County); Konstantinos Mersinas (Royal Holloway University of London)&lt;/p&gt;
+&lt;p&gt;Customers are increasingly interested in electric vehicles in comparison to gasoline vehicles, resulting in a significant rise in sales in recent years. This change is
+heavily attributed to factors such as high-quality manufacturing and environmental concerns. However, customers may have concerns regarding the eco-friendliness of
+the manufacturing process involved and the socio-economic impact (labor law violations) of batteries, possibly due to the newness of the technology involved and a
+lack of transparency in the process and supply chain. This thesis presents a system to help build trust around this concern. It has a knowledge graph that acts
+as a base representing standard elements of trust, constructed as an integration of state-of-the-art ontologies in the field. It also includes knowledge about the manufacturing process and the supply chain. With this information, the system uses a
+mechanism to address the concerns using SPARQL queries that can, among others, label potential trust issues in the manufacturing of electric vehicles. We showcase a
+use case in which we identify trust issues in certain popular EV manufacturers.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Undergrad Student Presentation at UMBC&#39;s URCAD 2023</title>
