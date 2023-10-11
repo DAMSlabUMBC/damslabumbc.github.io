@@ -5,7 +5,7 @@
     <link>https://damslabumbc.github.io/</link>
       <atom:link href="https://damslabumbc.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>DAMS Research Group</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Fri, 11 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Sun, 10 Sep 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://damslabumbc.github.io/media/icon_hu302981aa99fa15a8a6e0a46294dd9bb8_23619_512x512_fill_lanczos_center_3.png</url>
       <title>DAMS Research Group</title>
@@ -69,6 +69,74 @@
     </item>
     
     <item>
+      <title>GENAIPABENCH: A Benchmark for Generative AI-based Privacy Assistants</title>
+      <link>https://damslabumbc.github.io/publication/genaipa-2023/</link>
+      <pubDate>Sun, 10 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/publication/genaipa-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Paper on genAI and privacy published on arXiv</title>
+      <link>https://damslabumbc.github.io/post/10-09-2023-arxiv/</link>
+      <pubDate>Sun, 10 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/post/10-09-2023-arxiv/</guid>
+      <description>&lt;p&gt;Our paper on genAI and privacy has been published on arXiv. More information at the &lt;a href=&#34;https://arxiv.org/abs/2309.05138&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;arxiv&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;GENAIPABENCH: A Benchmark for Generative AI-based Privacy Assistants&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Aamir Hamid(University of Maryland, Baltimore County, USA); 
+Hemanth Reddy Samidi (University of Maryland, Baltimore County, USA)
+Tim Finin (University of Maryland, Baltimore County, USA); 
+Primal Pappachan (Portland State University, Portland, USA);
+Roberto Yus (University of Maryland, Baltimore County, USA);&lt;/p&gt;
+&lt;p&gt;In the age of data-driven technology, privacy has emerged as a critical concern for both users
+and organizations. Privacy policies are widely used to outline the data management practices of
+a company. However, it has been demonstrated that privacy policies, as well as regulations, are
+generally too complex for people, which motivates the need for privacy assistants. The emergence
+of generative AI (genAI) technology presents an opportunity to improve the capabilities of privacy
+assistants to answer questions people might have about their privacy. However, while textual genAI
+technology generates content that seems accurate, it is been shown that it can generate fake/incorrect
+information (e.g., due to its tendency to hallucinate) which might mislead the user. This paper
+presents, GENAIPABENCH, a novel privacy benchmark to evaluate the performance of generative
+AI-based privacy assistants (GenAIPAs). GENAIPABENCH includes: 1. A comprehensive set of
+questions about an organization’s privacy policy along with annotated answers and data protection
+regulation questions; 2. A set of metrics to evaluate the answers obtained from the generative AI
+system; 3. An evaluation tool that generates appropriate prompts to introduce the system to the
+privacy document and different variations of the privacy questions to evaluate its robustness. We
+present an evaluation of OpenAI’s ChatGPT using GENAIPABENCH. Our findings indicate that
+ChatGPT holds considerable promise as a privacy agent, although it experiences challenges such as
+handling complex tasks, ensuring response consistency, and accurately referencing the information provided.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Paper on privacy policies and IoT published on arXiv</title>
+      <link>https://damslabumbc.github.io/post/11-08-2023-arxiv/</link>
+      <pubDate>Fri, 11 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/post/11-08-2023-arxiv/</guid>
+      <description>&lt;p&gt;Our paper on privacy policies of IoT devices has been published on arXiv. More information at the &lt;a href=&#34;https://arxiv.org/abs/2308.05890&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;arxiv&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;PrivacyLens: A Framework to Collect and Analyze the Landscape of Past, Present, and Future Smart Device Privacy Policies&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Aamir Hamid(University of Maryland, Baltimore County, USA); 
+Hemanth Reddy Samidi (University of Maryland, Baltimore County, USA)
+Tim Finin (University of Maryland, Baltimore County, USA); 
+Primal Pappachan (Portland State University, Portland, USA);
+Roberto Yus (University of Maryland, Baltimore County, USA);&lt;/p&gt;
+&lt;p&gt;As the adoption of smart devices continues to permeate all
+aspects of our lives, concerns surrounding user privacy have
+become more pertinent than ever before. While privacy policies define the data management practices of their manufacturers, previous work has shown that they are rarely read and
+understood by users. Hence, automatic analysis of privacy
+policies has been shown to help provide users with appropriate insights. Previous research has extensively analyzed
+privacy policies of websites, e-commerce, and mobile applications, but privacy policies of smart devices, present some
+differences and specific challenges such as the difficulty to
+find and collect them. We present PrivacyLens, a novel framework for discovering and collecting past, present, and future
+smart device privacy policies and harnessing NLP and ML algorithms to analyze them. PrivacyLens is currently deployed,
+collecting, analyzing, and publishing insights about privacy
+policies to assist different stakeholders of smart devices, such
+as users, policy authors, and regulators. We show several examples of analytical tasks enabled by PrivacyLens, including
+comparisons of devices per type and manufacturing country,
+categorization of privacy policies, and impact of data regulations on data practices. At the time of submitting this paper,
+PrivacyLens had collected and analyzed more than 1,200 privacy policies for 7,300 smart devices.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>PrivacyLens</title>
       <link>https://damslabumbc.github.io/project/privacylens/</link>
       <pubDate>Fri, 11 Aug 2023 00:00:00 +0000</pubDate>
@@ -76,6 +144,14 @@
       <description>&lt;p&gt;PrivacyLens is a novel framework devised to automatically collect, analyze, and publish privacy policies of smart IoT devices, responding to the growing concerns over user privacy as smart devices become increasingly integrated into daily lives. Despite the existence of privacy policies, a significant challenge arises as they are often overlooked or misunderstood by users, hence the need for an automated analysis to provide clearer insights to users and other stakeholders. Unlike previous works, this project pivots towards addressing the gap in privacy policies specific to smart devices which present unique challenges in collection and analysis due to their dispersed nature across various manufacturers and e-commerce platforms.&lt;/p&gt;
 &lt;p&gt;The PrivacyLens framework operates in three core stages; Collection, Analysis, and Publication. Initially, it crawls prominent e-commerce sites for smart IoT devices, extracting metadata and privacy policies, while also utilizing the Wayback Machine to garner historical privacy policies for longitudinal analysis. Following the collection, the framework employs Natural Language Processing (NLP) and Machine Learning (ML) techniques to dissect these policies, aiming to deduce features like overall quality, readability, and ambiguity among others. The final stage sees the publishing of this analyzed data on a dedicated website, updated monthly to provide users, policy authors, and regulators a robust, updated resource to understand and compare privacy practices across a multitude of smart devices. As of the submission, PrivacyLens has successfully amassed and analyzed over 1,200 privacy policies for 7,300 smart devices, presenting a significant stride towards fostering transparency and informed decision-making in the realm of smart device privacy. Through PrivacyLens, stakeholders varying from ordinary consumers to data protection regulators are equipped with a powerful tool to understand and navigate the privacy landscape of IoT devices, marking a crucial step towards creating a more responsible and transparent digital ecosystem.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>PrivacyLens: A Framework to Collect and Analyze the Landscape of Past, Present, and Future Smart Device Privacy Policies</title>
+      <link>https://damslabumbc.github.io/publication/privacylens-2023/</link>
+      <pubDate>Fri, 11 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/publication/privacylens-2023/</guid>
+      <description></description>
     </item>
     
     <item>
