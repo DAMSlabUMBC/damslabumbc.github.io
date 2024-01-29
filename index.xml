@@ -5,7 +5,7 @@
     <link>https://damslabumbc.github.io/</link>
       <atom:link href="https://damslabumbc.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>DAMS Research Group</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Thu, 30 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Fri, 26 Jan 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://damslabumbc.github.io/media/icon_hu302981aa99fa15a8a6e0a46294dd9bb8_23619_512x512_fill_lanczos_center_3.png</url>
       <title>DAMS Research Group</title>
@@ -66,6 +66,53 @@
       <guid>https://damslabumbc.github.io/privacy/</guid>
       <description>&lt;p&gt;&lt;strong&gt;This website doesn’t collect or store any visitor data, period&lt;/strong&gt;. I made a conscious choice not to have analytics or comment system (e.g., disqus) on this website to minimize any indirect tracking that may happen. Please let me know if you notice anything on this website that doesn’t follow this principle.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Co-zyBench: Using Co-Simulation and Digital Twins to Benchmark Thermal Comfort Provision in Smart Buildings</title>
+      <link>https://damslabumbc.github.io/publication/percom-2024/</link>
+      <pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/publication/percom-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Paper accepted at PerCom 2024!</title>
+      <link>https://damslabumbc.github.io/post/1-26-2024-percom/</link>
+      <pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/post/1-26-2024-percom/</guid>
+      <description>&lt;p&gt;Our paper on a benchmark to evaluate thermal comfort provision systems on smart buildings has been accepted at PerCom 2024. More information at the &lt;a href=&#34;https://www.percom.org/list-of-accepted-paper/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PerCom 2024 website.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Co-zyBench: Using Co-Simulation and Digital Twins to Benchmark Thermal Comfort Provision in Smart Buildings&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Jun Ma (Telecom SudParis, France); Dimitrije Panic (Telecom SudParis, France); Roberto Yus (University of Maryland, Baltimore County, USA); Georgios Bouloukakis (Telecom SudParis, France)&lt;/p&gt;
+&lt;p&gt;Heating, Ventilation, and Air Conditioning (HVAC) systems account for 40% to 50% of energy usage in commercial buildings. Thus, innovative ways to control and manage HVAC systems while preserving occupants&#39; comfort are required. State-of-the-art solutions employ pervasive systems with sensors or smart devices to gauge individual thermal sensations, yet assessing these methods is challenging. Real-world experiments are expensive, limited in access, and often overlook occupant and regional diversity. To address this, we introduce Co-zyBench, a benchmark tool using a Digital Twin (DT) approach for evaluating personalized thermal comfort systems. It employs a co-simulation middleware interfacing between a DT of the smart building and its HVAC system and another DT representing occupants&#39; dynamic thermal preferences in various spaces. The DTs that support Co-zyBench are generated based on information, including data captured by sensors, of the space in which the thermal comfort system has to be evaluated. Co-zyBench incorporates metrics for energy consumption, thermal comfort, and occupant equality. It also features reference DTs based on standard buildings, HVAC systems, and occupants with diverse thermal preferences.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>DEMSA: a DT-enabled Middleware for Self-adaptive Smart Spaces</title>
+      <link>https://damslabumbc.github.io/publication/midd4dt-2023/</link>
+      <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/publication/midd4dt-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Paper accepted at Midd4DT@Middleware 2023!</title>
+      <link>https://damslabumbc.github.io/post/12-11-2023-middleware/</link>
+      <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/post/12-11-2023-middleware/</guid>
+      <description>&lt;p&gt;Our paper on a benchmark to evaluate thermal comfort provision systems on smart buildings has been accepted at the 1st International Workshop on Middleware for Digital Twin (Midd4DT) collocated with Middleware 2023. More information at the &lt;a href=&#34;https://hakiri.github.io/Midd4DT/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Midd4DT 2023 website.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;DEMSA: a DT-enabled Middleware for Self-adaptive Smart Spaces&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Jun Ma (Telecom SudParis, France); Georgios Bouloukakis (Telecom SudParis, France); Ajay Kattepur (Ericsson AI Research, India); Roberto Yus (University of Maryland, Baltimore County, USA); Denis Conan (Telecom SudParis, France);&lt;/p&gt;
+&lt;p&gt;Heating, Ventilation, and Air Conditioning (HVAC) systems account for a significant portion of energy consumption within buildings. In order to balance the effect of thermal comfort vis-a-vis energy savings, HVAC control strategies have been proposed. However, the strategies are static and do not take into account dynamic changes of consumers, hence creating sub-optimal outcomes. This paper proposes DEMSA, a Digital Twin (DT)-enabled middleware for the self-adaptation of smart buildings. The DEMSA middleware interconnects and coordinates intelligent data exchange between the building edge server, digital twin and Artificial Intelligence (AI) planning nodes in order to invoke appropriate strategies. Moreover, DEMSA is paired with a self-adaptive mechanism that can detect the anomaly of generated planning and adaptively modify it. This process ensures balancing building energy consumption and thermal comfort requirements, without human intervention. The DEMSA middleware is described over a real smart space scenario.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Poster Presentation at The University System of Maryland’s Louis Stokes Alliance for Minority Participation Symposium 2024</title>
+      <link>https://damslabumbc.github.io/post/12-2-2023-lsamp-conference/</link>
+      <pubDate>Sat, 02 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/post/12-2-2023-lsamp-conference/</guid>
+      <description>&lt;p&gt;A member of the smartCampus project team at DAMS (Nikki Cayas, University of Maryland, Baltimore County) presented a poster at &lt;a href=&#34;https://lsamp.umbc.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The University System of Maryland’s Louis Stokes Alliance for Minority Participation&lt;/a&gt; Symposium 2024.&lt;/p&gt;
+&lt;p&gt;Nikki presented the team&amp;rsquo;s ongoing research that seeks to improve the quality of life for individuals by identifying the most comfortable work location for users in a controlled environment. Through the transformation of raw quantitative data captured by decibel, degree, and motion sensors into human-comprehensible notions, such as noise level, temperature, and occupancy level, we are capable of determining the most optimal work location for users based on their comfortability preferences. We anticipate uncovering valuable trends related to user preferences and the effectiveness of our data collection, translation, and protection processes. Looking ahead, we envision deploying our product in the library at the University of Maryland, Baltimore County (UMBC) to provide a valuable resource that enhances the study processes for UMBC students. As our research unfolds, we hope to continue improving user comfort in work and positively impacting daily lives.&lt;/p&gt;</description>
     </item>
     
     <item>

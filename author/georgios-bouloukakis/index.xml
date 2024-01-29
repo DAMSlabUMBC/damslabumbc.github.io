@@ -5,12 +5,28 @@
     <link>https://damslabumbc.github.io/author/georgios-bouloukakis/</link>
       <atom:link href="https://damslabumbc.github.io/author/georgios-bouloukakis/index.xml" rel="self" type="application/rss+xml" />
     <description>Georgios Bouloukakis</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Fri, 18 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Fri, 26 Jan 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://damslabumbc.github.io/author/georgios-bouloukakis/avatar_hua158259ff089ad1499683b8beb69b887_122299_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Georgios Bouloukakis</title>
       <link>https://damslabumbc.github.io/author/georgios-bouloukakis/</link>
     </image>
+    
+    <item>
+      <title>Co-zyBench: Using Co-Simulation and Digital Twins to Benchmark Thermal Comfort Provision in Smart Buildings</title>
+      <link>https://damslabumbc.github.io/publication/percom-2024/</link>
+      <pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/publication/percom-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DEMSA: a DT-enabled Middleware for Self-adaptive Smart Spaces</title>
+      <link>https://damslabumbc.github.io/publication/midd4dt-2023/</link>
+      <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/publication/midd4dt-2023/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>The SemIoTic Ecosystem: A Semantic Bridge between IoT Devices and Smart Spaces</title>
