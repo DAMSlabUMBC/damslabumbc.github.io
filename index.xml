@@ -5,7 +5,7 @@
     <link>https://damslabumbc.github.io/</link>
       <atom:link href="https://damslabumbc.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>DAMS Research Group</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Fri, 26 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Thu, 01 Feb 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://damslabumbc.github.io/media/icon_hu302981aa99fa15a8a6e0a46294dd9bb8_23619_512x512_fill_lanczos_center_3.png</url>
       <title>DAMS Research Group</title>
@@ -69,6 +69,17 @@
     </item>
     
     <item>
+      <title>Paper accepted at PETS 2024!</title>
+      <link>https://damslabumbc.github.io/post/02-01-2024-pets/</link>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/post/02-01-2024-pets/</guid>
+      <description>&lt;p&gt;Our team&amp;rsquo;s research on GenAIPABench, a novel benchmark for Generative AI-based Privacy Assistants, has been officially accepted for publication at the Privacy Enhancing Technologies Symposium (PETS) 2024. This recognition underscores our contribution to enhancing digital privacy through AI.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;GenAIPABench: A Benchmark for Generative AI-based Privacy Assistants&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Aamir Hamid, Hemanth Reddy Samidi, Tim Finin (University of Maryland, Baltimore County,USA), Primal Pappachan (Portland State University,USA), Roberto Yus (University of Maryland, Baltimore County,USA)&lt;/p&gt;
+&lt;p&gt;The paper introduces GenAIPABench, a comprehensive benchmark designed to evaluate the performance of Generative AI-based Privacy Assistants in understanding and addressing privacy policy and data protection regulation queries. By providing a standardized framework for assessment, our work aims to propel forward the development of AI tools that support users in navigating privacy concerns more effectively. This acceptance not only highlights the importance of our research in the field of privacy technologies but also marks a significant milestone for our team&amp;rsquo;s ongoing efforts to improve digital privacy protection.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Co-zyBench: Using Co-Simulation and Digital Twins to Benchmark Thermal Comfort Provision in Smart Buildings</title>
       <link>https://damslabumbc.github.io/publication/percom-2024/</link>
       <pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate>
@@ -85,6 +96,15 @@
 &lt;p&gt;&lt;em&gt;Co-zyBench: Using Co-Simulation and Digital Twins to Benchmark Thermal Comfort Provision in Smart Buildings&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Jun Ma (Telecom SudParis, France); Dimitrije Panic (Telecom SudParis, France); Roberto Yus (University of Maryland, Baltimore County, USA); Georgios Bouloukakis (Telecom SudParis, France)&lt;/p&gt;
 &lt;p&gt;Heating, Ventilation, and Air Conditioning (HVAC) systems account for 40% to 50% of energy usage in commercial buildings. Thus, innovative ways to control and manage HVAC systems while preserving occupants&#39; comfort are required. State-of-the-art solutions employ pervasive systems with sensors or smart devices to gauge individual thermal sensations, yet assessing these methods is challenging. Real-world experiments are expensive, limited in access, and often overlook occupant and regional diversity. To address this, we introduce Co-zyBench, a benchmark tool using a Digital Twin (DT) approach for evaluating personalized thermal comfort systems. It employs a co-simulation middleware interfacing between a DT of the smart building and its HVAC system and another DT representing occupants&#39; dynamic thermal preferences in various spaces. The DTs that support Co-zyBench are generated based on information, including data captured by sensors, of the space in which the thermal comfort system has to be evaluated. Co-zyBench incorporates metrics for energy consumption, thermal comfort, and occupant equality. It also features reference DTs based on standard buildings, HVAC systems, and occupants with diverse thermal preferences.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>GenAIPABench</title>
+      <link>https://damslabumbc.github.io/project/genaipabench/</link>
+      <pubDate>Tue, 19 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/project/genaipabench/</guid>
+      <description>&lt;p&gt;Privacy policies of websites are often lengthy and intricate. Privacy assistants assist in simplifying policies and making them more accessible and user-friendly. The emergence of generative AI (genAI) offers new opportunities to build privacy assistants that can answer users&#39; questions about privacy policies. However, genAI&amp;rsquo;s reliability is a concern due to its potential for producing inaccurate information. This study introduces GenAIPABench, a benchmark for evaluating Generative AI-based Privacy Assistants (GenAIPAs). GenAIPABench includes: 1) A set of questions about privacy policies and data protection regulations, with annotated answers for various organizations and regulations; 2) Metrics to assess the accuracy, relevance, and consistency of responses; and 3) A tool for generating prompts to introduce privacy documents and varied privacy questions to test system robustness. We evaluated three leading genAI systems—ChatGPT-4, Bard, and Bing AI—using GenAIPABench to gauge their effectiveness as GenAIPAs. Our results demonstrate significant promise in genAI capabilities in the privacy domain while also highlighting challenges in managing complex queries, ensuring consistency, and verifying source accuracy.&lt;/p&gt;
+</description>
     </item>
     
     <item>
