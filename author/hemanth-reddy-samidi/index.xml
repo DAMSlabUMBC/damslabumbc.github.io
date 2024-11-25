@@ -5,12 +5,20 @@
     <link>https://damslabumbc.github.io/author/hemanth-reddy-samidi/</link>
       <atom:link href="https://damslabumbc.github.io/author/hemanth-reddy-samidi/index.xml" rel="self" type="application/rss+xml" />
     <description>Hemanth Reddy Samidi</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Tue, 19 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Thu, 18 Jul 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://damslabumbc.github.io/author/hemanth-reddy-samidi/avatar_hu7e040b6d4c2fe5f65191e89cde7bba81_163821_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Hemanth Reddy Samidi</title>
       <link>https://damslabumbc.github.io/author/hemanth-reddy-samidi/</link>
     </image>
+    
+    <item>
+      <title>GenAIPABench: A Benchmark for Generative AI-based Privacy Assistants</title>
+      <link>https://damslabumbc.github.io/publication/popets-2024/popets-2024/</link>
+      <pubDate>Thu, 18 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/publication/popets-2024/popets-2024/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>GenAIPABench</title>

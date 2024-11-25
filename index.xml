@@ -5,7 +5,7 @@
     <link>https://damslabumbc.github.io/</link>
       <atom:link href="https://damslabumbc.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>DAMS Research Group</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Mon, 01 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Thu, 18 Jul 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://damslabumbc.github.io/media/icon_hu302981aa99fa15a8a6e0a46294dd9bb8_23619_512x512_fill_lanczos_center_3.png</url>
       <title>DAMS Research Group</title>
@@ -66,6 +66,14 @@
       <guid>https://damslabumbc.github.io/privacy/</guid>
       <description>&lt;p&gt;&lt;strong&gt;This website doesn’t collect or store any visitor data, period&lt;/strong&gt;. I made a conscious choice not to have analytics or comment system (e.g., disqus) on this website to minimize any indirect tracking that may happen. Please let me know if you notice anything on this website that doesn’t follow this principle.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>GenAIPABench: A Benchmark for Generative AI-based Privacy Assistants</title>
+      <link>https://damslabumbc.github.io/publication/popets-2024/popets-2024/</link>
+      <pubDate>Thu, 18 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/publication/popets-2024/popets-2024/</guid>
+      <description></description>
     </item>
     
     <item>
