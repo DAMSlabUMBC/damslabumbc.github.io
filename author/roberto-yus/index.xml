@@ -5,7 +5,7 @@
     <link>https://damslabumbc.github.io/author/roberto-yus/</link>
       <atom:link href="https://damslabumbc.github.io/author/roberto-yus/index.xml" rel="self" type="application/rss+xml" />
     <description>Roberto Yus</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Thu, 18 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Fri, 17 Jan 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://damslabumbc.github.io/author/roberto-yus/avatar_hud9f680d9fd0901e8096a1696fa9f0d54_346067_270x270_fill_lanczos_center_3.png</url>
       <title>Roberto Yus</title>
@@ -13,10 +13,18 @@
     </image>
     
     <item>
+      <title>Your Smart Home Exchanged 3M Messages: Defining and Analyzing Smart Device Passive Mode</title>
+      <link>https://damslabumbc.github.io/publication/percom-2025/</link>
+      <pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/publication/percom-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>GenAIPABench: A Benchmark for Generative AI-based Privacy Assistants</title>
-      <link>https://damslabumbc.github.io/publication/popets-2024/popets-2024/</link>
+      <link>https://damslabumbc.github.io/publication/popets-2024/</link>
       <pubDate>Thu, 18 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://damslabumbc.github.io/publication/popets-2024/popets-2024/</guid>
+      <guid>https://damslabumbc.github.io/publication/popets-2024/</guid>
       <description></description>
     </item>
     
@@ -181,6 +189,16 @@
       <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
       <guid>https://damslabumbc.github.io/publication/buildsys-2017/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Passive Mode for IoT</title>
+      <link>https://damslabumbc.github.io/project/iotpassivemode/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/project/iotpassivemode/</guid>
+      <description>&lt;p&gt;Traditional &amp;ldquo;idle&amp;rdquo; mode designations lack the granularity required to fully describe the behaviors of non-active IoT devices. For example, there is a notable difference between a smart speaker having its microphone muted and it idly listening for a voice command. This is demonstrated by manufacturers&#39; inclusions of &amp;ldquo;privacy modes&amp;rdquo; in smart devices such as cameras. The ambiguity surrounding the expected behavior of device idle states implies the existence of a logical &amp;ldquo;passive&amp;rdquo; state which describes the expected behavior of the devices themselves. Despite this, no accepted standards exist to define such a state. This hinders researchers&#39; abilities to compare devices&#39; non-active behaviors, requires manufacturers spend resources to define their own passive states, reduces transparency in data privacy practices by encouraging the creation of proprietary mode definitions, and places a significant burden on users to understand the individual privacy implications of each device.&lt;/p&gt;
+&lt;p&gt;This project seeks to provide a formal definition for these passive modes which can enable straightforward construction of device-specific definitions. We further study the passive mode behavior of these devices to determine the gap between the observed behaviors and a truely &amp;ldquo;passive&amp;rdquo; state.&lt;/p&gt;
+</description>
     </item>
     
   </channel>
