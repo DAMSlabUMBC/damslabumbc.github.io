@@ -11,6 +11,9 @@
     <loc>https://damslabumbc.github.io/publication-type/1/</loc>
     <lastmod>2025-01-17T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://damslabumbc.github.io/tag/active/</loc>
+    <lastmod>2025-01-17T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://damslabumbc.github.io/authors/</loc>
     <lastmod>2025-01-17T00:00:00+00:00</lastmod>
   </url><url>
@@ -41,7 +44,13 @@
     <loc>https://damslabumbc.github.io/author/nikolaos-papadakis/</loc>
     <lastmod>2025-01-17T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://damslabumbc.github.io/project/iotpassivemode/</loc>
+    <lastmod>2025-01-17T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://damslabumbc.github.io/tag/privacy/</loc>
+    <lastmod>2025-01-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://damslabumbc.github.io/project/</loc>
     <lastmod>2025-01-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://damslabumbc.github.io/publication_types/</loc>
@@ -110,9 +119,6 @@
     <loc>https://damslabumbc.github.io/post/1-26-2024-percom/</loc>
     <lastmod>2024-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://damslabumbc.github.io/tag/active/</loc>
-    <lastmod>2023-12-19T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://damslabumbc.github.io/tag/benchmark/</loc>
     <lastmod>2023-12-19T00:00:00+00:00</lastmod>
   </url><url>
@@ -120,9 +126,6 @@
     <lastmod>2023-12-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://damslabumbc.github.io/tag/generative-ai/</loc>
-    <lastmod>2023-12-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://damslabumbc.github.io/project/</loc>
     <lastmod>2023-12-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://damslabumbc.github.io/author/ajay-kattepur/</loc>
@@ -425,6 +428,8 @@
   </url><url>
     <loc>https://damslabumbc.github.io/author/jahir-bakari/</loc>
   </url><url>
+    <loc>https://damslabumbc.github.io/author/jalen-brown/</loc>
+  </url><url>
     <loc>https://damslabumbc.github.io/author/jason-chan/</loc>
   </url><url>
     <loc>https://damslabumbc.github.io/author/joseph-tarantin/</loc>
@@ -444,8 +449,6 @@
     <loc>https://damslabumbc.github.io/author/nikhil-boddu/</loc>
   </url><url>
     <loc>https://damslabumbc.github.io/author/nikki-cayas/</loc>
-  </url><url>
-    <loc>https://damslabumbc.github.io/project/iotpassivemode/</loc>
   </url><url>
     <loc>https://damslabumbc.github.io/author/peter-gatira/</loc>
   </url><url>
