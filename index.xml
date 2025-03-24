@@ -5,7 +5,7 @@
     <link>https://damslabumbc.github.io/</link>
       <atom:link href="https://damslabumbc.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>DAMS Research Group</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Fri, 17 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Sun, 23 Mar 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://damslabumbc.github.io/media/icon_hu302981aa99fa15a8a6e0a46294dd9bb8_23619_512x512_fill_lanczos_center_3.png</url>
       <title>DAMS Research Group</title>
@@ -69,6 +69,28 @@
     </item>
     
     <item>
+      <title>Best Artifact Paper award at PerCom 2025!</title>
+      <link>https://damslabumbc.github.io/post/3-23-2025-percom-artifact-award/</link>
+      <pubDate>Sun, 23 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/post/3-23-2025-percom-artifact-award/</guid>
+      <description>&lt;p&gt;Our paper on the analysis of smart home IoT devices while not in active use won the Best Artifact Paper award at PerCom 2025!&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Your Smart Home Exchanged 3M Messages: Defining and Analyzing Smart Device Passive Mode&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Christian Badolato (University of Maryland, Baltimore County), Kaur Kullman (University of Maryland, Baltimore County), Nikolaos Papadakis (Institut Polytechnique de Paris), Manav Bhatt (University of Maryland, Baltimore County), Georgios Bouloukakis (Institut Polytechnique de Paris), Don Engel (University of Maryland, Baltimore County), and Roberto Yus (University of Maryland, Baltimore County)&lt;/p&gt;
+&lt;p&gt;This award illustrates our commitment to ensuring verifiable and reproducible results through both dataset and code review. Our dataset, as well as custom datasets of your own, can be analyzed according to the methods in our paper through the scripts at the &lt;a href=&#34;https://github.com/DAMSlabUMBC/Passive-Mode-Study&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Smart Home IoT Passive Mode Analysis Github repository&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Paper accepted at PerCom 2025!</title>
+      <link>https://damslabumbc.github.io/post/1-20-2025-percom-accepted/</link>
+      <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/post/1-20-2025-percom-accepted/</guid>
+      <description>&lt;p&gt;Our paper on the analysis of smart home IoT devices while not in active use has been accepted at PerCom 2025! This is Christian&amp;rsquo;s first paper accepted at a conference!&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Your Smart Home Exchanged 3M Messages: Defining and Analyzing Smart Device Passive Mode&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Christian Badolato (University of Maryland, Baltimore County), Kaur Kullman (University of Maryland, Baltimore County), Nikolaos Papadakis (Institut Polytechnique de Paris), Manav Bhatt (University of Maryland, Baltimore County), Georgios Bouloukakis (Institut Polytechnique de Paris), Don Engel (University of Maryland, Baltimore County), and Roberto Yus (University of Maryland, Baltimore County)&lt;/p&gt;
+&lt;p&gt;The constant connectedness of smart home devices and their sensing capabilities pose a unique threat to individuals&#39; privacy. While users may expect devices to exhibit minimal activity while they are not performing their intended functions, this is not necessarily the case, and traditional idle mode designations are insufficient to address the current landscape of smart home devices. To address this we propose a designation based on a comprehensive categorization of smart home devices. We then measure the network traffic of thirty-two devices in their respective passive modes. We find that 97% of the devices exhibit near-constant network activity in these modes (exchanging over 3M messages in 24 hours), with many of the devices initiating and responding to LAN communications with other devices, which potentially exposes users to privacy leakages.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Passive Mode for IoT</title>
       <link>https://damslabumbc.github.io/project/iotpassivemode/</link>
       <pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate>
@@ -96,9 +118,9 @@
     
     <item>
       <title>Aamir&#39;s presentation at PETS 2024!</title>
-      <link>https://damslabumbc.github.io/post/07-01-2024-pets-presentation/</link>
+      <link>https://damslabumbc.github.io/post/7-1-2024-pets-presentation/</link>
       <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://damslabumbc.github.io/post/07-01-2024-pets-presentation/</guid>
+      <guid>https://damslabumbc.github.io/post/7-1-2024-pets-presentation/</guid>
       <description>&lt;p&gt;Aamir Hamid did a great job today at #PETS2024 presenting our work (with Hemanth Reddy Samidi, Primal Pappachan, and Tim Finin) on designing a benchmark to evaluate GenAI systems answering questions about privacy.&lt;/p&gt;
 &lt;p&gt;First conference presentation of (hopefully) many! Amazing job Aamir Hamid!&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;GenAIPABench: A Benchmark for Generative AI-based Privacy Assistants&lt;/em&gt;&lt;/p&gt;
@@ -108,9 +130,9 @@
     
     <item>
       <title>Paper accepted at PETS 2024!</title>
-      <link>https://damslabumbc.github.io/post/02-01-2024-pets/</link>
+      <link>https://damslabumbc.github.io/post/2-1-2024-pets/</link>
       <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://damslabumbc.github.io/post/02-01-2024-pets/</guid>
+      <guid>https://damslabumbc.github.io/post/2-1-2024-pets/</guid>
       <description>&lt;p&gt;Our team&amp;rsquo;s research on GenAIPABench, a novel benchmark for Generative AI-based Privacy Assistants, has been officially accepted for publication at the Privacy Enhancing Technologies Symposium (PETS) 2024. This recognition underscores our contribution to enhancing digital privacy through AI.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;GenAIPABench: A Benchmark for Generative AI-based Privacy Assistants&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Aamir Hamid, Hemanth Reddy Samidi, Tim Finin (University of Maryland, Baltimore County,USA), Primal Pappachan (Portland State University,USA), Roberto Yus (University of Maryland, Baltimore County,USA)&lt;/p&gt;
@@ -192,9 +214,9 @@
     
     <item>
       <title>Paper on genAI and privacy published on arXiv</title>
-      <link>https://damslabumbc.github.io/post/10-09-2023-arxiv/</link>
+      <link>https://damslabumbc.github.io/post/10-9-2023-arxiv/</link>
       <pubDate>Sun, 10 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://damslabumbc.github.io/post/10-09-2023-arxiv/</guid>
+      <guid>https://damslabumbc.github.io/post/10-9-2023-arxiv/</guid>
       <description>&lt;p&gt;Our paper on genAI and privacy has been published on arXiv. More information at the &lt;a href=&#34;https://arxiv.org/abs/2309.05138&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;arxiv&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;GENAIPABENCH: A Benchmark for Generative AI-based Privacy Assistants&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Aamir Hamid(University of Maryland, Baltimore County, USA); 
@@ -223,9 +245,9 @@ handling complex tasks, ensuring response consistency, and accurately referencin
     
     <item>
       <title>Paper on privacy policies and IoT published on arXiv</title>
-      <link>https://damslabumbc.github.io/post/11-08-2023-arxiv/</link>
+      <link>https://damslabumbc.github.io/post/11-8-2023-arxiv/</link>
       <pubDate>Fri, 11 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://damslabumbc.github.io/post/11-08-2023-arxiv/</guid>
+      <guid>https://damslabumbc.github.io/post/11-8-2023-arxiv/</guid>
       <description>&lt;p&gt;Our paper on privacy policies of IoT devices has been published on arXiv. More information at the &lt;a href=&#34;https://arxiv.org/abs/2308.05890&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;arxiv&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;PrivacyLens: A Framework to Collect and Analyze the Landscape of Past, Present, and Future Smart Device Privacy Policies&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Aamir Hamid(University of Maryland, Baltimore County, USA); 
@@ -270,9 +292,9 @@ PrivacyLens had collected and analyzed more than 1,200 privacy policies for 7,30
     
     <item>
       <title>Master&#39;s Thesis Defense!</title>
-      <link>https://damslabumbc.github.io/post/07-27-2023-thesis-defense/</link>
+      <link>https://damslabumbc.github.io/post/7-27-2023-thesis-defense/</link>
       <pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://damslabumbc.github.io/post/07-27-2023-thesis-defense/</guid>
+      <guid>https://damslabumbc.github.io/post/7-27-2023-thesis-defense/</guid>
       <description>&lt;p&gt;Sragvi Nidamarti successfully defended his Master&amp;rsquo;s Thesis &amp;lsquo;Addressing Trust Concerns in the Electric Vehicle Supply Chain: A
 Knowledge Graph Approach&amp;rsquo;. The study discusses the socio-economic impact of EV batteries and addresses the trust concerns surrounding it.&lt;/p&gt;
 &lt;p&gt;Committee : Roberto Yus (University of Maryland, Baltimore County, USA) ; Tim Finnin (University of Maryland, Baltimore County) ; Manas Gaur(University of Maryland, Baltimore County); Konstantinos Mersinas (Royal Holloway University of London)&lt;/p&gt;
