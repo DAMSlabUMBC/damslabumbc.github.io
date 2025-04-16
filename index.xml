@@ -80,6 +80,38 @@
     </item>
     
     <item>
+      <title>BL(u)E CRAB: A User-Centric Framework for Identifying Suspicious Bluetooth Trackers</title>
+      <link>https://damslabumbc.github.io/publication/percom-demo-bluecrab-2025/</link>
+      <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/publication/percom-demo-bluecrab-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LOADS: LiDAR-based Privacy-Preserving Queue Monitoring and Analysis</title>
+      <link>https://damslabumbc.github.io/publication/percom-demo-loads-2025/</link>
+      <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/publication/percom-demo-loads-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Demo papers accepted at PerCom 2025!</title>
+      <link>https://damslabumbc.github.io/post/1-20-2025-percom-demos-accepted/</link>
+      <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/post/1-20-2025-percom-demos-accepted/</guid>
+      <description>&lt;p&gt;Our team&amp;rsquo;s project, LiDAR Occupancy and Analysis Detection System (LOADS), has been officially accepted to be demoed at the IEEE International Conference on Pervasive Computing and Communications (PerCom) 2025.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;LOADS: LiDAR-based Privacy-Preserving Queue Monitoring and Analysis&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Saisricharan Malkireddy, Sumedh Kane, Sourimitra Medepalli, Satvik Racharla, Bharg Barot, Christian Badolato, Roberto Yus (University of Maryland, Baltimore County, USA)&lt;/p&gt;
+&lt;p&gt;We got a second demo paper accepted in collaboration with Portland State University. This work presents a system to identify suspicious trackers.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;BL(u)E CRAB: A User-Centric Framework for Identifying Suspicious Bluetooth Trackers.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Dylan Conklin (Portland State University, United States), Primal Pappachan (Portland State University, United States) and Roberto Yus (University of Maryland, Baltimore County, United States).&lt;/p&gt;
+&lt;p&gt;Long queues in retail and public environments can frustrate customers and negatively impact user experiences. Traditional camera-based monitoring systems are effective in analyzing queues, however, the potential for identification raises privacy concerns. Other queue-counting methods (such as WiFi or RFID) depend on user-carried devices or tags. In contrast, LiDAR sensors strictly measure distances and angles, which drastically reduces privacy risks and does not require users to carry specialized hardware. We present LOADS, an end-to-end, single-sensor, LiDAR-based IoT solution for queue-occupancy and wait-time estimation. LOADS incorporates Hierarchical Density-Based Spatial Clustering of Applications with Noise (HDBSCAN) to provide a robust method of accurately separating people from noise in real time. We employ a SARIMAX model to predict future queue lengths from historical data stored in a time-series database. A web interface shows real-time and historical queue information, enabling users to make informed decisions. We demonstrate the feasibility of LOADS in practical retail and conference scenarios, highlighting its privacy-preserving nature, accurate crowd estimation, and simple deployment.&lt;/p&gt;
+&lt;p&gt;Given the pervasiveness of Bluetooth Low Energy (BLE)-based devices, detecting unwanted or suspicious trackers is challenging, especially due to their heterogeneity, cross-platform compatibility issues, and inconsistent detection methods. BL(u)E CRAB identifies suspicious BLE trackers based on various risk factors within minutes. It does so by collecting information including the number of encounters, time with the user, distance traveled with the user, number of areas each device appeared in, and device proximity to user. After collecting this information, BL(u)E CRAB performs an outlier detection analysis to flag suspicious devices. BL(u)E CRAB presents this information in a simple, intuitive, and customizable way for the user to determine which devices pose the biggest threat to them based on their context.&lt;/p&gt;
+&lt;p&gt;We look forward to presenting LOADS and BL(u)E CRAB at PerCom 2025 and discussing their potential for wide-scale deployment with the research community.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Paper accepted at PerCom 2025!</title>
       <link>https://damslabumbc.github.io/post/1-20-2025-percom-accepted/</link>
       <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>

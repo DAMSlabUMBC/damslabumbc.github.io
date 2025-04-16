@@ -5,12 +5,28 @@
     <link>https://damslabumbc.github.io/author/roberto-yus/</link>
       <atom:link href="https://damslabumbc.github.io/author/roberto-yus/index.xml" rel="self" type="application/rss+xml" />
     <description>Roberto Yus</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Fri, 17 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Mon, 17 Mar 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://damslabumbc.github.io/author/roberto-yus/avatar_hud9f680d9fd0901e8096a1696fa9f0d54_346067_270x270_fill_lanczos_center_3.png</url>
       <title>Roberto Yus</title>
       <link>https://damslabumbc.github.io/author/roberto-yus/</link>
     </image>
+    
+    <item>
+      <title>BL(u)E CRAB: A User-Centric Framework for Identifying Suspicious Bluetooth Trackers</title>
+      <link>https://damslabumbc.github.io/publication/percom-demo-bluecrab-2025/</link>
+      <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/publication/percom-demo-bluecrab-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LOADS: LiDAR-based Privacy-Preserving Queue Monitoring and Analysis</title>
+      <link>https://damslabumbc.github.io/publication/percom-demo-loads-2025/</link>
+      <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/publication/percom-demo-loads-2025/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Passive Mode for IoT</title>

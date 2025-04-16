@@ -5,12 +5,20 @@
     <link>https://damslabumbc.github.io/author/christian-badolato/</link>
       <atom:link href="https://damslabumbc.github.io/author/christian-badolato/index.xml" rel="self" type="application/rss+xml" />
     <description>Christian Badolato</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Fri, 17 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Mon, 17 Mar 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://damslabumbc.github.io/author/christian-badolato/avatar_huea1e9ee4521128320657afbd25e48ee7_207725_270x270_fill_lanczos_center_3.png</url>
       <title>Christian Badolato</title>
       <link>https://damslabumbc.github.io/author/christian-badolato/</link>
     </image>
+    
+    <item>
+      <title>LOADS: LiDAR-based Privacy-Preserving Queue Monitoring and Analysis</title>
+      <link>https://damslabumbc.github.io/publication/percom-demo-loads-2025/</link>
+      <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/publication/percom-demo-loads-2025/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Passive Mode for IoT</title>
