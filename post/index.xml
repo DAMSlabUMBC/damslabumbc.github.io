@@ -5,12 +5,34 @@
     <link>https://damslabumbc.github.io/post/</link>
       <atom:link href="https://damslabumbc.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Latest News</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Sun, 23 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Tue, 13 May 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://damslabumbc.github.io/media/icon_hu302981aa99fa15a8a6e0a46294dd9bb8_23619_512x512_fill_lanczos_center_3.png</url>
       <title>Latest News</title>
       <link>https://damslabumbc.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>Demo paper accepted at SmartComp 2025!</title>
+      <link>https://damslabumbc.github.io/post/5-13-2025-smartcompdemo-accepted/5-13-2025-smartcompdemo-accepted/</link>
+      <pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/post/5-13-2025-smartcompdemo-accepted/5-13-2025-smartcompdemo-accepted/</guid>
+      <description>&lt;p&gt;Our team’s demo paper has been officially accepted to be demoed at the IEEE International Conference on Smart Computing (SmartComp) 2025.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Web-CozyBench: A Web-Based Platform to Benchmark Thermal Comfort Provision using Digital Twins&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Jun Ma, Aziz Boubaker, Sabrine Azaiez (Télécom SudParis, France), Roberto Yus (University of Maryland, Baltimore County, USA), Georgios Bouloukakis (University of Patras, Greece)&lt;/p&gt;
+&lt;p&gt;Web-CozyBench a extension of &lt;a href=&#34;https://damslabumbc.github.io/publication/percom-2024/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Co-zyBench&lt;/a&gt;, a benchmarking tool for evaluating thermal comfort provision systems via Digital Twin simulations. Web-CozyBench offers an intuitive GUI to configure building/occupant scenarios, execute co-simulations, and visualize results without simulation expertise. This tool builds on Co-zyBench and will help accelerate comfort-focused smart building research and development.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Paper accepted at SmartComp 2025!</title>
+      <link>https://damslabumbc.github.io/post/5-13-2025-smartcomp-accepted/5-13-2025-smartcomp-accepted/</link>
+      <pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/post/5-13-2025-smartcomp-accepted/5-13-2025-smartcomp-accepted/</guid>
+      <description>&lt;p&gt;Our paper has been accepted at the IEEE International Conference on Smart Computing (SmartComp) 2025!&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;DigiGuide: A DT-based Occupant Guiding System for Optimizing Comfort and Energy Consumption&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Jun Ma (Télécom SudParis, France), Roberto Yus (University of Maryland, Baltimore County, USA), Georgios Bouloukakis (University of Patras, Greece)&lt;/p&gt;
+&lt;p&gt;This paper presents DigiGuide, a Digital Twin-based occupant guiding system that uses NSGA-III optimization to proactively balance energy efficiency and multi-factor comfort (thermal, acoustic, crowdedness, etc,.) across dynamic indoor environments. Validated in two large-scale settings (a co-working space and an airport), DigiGuide achieved 18.2% better comfort and 8.6% energy savings compared to baseline strategies.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Best Artifact Paper award at PerCom 2025!</title>
