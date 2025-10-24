@@ -5,12 +5,23 @@
     <link>https://damslabumbc.github.io/post/</link>
       <atom:link href="https://damslabumbc.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Latest News</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Tue, 13 May 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Mon, 20 Oct 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://damslabumbc.github.io/media/icon_hu302981aa99fa15a8a6e0a46294dd9bb8_23619_512x512_fill_lanczos_center_3.png</url>
       <title>Latest News</title>
       <link>https://damslabumbc.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>Paper accepted at IoT 2025!</title>
+      <link>https://damslabumbc.github.io/post/10-20-2025-iotconf-accepted/</link>
+      <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/post/10-20-2025-iotconf-accepted/</guid>
+      <description>&lt;p&gt;Our paper has been accepted at the 15th International Conference on the Internet of Things (IoT) 2025!&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;A Context-Aware Benchmarking Approach for Scenario-Based Evaluation of Smart Devices&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Nikolaos Papadakis (Télécom SudParis, France), Athanasios Tsirikas (University of Patras, Greece), Fotios Fouskas (AEGIS IT RESEARCH, Greece), Krish Chatterjie (Télécom SudParis, France), Christian Badolato (University of Maryland, Baltimore County, USA),Gregory Blanc (Télécom SudParis, France), Roberto Yus (University of Maryland, Baltimore County, USA), Kostas Magoutis (FORTH, Greece), Georgios Bouloukakis (Télécom SudParis, France; University of Patras, Greece)&lt;/p&gt;
+&lt;p&gt;Understanding how smart devices behave under real-world conditions remains challenging, as existing benchmarking tools often isolate metrics like energy consumption or protocol compliance without considering realistic interactions or coordinated use. This paper presents a scenario-driven benchmarking framework tailored for smart devices which integrates control, orchestration, instrumentation, and monitoring into a unified, reproducible workflow. Our framework enables structured specification of interaction scenarios, precise scheduling of device actions, and synchronized measurement of energy usage and network activity. We validate our approach through a smart home testbed comprised of off-the-shelf speakers, lights, and fans across scenarios that reflect typical user interactions and adversarial network conditions. Results reveal behavioral differences not evident from device specifications alone, highlighting the importance of context-rich, scenario-based evaluation for understanding smart device performance in practice.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Demo paper accepted at SmartComp 2025!</title>
