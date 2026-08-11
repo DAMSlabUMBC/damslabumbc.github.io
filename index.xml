@@ -5,7 +5,7 @@
     <link>https://damslabumbc.github.io/</link>
       <atom:link href="https://damslabumbc.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>DAMS Research Group</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Fri, 24 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Tue, 30 Jun 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://damslabumbc.github.io/media/icon_hu302981aa99fa15a8a6e0a46294dd9bb8_23619_512x512_fill_lanczos_center_3.png</url>
       <title>DAMS Research Group</title>
@@ -32,29 +32,103 @@
       <link>https://damslabumbc.github.io/join/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://damslabumbc.github.io/join/</guid>
-      <description>&lt;p&gt;Our group welcomes applicants from any race, ethnicity, religion, national origin, gender identity, gender expression, caregiver and family commitments, political affiliation, sexual orientation, and eligible age or disability status. Furthermore, we are committed to maintaining a supportive and collaborative group environment.&lt;/p&gt;
+      <description>&lt;style&gt;
+.join-lead { font-size: 1.05rem; line-height: 1.6; }
+.join-paths {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.1rem; margin: 1.6rem 0 2rem;
+}
+.join-path {
+  border: 1px solid rgba(128,128,128,.25); border-radius: 10px;
+  padding: 1.2rem 1.3rem;
+}
+.join-path .jp-head { display: flex; align-items: center; gap: .7rem; margin-bottom: .45rem; }
+.join-path .jp-ico { font-size: 1.45rem; opacity: .85; line-height: 1; }
+.join-path h3 { margin: 0; font-size: 1.1rem; }
+.join-path p { margin: 0 0 .7rem; font-size: .93rem; line-height: 1.5; }
+.join-path .jp-link { font-size: .9rem; font-weight: 600; }
+.join-steps { counter-reset: step; list-style: none; padding-left: 0; }
+.join-steps &gt; li {
+  counter-increment: step; position: relative;
+  padding: .35rem 0 .35rem 2.5rem; font-size: .95rem; line-height: 1.55;
+}
+.join-steps &gt; li::before {
+  content: counter(step);
+  position: absolute; left: 0; top: .35rem;
+  width: 1.7rem; height: 1.7rem; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: .85rem; font-weight: 700;
+  border: 2px solid rgba(128,128,128,.45);
+}
+.join-cta {
+  border-left: 4px solid rgba(128,128,128,.4);
+  padding: .8rem 1.1rem; margin: 1.6rem 0;
+  font-size: .96rem;
+}
+&lt;/style&gt;
+&lt;p class=&#34;join-lead&#34;&gt;We build systems that sit between people and the sensors around them &amp;mdash; in
+smart buildings, smart homes, and instrumented testbeds. If you like working on real deployments,
+semantic data models, or the privacy questions that come with connected devices, there is probably
+a project here for you.&lt;/p&gt;
+&lt;p&gt;A good way to see what we actually do is to skim our &lt;a href=&#34;https://damslabumbc.github.io/post/&#34;&gt;recent news&lt;/a&gt;, the
+&lt;a href=&#34;https://damslabumbc.github.io/research/#projects&#34;&gt;projects&lt;/a&gt; we are building, and a couple of our
+&lt;a href=&#34;https://damslabumbc.github.io/publication/&#34;&gt;recent papers&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&#34;join-paths&#34;&gt;
+  &lt;div class=&#34;join-path&#34;&gt;
+    &lt;div class=&#34;jp-head&#34;&gt;
+      &lt;span class=&#34;jp-ico&#34;&gt;
+  &lt;i class=&#34;fas fa-user-graduate  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;/span&gt;
+      &lt;h3&gt;Graduate students&lt;/h3&gt;
+    &lt;/div&gt;
+    &lt;p&gt;Ph.D. (direct or general admit), or thesis- and project-based master&#39;s research.&lt;/p&gt;
+    &lt;a class=&#34;jp-link&#34; href=&#34;#graduate-students&#34;&gt;How to reach out &amp;rarr;&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;join-path&#34;&gt;
+    &lt;div class=&#34;jp-head&#34;&gt;
+      &lt;span class=&#34;jp-ico&#34;&gt;
+  &lt;i class=&#34;fas fa-laptop-code  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;/span&gt;
+      &lt;h3&gt;Undergraduate students&lt;/h3&gt;
+    &lt;/div&gt;
+    &lt;p&gt;Research positions and research credit. No previous research experience required.&lt;/p&gt;
+    &lt;a class=&#34;jp-link&#34; href=&#34;#undergraduate-students&#34;&gt;What we look for &amp;rarr;&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Our group welcomes applicants from any race, ethnicity, religion, national origin, gender identity, gender expression, caregiver and family commitments, political affiliation, sexual orientation, and eligible age or disability status. Furthermore, we are committed to maintaining a supportive and collaborative group environment.&lt;/p&gt;
 &lt;p&gt;See more about &lt;a href=&#34;https://damslabumbc.github.io/uploads/DAMS_groupPolicies.pdf&#34; target=&#34;_blank&#34;&gt;our group policies&lt;/a&gt;.&lt;/p&gt;
-&lt;h1 id=&#34;graduate-students&#34;&gt;Graduate Students&lt;/h1&gt;
-&lt;p&gt;If you&amp;rsquo;re interested in pursuing a Ph.D. with either direct or general admit, or in thesis or project-based masters research, reach out to Prof. Yus by &lt;a href=&#34;mailto:ryus@umbc.edu&#34;&gt;email&lt;/a&gt; with your: (1) CV, (2) a description of research experience and interests, and (3) specific information about why the DAMS group interests you.&lt;/p&gt;
+&lt;h2 id=&#34;graduate-students&#34;&gt;Graduate students&lt;/h2&gt;
+&lt;p&gt;If you&amp;rsquo;re interested in pursuing a Ph.D. with either direct or general admit, or in thesis or project-based masters research, reach out to Prof. Yus by &lt;a href=&#34;mailto:ryus@umbc.edu&#34;&gt;email&lt;/a&gt; with:&lt;/p&gt;
+&lt;ol class=&#34;join-steps&#34;&gt;
+  &lt;li&gt;Your CV.&lt;/li&gt;
+  &lt;li&gt;A description of your research experience and interests.&lt;/li&gt;
+  &lt;li&gt;Specific information about why the DAMS group interests you.&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h3 id=&#34;applying-to-our-graduate-program&#34;&gt;Applying to our graduate program&lt;/h3&gt;
-&lt;p&gt;If you are interested in applying to the UMBC Computer Science graduate program, please check the information our the &lt;a href=&#34;http://www.csee.umbc.edu/CSEE/grad/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CSEE Grad programs&lt;/a&gt;. Graduate admissions are done by a central Departmental committee that processes all applications and decides on admissions for the entire department. Individual faculty members may not accept students on their own but reach out to Prof. Yus by &lt;a href=&#34;mailto:ryus@umbc.edu&#34;&gt;email&lt;/a&gt; if you are interested in applying and potentially being part of the DAMS group.&lt;/p&gt;
-&lt;h1 id=&#34;undergraduate-students&#34;&gt;Undergraduate Students&lt;/h1&gt;
+&lt;p&gt;If you are interested in applying to the UMBC Computer Science graduate program, please check the information on the &lt;a href=&#34;http://www.csee.umbc.edu/CSEE/grad/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CSEE Grad programs&lt;/a&gt; page. Graduate admissions are done by a central Departmental committee that processes all applications and decides on admissions for the entire department. Individual faculty members may not accept students on their own — but do reach out to Prof. Yus by &lt;a href=&#34;mailto:ryus@umbc.edu&#34;&gt;email&lt;/a&gt; if you are interested in applying and potentially being part of the DAMS group.&lt;/p&gt;
+&lt;h2 id=&#34;undergraduate-students&#34;&gt;Undergraduate students&lt;/h2&gt;
 &lt;p&gt;Students majoring in Computer Science are encouraged to apply.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Previous research experience is not required.&lt;/li&gt;
-&lt;li&gt;Students must be able to work an average of 10 hour per week.&lt;/li&gt;
+&lt;li&gt;Students must be able to work an average of 10 hours per week.&lt;/li&gt;
 &lt;li&gt;Demonstrated leadership and collaboration experience is a plus.&lt;/li&gt;
 &lt;li&gt;Strong communication skills (written and oral) are a plus.&lt;/li&gt;
 &lt;li&gt;Knowledge of programming languages (e.g., Java, Python), Web development (e.g., HTML, Javascript, React), and Databases (e.g., MySQL, PostgreSQL) are a plus.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;why-do-research&#34;&gt;Why do research?&lt;/h3&gt;
-&lt;p&gt;Through undergraduate research, you’ll: 1) learn about the latest questions currently under scientific investigation and approaches being used to tackle them, 2) help solve real and important scientific problems, and 3) gain valuable experience in critical thinking, problem solving, collaboration, and communication.&lt;/p&gt;
+&lt;p&gt;Through undergraduate research, you&amp;rsquo;ll: 1) learn about the latest questions currently under scientific investigation and approaches being used to tackle them, 2) help solve real and important scientific problems, and 3) gain valuable experience in critical thinking, problem solving, collaboration, and communication.&lt;/p&gt;
 &lt;h3 id=&#34;what-will-you-do&#34;&gt;What will you do?&lt;/h3&gt;
-&lt;p&gt;The DAMS Group is focused on designing mechanisms to make IoT systems bridge the gap between user requirements and IoT device capabilities. Undergraduate researchers will generally work on projects related to the research areas of the group: 1) Data Management, 2) AI (Knowledge Representation &amp;amp; Reasoning), and 3) Privacy. These may involve activities such as interacting with IoT devices and systems, writing code to extract insights from sensor data, integrate ML algorithms within an IoT system, etc.&lt;/p&gt;
+&lt;p&gt;The DAMS Group is focused on designing mechanisms to make IoT systems bridge the gap between user requirements and IoT device capabilities. Undergraduate researchers will generally work on projects related to the research areas of the group: 1) Data Management, 2) AI (Knowledge Representation &amp;amp; Reasoning), and 3) Privacy. These may involve activities such as interacting with IoT devices and systems, writing code to extract insights from sensor data, integrating ML algorithms within an IoT system, and so on.&lt;/p&gt;
 &lt;h3 id=&#34;what-are-the-hours-for-the-position&#34;&gt;What are the hours for the position?&lt;/h3&gt;
-&lt;p&gt;Apart from attendance at weekly group meetings, students are free to work according to a flexible schedule. So far during COVID, all work has been remote, though we do have a lab office available.&lt;/p&gt;
+&lt;p&gt;Apart from attendance at weekly group meetings, students are free to work according to a flexible schedule. We have a lab office available.&lt;/p&gt;
 &lt;h3 id=&#34;how-do-i-apply&#34;&gt;How do I apply?&lt;/h3&gt;
-&lt;p&gt;If you’re interested in applying for a lab position or for research credit, you must read the &lt;a href=&#34;https://damslabumbc.github.io/uploads/DAMS_Expectations_UGrad.pdf&#34; target=&#34;_blank&#34;&gt;DAMS Group Undergraduate Research Agreement&lt;/a&gt; carefully to make sure you understand what’s involved. Then include in a single email: (1) your resume (PDF), (2) unofficial copy of your transcript (PDF); freshman can send high school transcript (PDF), and (3) one page or less explaining why you&amp;rsquo;d like to work in our lab (PDF). To write this well, I suggest you look at some of our papers from the last few years to orient yourself to our current projects. Make the subject of your email &amp;ldquo;Undergrad Application&amp;rdquo; and send this to &lt;a href=&#34;mailto:ryus@umbc.edu&#34;&gt;Prof. Yus&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;First, read the &lt;a href=&#34;https://damslabumbc.github.io/uploads/DAMS_Expectations_UGrad.pdf&#34; target=&#34;_blank&#34;&gt;DAMS Group Undergraduate Research Agreement&lt;/a&gt; carefully to make sure you understand what&amp;rsquo;s involved. Then send a single email to &lt;a href=&#34;mailto:ryus@umbc.edu&#34;&gt;Prof. Yus&lt;/a&gt; with the subject line &lt;strong&gt;&amp;ldquo;Undergrad Application&amp;rdquo;&lt;/strong&gt;, including:&lt;/p&gt;
+&lt;ol class=&#34;join-steps&#34;&gt;
+  &lt;li&gt;Your resume (PDF).&lt;/li&gt;
+  &lt;li&gt;An unofficial copy of your transcript (PDF). Freshmen can send a high school transcript.&lt;/li&gt;
+  &lt;li&gt;One page or less explaining why you&#39;d like to work in our lab (PDF).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;join-cta&#34;&gt;
+To write that last one well, look through a few of our &lt;a href=&#34;https://damslabumbc.github.io/publication/&#34;&gt;papers from the last few years&lt;/a&gt; to orient yourself to our current projects &amp;mdash; and say which ones interest you and why.
+&lt;/div&gt;
 &lt;p&gt;&lt;em&gt;Page content inspired by &lt;a href=&#34;https://atomslab.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ATOMS lab @ UMBC&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 </description>
     </item>
@@ -69,10 +143,77 @@
     </item>
     
     <item>
+      <title>Paper accepted at WiSec 2026!</title>
+      <link>https://damslabumbc.github.io/post/6-30-2026-wisec-bluetooth/</link>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/post/6-30-2026-wisec-bluetooth/</guid>
+      <description>&lt;p&gt;Our paper on speeding up the detection of suspicious Bluetooth trackers, in collaboration with Portland State University, has been accepted at the 19th ACM Conference on Security and Privacy in Wireless and Mobile Networks (WiSec) 2026.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Towards Fast Detection of Suspicious Bluetooth Trackers using Anomaly Detection&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Orobosa Ekhator, Dylan Conklin, Primal Pappachan, and Roberto Yus&lt;/p&gt;
+&lt;p&gt;Detecting malicious Bluetooth Low Energy (BLE) trackers remains challenging because existing approaches rely on fixed time and distance thresholds that are brittle across environments. These heuristics produce false positives in dense environments and require long observation windows before flagging a device. To address these limitations, we present BL(u)E CRAB, a cross-platform (iOS/Android) mobile system that represents nearby devices using three risk factors derived from BLE scan data. Our detection model adapts Clustering-Based Local Outlier Factor (CBLOF) to BLE tracker detection and adds a gap-thresholding mechanism to separate high-scoring outliers from the benign majority. Across micro-benchmarks and end-to-end case studies, CBLOF reduces false positives up to 77% and false negatives up to 20% compared to the state of the art. In our case studies, suspicious trackers are typically detected within 5 minutes of scanning, improving practical usability for real-world deployment.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Towards Fast Detection of Suspicious Bluetooth Trackers using Anomaly Detection</title>
+      <link>https://damslabumbc.github.io/publication/wisec-2026/</link>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/publication/wisec-2026/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Roberto Yus receives NSF CAREER award!</title>
+      <link>https://damslabumbc.github.io/post/6-7-2026-nsf-career/</link>
+      <pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/post/6-7-2026-nsf-career/</guid>
+      <description>&lt;p&gt;Roberto Yus has received a National Science Foundation CAREER award for &lt;em&gt;Towards a Sensorless Internet of Things through Sensor Data Management Abstraction&lt;/em&gt;. The five-year award (NSF #2542782, $599,184, July 2026 – June 2031) is funded by NSF&amp;rsquo;s Division of Information and Intelligent Systems.&lt;/p&gt;
+&lt;p&gt;Although IoT deployments collect enormous amounts of sensor data, making use of it still requires knowing which sensors to query, which machine learning models to run, and how to stitch the results together — expertise most organizations do not have. This project introduces a semantic abstraction layer that hides that complexity, so users can ask directly for high-level concepts such as occupancy or energy consumption and let the system work out which sensors, models, and data pipelines are needed to answer them.&lt;/p&gt;
+&lt;p&gt;The research is organized around three thrusts: formal modeling and optimization of queries over abstracted sensor data, self-driving abstraction planning across heterogeneous databases, and extending the approach to federated settings with privacy constraints. The work will be validated on real deployments, including UMBC&amp;rsquo;s smart campus, manufacturing testbeds, and smart home laboratories.&lt;/p&gt;
+&lt;p&gt;The award also supports education and outreach, including new university course material, high school internships, and summer programs for Baltimore-area students.&lt;/p&gt;
+&lt;p&gt;Read more in the &lt;a href=&#34;https://my3.my.umbc.edu/groups/csee/posts/160589&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UMBC CSEE announcement&lt;/a&gt; and the &lt;a href=&#34;https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2542782&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NSF award page&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Artifact: PSMark: A Distributed IoT Benchmark for Publish/Subscribe Under Domain-Based Workloads</title>
+      <link>https://damslabumbc.github.io/publication/percom-artifact-2026/</link>
+      <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/publication/percom-artifact-2026/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Paper and artifact accepted at PerCom 2026!</title>
+      <link>https://damslabumbc.github.io/post/3-16-2026-percom-psmark/</link>
+      <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/post/3-16-2026-percom-psmark/</guid>
+      <description>&lt;p&gt;Our paper on benchmarking publish/subscribe systems for distributed IoT deployments has been accepted at the IEEE International Conference on Pervasive Computing and Communications (PerCom) 2026, together with an accompanying artifact paper at PerCom Workshops.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;PSMark: A Distributed IoT Benchmark for Publish/Subscribe Under Domain-Based Workloads&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Artifact: PSMark: A Distributed IoT Benchmark for Publish/Subscribe Under Domain-Based Workloads&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Christian Badolato, Nathan Samson, Houssam Hajj Hassan, Chih-Kai Huang, Georgios Bouloukakis, Primal Pappachan, and Roberto Yus&lt;/p&gt;
+&lt;p&gt;The Publish/Subscribe (pub/sub) paradigm is widely used in the Internet of Things (IoT). Standalone sensors, wearables, and other devices act as producers that publish messages to consumers such as edge servers or even other IoT devices. Selecting and configuring a pub/sub protocol for an IoT system requires considering network requirements, device reliability, and required Quality-of-Service guarantees. Pub/sub benchmarking suites can help compare expected behavior of various protocols, implementations, and network configurations. However, current pub/sub benchmarks focus primarily on stress testing systems assuming mostly static configurations of homogeneous publishers which are not representative of real-world IoT deployments. To address this, we present PSMark, a distributed, multi-protocol benchmark for evaluating topic-filtered pub/sub systems under workloads representative of real-world IoT environments. PSMark supports (i) workloads representative of heterogeneous IoT device deployments including variations in device communication parameters, (ii) evaluation of distributed IoT deployments with multiple data aggregation servers, (iii) cross-protocol measurements across MQTT and DDS, with extensibility to additional protocols, and (iv) a modular design for adding additional metrics and interfaces. We further construct twelve IoT-focused workloads derived from seven real-world datasets in the domains of manufacturing, healthcare, smart homes, and smart cities. Finally, we benchmark five popular MQTT brokers and one DDS implementation using PSMark and analyze their performance across multiple testbeds and Quality-of-Service settings.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>PSMark: A Distributed IoT Benchmark for Publish/Subscribe Under Domain-Based Workloads</title>
+      <link>https://damslabumbc.github.io/publication/percom-2026/</link>
+      <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/publication/percom-2026/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Scalable Automation for IoT CyberSecurity Compliance: Ontology-Driven Reasoning for Real-Time Assessment</title>
       <link>https://damslabumbc.github.io/publication/compandsec2025/</link>
-      <pubDate>Fri, 24 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
       <guid>https://damslabumbc.github.io/publication/compandsec2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Context-Aware Benchmarking Approach for Scenario-Based Evaluation of Smart Devices</title>
+      <link>https://damslabumbc.github.io/publication/iotconf2025/</link>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/publication/iotconf2025/</guid>
       <description></description>
     </item>
     
@@ -652,6 +793,14 @@ regions of the ship.&lt;/p&gt;
       <link>https://damslabumbc.github.io/admin/config.yml</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://damslabumbc.github.io/admin/config.yml</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://damslabumbc.github.io/alumni/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/alumni/</guid>
       <description></description>
     </item>
     

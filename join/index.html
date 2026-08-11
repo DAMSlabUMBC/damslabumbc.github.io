@@ -30,7 +30,7 @@
   
     
   
-  <meta name="description" content="Our group welcomes applicants from any race, ethnicity, religion, national origin, gender identity, gender expression, caregiver and family commitments, political affiliation, sexual orientation, and eligible age or disability status. Furthermore, we are committed to maintaining a supportive and collaborative group environment." />
+  <meta name="description" content=".join-lead { font-size: 1.05rem; line-height: 1.6; } .join-paths { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.1rem; margin: 1.6rem 0 2rem; } .join-path { border: 1px solid rgba(128,128,128,.25); border-radius: 10px; padding: 1." />
 
   
   <link rel="alternate" hreflang="en-us" href="https://damslabumbc.github.io/join/" />
@@ -289,7 +289,7 @@
   <meta property="og:site_name" content="DAMS Research Group" />
   <meta property="og:url" content="https://damslabumbc.github.io/join/" />
   <meta property="og:title" content="Join the DAMS group | DAMS Research Group" />
-  <meta property="og:description" content="Our group welcomes applicants from any race, ethnicity, religion, national origin, gender identity, gender expression, caregiver and family commitments, political affiliation, sexual orientation, and eligible age or disability status. Furthermore, we are committed to maintaining a supportive and collaborative group environment." /><meta property="og:image" content="https://damslabumbc.github.io/media/icon_hu302981aa99fa15a8a6e0a46294dd9bb8_23619_512x512_fill_lanczos_center_3.png" />
+  <meta property="og:description" content=".join-lead { font-size: 1.05rem; line-height: 1.6; } .join-paths { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.1rem; margin: 1.6rem 0 2rem; } .join-path { border: 1px solid rgba(128,128,128,.25); border-radius: 10px; padding: 1." /><meta property="og:image" content="https://damslabumbc.github.io/media/icon_hu302981aa99fa15a8a6e0a46294dd9bb8_23619_512x512_fill_lanczos_center_3.png" />
     <meta property="twitter:image" content="https://damslabumbc.github.io/media/icon_hu302981aa99fa15a8a6e0a46294dd9bb8_23619_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -414,60 +414,34 @@
         
 
         
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>People</span><span class="caret"></span>
+          </a>
+          <div class="dropdown-menu">
             
+              <a class="dropdown-item" href="/members"><span>Members</span></a>
             
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/members"><span>Members</span></a>
+              <a class="dropdown-item" href="/alumni"><span>Alumni</span></a>
+            
+          </div>
         </li>
 
         
         
 
         
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Research</span><span class="caret"></span>
+          </a>
+          <div class="dropdown-menu">
             
+              <a class="dropdown-item" href="/research"><span>Overview</span></a>
             
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/research"><span>Research</span></a>
+              <a class="dropdown-item" href="/research/#funding"><span>Funding</span></a>
+            
+              <a class="dropdown-item" href="/research/#projects"><span>Projects</span></a>
+            
+          </div>
         </li>
 
         
@@ -677,29 +651,103 @@
   <div class="article-container">
 
     <div class="article-style">
-      <p>Our group welcomes applicants from any race, ethnicity, religion, national origin, gender identity, gender expression, caregiver and family commitments, political affiliation, sexual orientation, and eligible age or disability status. Furthermore, we are committed to maintaining a supportive and collaborative group environment.</p>
+      <style>
+.join-lead { font-size: 1.05rem; line-height: 1.6; }
+.join-paths {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.1rem; margin: 1.6rem 0 2rem;
+}
+.join-path {
+  border: 1px solid rgba(128,128,128,.25); border-radius: 10px;
+  padding: 1.2rem 1.3rem;
+}
+.join-path .jp-head { display: flex; align-items: center; gap: .7rem; margin-bottom: .45rem; }
+.join-path .jp-ico { font-size: 1.45rem; opacity: .85; line-height: 1; }
+.join-path h3 { margin: 0; font-size: 1.1rem; }
+.join-path p { margin: 0 0 .7rem; font-size: .93rem; line-height: 1.5; }
+.join-path .jp-link { font-size: .9rem; font-weight: 600; }
+.join-steps { counter-reset: step; list-style: none; padding-left: 0; }
+.join-steps > li {
+  counter-increment: step; position: relative;
+  padding: .35rem 0 .35rem 2.5rem; font-size: .95rem; line-height: 1.55;
+}
+.join-steps > li::before {
+  content: counter(step);
+  position: absolute; left: 0; top: .35rem;
+  width: 1.7rem; height: 1.7rem; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: .85rem; font-weight: 700;
+  border: 2px solid rgba(128,128,128,.45);
+}
+.join-cta {
+  border-left: 4px solid rgba(128,128,128,.4);
+  padding: .8rem 1.1rem; margin: 1.6rem 0;
+  font-size: .96rem;
+}
+</style>
+<p class="join-lead">We build systems that sit between people and the sensors around them &mdash; in
+smart buildings, smart homes, and instrumented testbeds. If you like working on real deployments,
+semantic data models, or the privacy questions that come with connected devices, there is probably
+a project here for you.</p>
+<p>A good way to see what we actually do is to skim our <a href="/post/">recent news</a>, the
+<a href="/research/#projects">projects</a> we are building, and a couple of our
+<a href="/publication/">recent papers</a>.</p>
+<div class="join-paths">
+  <div class="join-path">
+    <div class="jp-head">
+      <span class="jp-ico">
+  <i class="fas fa-user-graduate  pr-1 fa-fw"></i></span>
+      <h3>Graduate students</h3>
+    </div>
+    <p>Ph.D. (direct or general admit), or thesis- and project-based master's research.</p>
+    <a class="jp-link" href="#graduate-students">How to reach out &rarr;</a>
+  </div>
+  <div class="join-path">
+    <div class="jp-head">
+      <span class="jp-ico">
+  <i class="fas fa-laptop-code  pr-1 fa-fw"></i></span>
+      <h3>Undergraduate students</h3>
+    </div>
+    <p>Research positions and research credit. No previous research experience required.</p>
+    <a class="jp-link" href="#undergraduate-students">What we look for &rarr;</a>
+  </div>
+</div>
+<p>Our group welcomes applicants from any race, ethnicity, religion, national origin, gender identity, gender expression, caregiver and family commitments, political affiliation, sexual orientation, and eligible age or disability status. Furthermore, we are committed to maintaining a supportive and collaborative group environment.</p>
 <p>See more about <a href="/uploads/DAMS_groupPolicies.pdf" target="_blank">our group policies</a>.</p>
-<h1 id="graduate-students">Graduate Students</h1>
-<p>If you&rsquo;re interested in pursuing a Ph.D. with either direct or general admit, or in thesis or project-based masters research, reach out to Prof. Yus by <a href="mailto:ryus@umbc.edu">email</a> with your: (1) CV, (2) a description of research experience and interests, and (3) specific information about why the DAMS group interests you.</p>
+<h2 id="graduate-students">Graduate students</h2>
+<p>If you&rsquo;re interested in pursuing a Ph.D. with either direct or general admit, or in thesis or project-based masters research, reach out to Prof. Yus by <a href="mailto:ryus@umbc.edu">email</a> with:</p>
+<ol class="join-steps">
+  <li>Your CV.</li>
+  <li>A description of your research experience and interests.</li>
+  <li>Specific information about why the DAMS group interests you.</li>
+</ol>
 <h3 id="applying-to-our-graduate-program">Applying to our graduate program</h3>
-<p>If you are interested in applying to the UMBC Computer Science graduate program, please check the information our the <a href="http://www.csee.umbc.edu/CSEE/grad/" target="_blank" rel="noopener">CSEE Grad programs</a>. Graduate admissions are done by a central Departmental committee that processes all applications and decides on admissions for the entire department. Individual faculty members may not accept students on their own but reach out to Prof. Yus by <a href="mailto:ryus@umbc.edu">email</a> if you are interested in applying and potentially being part of the DAMS group.</p>
-<h1 id="undergraduate-students">Undergraduate Students</h1>
+<p>If you are interested in applying to the UMBC Computer Science graduate program, please check the information on the <a href="http://www.csee.umbc.edu/CSEE/grad/" target="_blank" rel="noopener">CSEE Grad programs</a> page. Graduate admissions are done by a central Departmental committee that processes all applications and decides on admissions for the entire department. Individual faculty members may not accept students on their own — but do reach out to Prof. Yus by <a href="mailto:ryus@umbc.edu">email</a> if you are interested in applying and potentially being part of the DAMS group.</p>
+<h2 id="undergraduate-students">Undergraduate students</h2>
 <p>Students majoring in Computer Science are encouraged to apply.</p>
 <ul>
 <li>Previous research experience is not required.</li>
-<li>Students must be able to work an average of 10 hour per week.</li>
+<li>Students must be able to work an average of 10 hours per week.</li>
 <li>Demonstrated leadership and collaboration experience is a plus.</li>
 <li>Strong communication skills (written and oral) are a plus.</li>
 <li>Knowledge of programming languages (e.g., Java, Python), Web development (e.g., HTML, Javascript, React), and Databases (e.g., MySQL, PostgreSQL) are a plus.</li>
 </ul>
 <h3 id="why-do-research">Why do research?</h3>
-<p>Through undergraduate research, you’ll: 1) learn about the latest questions currently under scientific investigation and approaches being used to tackle them, 2) help solve real and important scientific problems, and 3) gain valuable experience in critical thinking, problem solving, collaboration, and communication.</p>
+<p>Through undergraduate research, you&rsquo;ll: 1) learn about the latest questions currently under scientific investigation and approaches being used to tackle them, 2) help solve real and important scientific problems, and 3) gain valuable experience in critical thinking, problem solving, collaboration, and communication.</p>
 <h3 id="what-will-you-do">What will you do?</h3>
-<p>The DAMS Group is focused on designing mechanisms to make IoT systems bridge the gap between user requirements and IoT device capabilities. Undergraduate researchers will generally work on projects related to the research areas of the group: 1) Data Management, 2) AI (Knowledge Representation &amp; Reasoning), and 3) Privacy. These may involve activities such as interacting with IoT devices and systems, writing code to extract insights from sensor data, integrate ML algorithms within an IoT system, etc.</p>
+<p>The DAMS Group is focused on designing mechanisms to make IoT systems bridge the gap between user requirements and IoT device capabilities. Undergraduate researchers will generally work on projects related to the research areas of the group: 1) Data Management, 2) AI (Knowledge Representation &amp; Reasoning), and 3) Privacy. These may involve activities such as interacting with IoT devices and systems, writing code to extract insights from sensor data, integrating ML algorithms within an IoT system, and so on.</p>
 <h3 id="what-are-the-hours-for-the-position">What are the hours for the position?</h3>
-<p>Apart from attendance at weekly group meetings, students are free to work according to a flexible schedule. So far during COVID, all work has been remote, though we do have a lab office available.</p>
+<p>Apart from attendance at weekly group meetings, students are free to work according to a flexible schedule. We have a lab office available.</p>
 <h3 id="how-do-i-apply">How do I apply?</h3>
-<p>If you’re interested in applying for a lab position or for research credit, you must read the <a href="/uploads/DAMS_Expectations_UGrad.pdf" target="_blank">DAMS Group Undergraduate Research Agreement</a> carefully to make sure you understand what’s involved. Then include in a single email: (1) your resume (PDF), (2) unofficial copy of your transcript (PDF); freshman can send high school transcript (PDF), and (3) one page or less explaining why you&rsquo;d like to work in our lab (PDF). To write this well, I suggest you look at some of our papers from the last few years to orient yourself to our current projects. Make the subject of your email &ldquo;Undergrad Application&rdquo; and send this to <a href="mailto:ryus@umbc.edu">Prof. Yus</a>.</p>
+<p>First, read the <a href="/uploads/DAMS_Expectations_UGrad.pdf" target="_blank">DAMS Group Undergraduate Research Agreement</a> carefully to make sure you understand what&rsquo;s involved. Then send a single email to <a href="mailto:ryus@umbc.edu">Prof. Yus</a> with the subject line <strong>&ldquo;Undergrad Application&rdquo;</strong>, including:</p>
+<ol class="join-steps">
+  <li>Your resume (PDF).</li>
+  <li>An unofficial copy of your transcript (PDF). Freshmen can send a high school transcript.</li>
+  <li>One page or less explaining why you'd like to work in our lab (PDF).</li>
+</ol>
+<div class="join-cta">
+To write that last one well, look through a few of our <a href="/publication/">papers from the last few years</a> to orient yourself to our current projects &mdash; and say which ones interest you and why.
+</div>
 <p><em>Page content inspired by <a href="https://atomslab.github.io/" target="_blank" rel="noopener">ATOMS lab @ UMBC</a></em></p>
 
     </div>

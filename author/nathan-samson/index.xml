@@ -5,12 +5,28 @@
     <link>https://damslabumbc.github.io/author/nathan-samson/</link>
       <atom:link href="https://damslabumbc.github.io/author/nathan-samson/index.xml" rel="self" type="application/rss+xml" />
     <description>Nathan Samson</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Mon, 16 Mar 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://damslabumbc.github.io/author/nathan-samson/avatar_hu601d4c93fcd702136ede9b7f4f02d1c8_104568_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Nathan Samson</title>
       <link>https://damslabumbc.github.io/author/nathan-samson/</link>
     </image>
+    
+    <item>
+      <title>Artifact: PSMark: A Distributed IoT Benchmark for Publish/Subscribe Under Domain-Based Workloads</title>
+      <link>https://damslabumbc.github.io/publication/percom-artifact-2026/</link>
+      <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/publication/percom-artifact-2026/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PSMark: A Distributed IoT Benchmark for Publish/Subscribe Under Domain-Based Workloads</title>
+      <link>https://damslabumbc.github.io/publication/percom-2026/</link>
+      <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/publication/percom-2026/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

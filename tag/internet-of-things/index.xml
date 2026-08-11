@@ -5,7 +5,7 @@
     <link>https://damslabumbc.github.io/tag/internet-of-things/</link>
       <atom:link href="https://damslabumbc.github.io/tag/internet-of-things/index.xml" rel="self" type="application/rss+xml" />
     <description>Internet of Things</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Fri, 24 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Tue, 30 Jun 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://damslabumbc.github.io/media/icon_hu302981aa99fa15a8a6e0a46294dd9bb8_23619_512x512_fill_lanczos_center_3.png</url>
       <title>Internet of Things</title>
@@ -13,9 +13,33 @@
     </image>
     
     <item>
+      <title>Towards Fast Detection of Suspicious Bluetooth Trackers using Anomaly Detection</title>
+      <link>https://damslabumbc.github.io/publication/wisec-2026/</link>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/publication/wisec-2026/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Artifact: PSMark: A Distributed IoT Benchmark for Publish/Subscribe Under Domain-Based Workloads</title>
+      <link>https://damslabumbc.github.io/publication/percom-artifact-2026/</link>
+      <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/publication/percom-artifact-2026/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PSMark: A Distributed IoT Benchmark for Publish/Subscribe Under Domain-Based Workloads</title>
+      <link>https://damslabumbc.github.io/publication/percom-2026/</link>
+      <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/publication/percom-2026/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Scalable Automation for IoT CyberSecurity Compliance: Ontology-Driven Reasoning for Real-Time Assessment</title>
       <link>https://damslabumbc.github.io/publication/compandsec2025/</link>
-      <pubDate>Fri, 24 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
       <guid>https://damslabumbc.github.io/publication/compandsec2025/</guid>
       <description></description>
     </item>

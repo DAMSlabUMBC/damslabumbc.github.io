@@ -5,12 +5,47 @@
     <link>https://damslabumbc.github.io/post/</link>
       <atom:link href="https://damslabumbc.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Latest News</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Mon, 20 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Tue, 30 Jun 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://damslabumbc.github.io/media/icon_hu302981aa99fa15a8a6e0a46294dd9bb8_23619_512x512_fill_lanczos_center_3.png</url>
       <title>Latest News</title>
       <link>https://damslabumbc.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>Paper accepted at WiSec 2026!</title>
+      <link>https://damslabumbc.github.io/post/6-30-2026-wisec-bluetooth/</link>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/post/6-30-2026-wisec-bluetooth/</guid>
+      <description>&lt;p&gt;Our paper on speeding up the detection of suspicious Bluetooth trackers, in collaboration with Portland State University, has been accepted at the 19th ACM Conference on Security and Privacy in Wireless and Mobile Networks (WiSec) 2026.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Towards Fast Detection of Suspicious Bluetooth Trackers using Anomaly Detection&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Orobosa Ekhator, Dylan Conklin, Primal Pappachan, and Roberto Yus&lt;/p&gt;
+&lt;p&gt;Detecting malicious Bluetooth Low Energy (BLE) trackers remains challenging because existing approaches rely on fixed time and distance thresholds that are brittle across environments. These heuristics produce false positives in dense environments and require long observation windows before flagging a device. To address these limitations, we present BL(u)E CRAB, a cross-platform (iOS/Android) mobile system that represents nearby devices using three risk factors derived from BLE scan data. Our detection model adapts Clustering-Based Local Outlier Factor (CBLOF) to BLE tracker detection and adds a gap-thresholding mechanism to separate high-scoring outliers from the benign majority. Across micro-benchmarks and end-to-end case studies, CBLOF reduces false positives up to 77% and false negatives up to 20% compared to the state of the art. In our case studies, suspicious trackers are typically detected within 5 minutes of scanning, improving practical usability for real-world deployment.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Roberto Yus receives NSF CAREER award!</title>
+      <link>https://damslabumbc.github.io/post/6-7-2026-nsf-career/</link>
+      <pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/post/6-7-2026-nsf-career/</guid>
+      <description>&lt;p&gt;Roberto Yus has received a National Science Foundation CAREER award for &lt;em&gt;Towards a Sensorless Internet of Things through Sensor Data Management Abstraction&lt;/em&gt;. The five-year award (NSF #2542782, $599,184, July 2026 – June 2031) is funded by NSF&amp;rsquo;s Division of Information and Intelligent Systems.&lt;/p&gt;
+&lt;p&gt;Although IoT deployments collect enormous amounts of sensor data, making use of it still requires knowing which sensors to query, which machine learning models to run, and how to stitch the results together — expertise most organizations do not have. This project introduces a semantic abstraction layer that hides that complexity, so users can ask directly for high-level concepts such as occupancy or energy consumption and let the system work out which sensors, models, and data pipelines are needed to answer them.&lt;/p&gt;
+&lt;p&gt;The research is organized around three thrusts: formal modeling and optimization of queries over abstracted sensor data, self-driving abstraction planning across heterogeneous databases, and extending the approach to federated settings with privacy constraints. The work will be validated on real deployments, including UMBC&amp;rsquo;s smart campus, manufacturing testbeds, and smart home laboratories.&lt;/p&gt;
+&lt;p&gt;The award also supports education and outreach, including new university course material, high school internships, and summer programs for Baltimore-area students.&lt;/p&gt;
+&lt;p&gt;Read more in the &lt;a href=&#34;https://my3.my.umbc.edu/groups/csee/posts/160589&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UMBC CSEE announcement&lt;/a&gt; and the &lt;a href=&#34;https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2542782&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NSF award page&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Paper and artifact accepted at PerCom 2026!</title>
+      <link>https://damslabumbc.github.io/post/3-16-2026-percom-psmark/</link>
+      <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/post/3-16-2026-percom-psmark/</guid>
+      <description>&lt;p&gt;Our paper on benchmarking publish/subscribe systems for distributed IoT deployments has been accepted at the IEEE International Conference on Pervasive Computing and Communications (PerCom) 2026, together with an accompanying artifact paper at PerCom Workshops.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;PSMark: A Distributed IoT Benchmark for Publish/Subscribe Under Domain-Based Workloads&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Artifact: PSMark: A Distributed IoT Benchmark for Publish/Subscribe Under Domain-Based Workloads&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Christian Badolato, Nathan Samson, Houssam Hajj Hassan, Chih-Kai Huang, Georgios Bouloukakis, Primal Pappachan, and Roberto Yus&lt;/p&gt;
+&lt;p&gt;The Publish/Subscribe (pub/sub) paradigm is widely used in the Internet of Things (IoT). Standalone sensors, wearables, and other devices act as producers that publish messages to consumers such as edge servers or even other IoT devices. Selecting and configuring a pub/sub protocol for an IoT system requires considering network requirements, device reliability, and required Quality-of-Service guarantees. Pub/sub benchmarking suites can help compare expected behavior of various protocols, implementations, and network configurations. However, current pub/sub benchmarks focus primarily on stress testing systems assuming mostly static configurations of homogeneous publishers which are not representative of real-world IoT deployments. To address this, we present PSMark, a distributed, multi-protocol benchmark for evaluating topic-filtered pub/sub systems under workloads representative of real-world IoT environments. PSMark supports (i) workloads representative of heterogeneous IoT device deployments including variations in device communication parameters, (ii) evaluation of distributed IoT deployments with multiple data aggregation servers, (iii) cross-protocol measurements across MQTT and DDS, with extensibility to additional protocols, and (iv) a modular design for adding additional metrics and interfaces. We further construct twelve IoT-focused workloads derived from seven real-world datasets in the domains of manufacturing, healthcare, smart homes, and smart cities. Finally, we benchmark five popular MQTT brokers and one DDS implementation using PSMark and analyze their performance across multiple testbeds and Quality-of-Service settings.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Paper accepted at IoT 2025!</title>

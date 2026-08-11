@@ -5,12 +5,36 @@
     <link>https://damslabumbc.github.io/author/georgios-bouloukakis/</link>
       <atom:link href="https://damslabumbc.github.io/author/georgios-bouloukakis/index.xml" rel="self" type="application/rss+xml" />
     <description>Georgios Bouloukakis</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Mon, 16 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Mon, 16 Mar 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://damslabumbc.github.io/author/georgios-bouloukakis/avatar_hua158259ff089ad1499683b8beb69b887_122299_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Georgios Bouloukakis</title>
       <link>https://damslabumbc.github.io/author/georgios-bouloukakis/</link>
     </image>
+    
+    <item>
+      <title>Artifact: PSMark: A Distributed IoT Benchmark for Publish/Subscribe Under Domain-Based Workloads</title>
+      <link>https://damslabumbc.github.io/publication/percom-artifact-2026/</link>
+      <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/publication/percom-artifact-2026/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PSMark: A Distributed IoT Benchmark for Publish/Subscribe Under Domain-Based Workloads</title>
+      <link>https://damslabumbc.github.io/publication/percom-2026/</link>
+      <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/publication/percom-2026/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Context-Aware Benchmarking Approach for Scenario-Based Evaluation of Smart Devices</title>
+      <link>https://damslabumbc.github.io/publication/iotconf2025/</link>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/publication/iotconf2025/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>DEMO: Web-CozyBench - A Web-Based Platform to Benchmark Thermal Comfort Provision using Digital Twins</title>

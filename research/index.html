@@ -414,60 +414,34 @@
         
 
         
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>People</span><span class="caret"></span>
+          </a>
+          <div class="dropdown-menu">
             
+              <a class="dropdown-item" href="/members"><span>Members</span></a>
             
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/members"><span>Members</span></a>
+              <a class="dropdown-item" href="/alumni"><span>Alumni</span></a>
+            
+          </div>
         </li>
 
         
         
 
         
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Research</span><span class="caret"></span>
+          </a>
+          <div class="dropdown-menu">
             
+              <a class="dropdown-item" href="/research"><span>Overview</span></a>
             
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/research" data-target="[]"><span>Research</span></a>
+              <a class="dropdown-item" href="/research/#funding"><span>Funding</span></a>
+            
+              <a class="dropdown-item" href="/research/#projects"><span>Projects</span></a>
+            
+          </div>
         </li>
 
         
@@ -695,16 +669,64 @@
 
 
   <div class="col-12">
-    <p>The <strong><a href="">UMBC DAMS Research Group</a></strong> focuses on four main areas of research:</p>
-<p>
-  <i class="fas fa-database  pr-1 fa-fw"></i> Data Management<br>
-
-  <i class="fas fa-network-wired  pr-1 fa-fw"></i> Knowledge Representation &amp; Reasoning<br>
-
-  <i class="fas fa-user-secret  pr-1 fa-fw"></i> Privacy<br>
-
-  <i class="fas fa-wifi  pr-1 fa-fw"></i> Internet of Things</p>
-<p>The global IoT market size is projected to reach $1,000B by 2026 with dozens of billions of smart devices connected to the Internet by then. The expectations of individuals with respect to their privacy are also increasing and new legislation to protect individuals' privacy (such as Europe&rsquo;s GPDR, California&rsquo;s CCPA, Brazil&rsquo;s LGPD, and India’s PDPB) is emerging worldwide. The large amounts of highly heterogeneous data captured by those devices will require further processing (e.g., using machine learning algorithms) to become useful, but sometimes sensitive, inferences that applications and people can use.
+    <style>
+.area-grid {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.1rem; margin: 1.4rem 0 2rem;
+}
+.area-card {
+  border: 1px solid rgba(128,128,128,.25); border-radius: 10px;
+  padding: 1.15rem 1.25rem;
+}
+.area-card .area-head { display: flex; align-items: center; gap: .7rem; margin-bottom: .5rem; }
+.area-card .area-ico { font-size: 1.5rem; opacity: .85; line-height: 1; }
+.area-card h3 { margin: 0; font-size: 1.08rem; line-height: 1.25; }
+.area-card p { margin: 0; font-size: .92rem; line-height: 1.5; opacity: .95; }
+</style>
+<p>The <strong><a href="/">UMBC DAMS Research Group</a></strong> focuses on four main areas of research.</p>
+<div class="area-grid">
+  <div class="area-card">
+    <div class="area-head">
+      <span class="area-ico">
+  <i class="fas fa-database  pr-1 fa-fw"></i></span>
+      <h3>Data Management</h3>
+    </div>
+    <p>Data management for the scale and heterogeneity of sensor data: query processing over
+    sensor observations, benchmarking the middleware that moves the data around, and systems
+    that turn raw readings into something applications can actually query.</p>
+  </div>
+  <div class="area-card">
+    <div class="area-head">
+      <span class="area-ico">
+  <i class="fas fa-network-wired  pr-1 fa-fw"></i></span>
+      <h3>Knowledge Representation &amp; Reasoning</h3>
+    </div>
+    <p>Semantic models, ontologies, and knowledge graphs that describe smart spaces, the
+    devices in them, and the people who use them &mdash; so systems can reason about high-level
+    concepts such as occupancy or comfort instead of raw sensor output.</p>
+  </div>
+  <div class="area-card">
+    <div class="area-head">
+      <span class="area-ico">
+  <i class="fas fa-user-secret  pr-1 fa-fw"></i></span>
+      <h3>Privacy</h3>
+    </div>
+    <p>Understanding what connected devices reveal about people, and building technology that
+    lets individuals express and enforce their privacy preferences &mdash; from analyzing privacy
+    policies and regulation to privacy-aware data management.</p>
+  </div>
+  <div class="area-card">
+    <div class="area-head">
+      <span class="area-ico">
+  <i class="fas fa-wifi  pr-1 fa-fw"></i></span>
+      <h3>Internet of Things</h3>
+    </div>
+    <p>Building, deploying, and measuring real systems in real spaces &mdash; smart campus
+    buildings, smart homes, and instrumented testbeds &mdash; and studying how devices behave
+    once they are actually out there.</p>
+  </div>
+</div>
+<p>The global IoT market size is projected to reach $1,000B by 2026 with dozens of billions of smart devices connected to the Internet by then. The expectations of individuals with respect to their privacy are also increasing and new legislation to protect individuals' privacy (such as Europe&rsquo;s GPDR, California&rsquo;s CCPA, Brazil&rsquo;s LGPD, and India&rsquo;s PDPB) is emerging worldwide. The large amounts of highly heterogeneous data captured by those devices will require further processing (e.g., using machine learning algorithms) to become useful, but sometimes sensitive, inferences that applications and people can use.
 In the DAMS group we deal with upcoming challenges in IoT data management, especially due to the massive scale and heterogeneity of data and strong privacy requirements. In particular, we aim to:</p>
 <ul>
 <li>Bridge the gap that exists between raw data (e.g., data captured by sensors) and semantically meaningful data that is easily understood by people (e.g., inferences extracted from sensor observations).</li>
@@ -713,6 +735,226 @@ In the DAMS group we deal with upcoming challenges in IoT data management, espec
 <li>Deal with upcoming challenges in data management in the context of the Internet of Things.</li>
 <li>Develop prototypes of the approaches/systems designed as part of the research tasks and deploy them in the real world.</li>
 </ul>
+
+  </div>
+
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="funding" class="home-section wg-blank  " style="padding: 20px 0 20px 0;" >
+   <div class="home-section-bg " ></div>
+    <div class="container">
+
+    
+      <div class="row  justify-content-center">
+      
+        
+          <div class="section-heading col-12 mb-3 text-center">
+            <h1 class="mb-0">Funding</h1>
+            
+          </div>
+        
+      
+    
+
+      
+
+
+
+  <div class="col-12">
+    <style>
+.grant-section-head {
+  display: flex; align-items: baseline; justify-content: space-between;
+  flex-wrap: wrap; gap: .5rem;
+  border-bottom: 2px solid rgba(128,128,128,.35);
+  padding-bottom: .4rem; margin: 1.6rem 0 1.2rem;
+}
+.grant-section-head h3 { margin: 0; font-size: 1.4rem; }
+.grant-total { font-size: 1.2rem; font-weight: 700; white-space: nowrap; }
+.grant-total small { display:block; font-size:.7rem; font-weight:400; opacity:.75; text-align:right; }
+.grant {
+  display: flex; gap: 1.25rem; align-items: flex-start;
+  padding: 1rem 0; border-bottom: 1px solid rgba(128,128,128,.2);
+}
+.grant:last-child { border-bottom: 0; }
+.grant-logo { flex: 0 0 92px; width: 92px; text-align: center; padding-top: .15rem; }
+.grant-logo img {
+  display: block; margin-left: auto; margin-right: auto;
+  max-width: 100%; max-height: 62px; width: auto; height: auto;
+}
+.grant-body { flex: 1 1 auto; min-width: 0; }
+.grant-title { font-size: 1.02rem; font-weight: 600; margin: 0 0 .3rem; line-height: 1.35; }
+.grant-meta { font-size: .9rem; opacity: .9; margin: 0; }
+.grant-meta .sep { opacity: .5; margin: 0 .45rem; }
+.grant-amount { font-weight: 700; }
+@media (max-width: 500px) {
+  .grant { gap: .8rem; }
+  .grant-logo { flex-basis: 62px; width: 62px; }
+  .grant-logo img { max-height: 46px; }
+}
+</style>
+<p>Our research is supported by the following grants.</p>
+<div class="grant-section-head">
+  <h3>External Funding</h3>
+  <div class="grant-total">$1,628,829<small>total</small></div>
+</div>
+<div class="grant">
+  <div class="grant-logo"><img src="/img/logos/nsf.png" alt="National Science Foundation"></div>
+  <div class="grant-body">
+    <p class="grant-title">CAREER: Towards a Sensorless Internet of Things through Sensor Data Management Abstraction</p>
+    <p class="grant-meta">
+      <span class="grant-amount">$599,184</span><span class="sep">|</span>Jul 2026 &ndash; Jun 2031<span class="sep">|</span>PI: R. Yus<br>
+      <a href="https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2542782" target="_blank" rel="noopener">NSF #2542782</a>
+    </p>
+  </div>
+</div>
+<div class="grant">
+  <div class="grant-logo"><img src="/img/logos/nsf.png" alt="National Science Foundation"></div>
+  <div class="grant-body">
+    <p class="grant-title">SFS AI + Cybersecurity: Preparing the Next Generation of Artificial Intelligence and Cybersecurity Professionals</p>
+    <p class="grant-meta">
+      <span class="grant-amount">$969,645</span><span class="sep">|</span>Aug 2025 &ndash; Jul 2028<span class="sep">|</span>PI: A. Sherman; Co-PI: R. Yus<br>
+      <a href="https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2438185" target="_blank" rel="noopener">NSF #2438185</a>
+    </p>
+  </div>
+</div>
+<div class="grant">
+  <div class="grant-logo"><img src="/img/logos/nsf.png" alt="National Science Foundation"></div>
+  <div class="grant-body">
+    <p class="grant-title">Travel: Fellowships for Students from U.S. Universities to Attend ISWC 2024</p>
+    <p class="grant-meta">
+      <span class="grant-amount">$20,000</span><span class="sep">|</span>Jul 2024 &ndash; Dec 2024<span class="sep">|</span>PI: R. Yus; Co-PI: K. Joshi<br>
+      <a href="https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2432111" target="_blank" rel="noopener">NSF #2432111</a>
+    </p>
+  </div>
+</div>
+<div class="grant">
+  <div class="grant-logo"><img src="/img/logos/incs.png" alt="INCS-CoE"></div>
+  <div class="grant-body">
+    <p class="grant-title">International Digital Trust Framework (Seed Funding)</p>
+    <p class="grant-meta">
+      <span class="grant-amount">$40,000</span><span class="sep">|</span>Jun 2022 &ndash; Dec 2022<span class="sep">|</span>PIs: R. Yus, N. Karimi, S. Kai, T. Kondo, M. Sel, N. Panteli, K. Mersinas
+    </p>
+  </div>
+</div>
+<div class="grant-section-head">
+  <h3>Internal Funding</h3>
+  <div class="grant-total">$166,500<small>total</small></div>
+</div>
+<div class="grant">
+  <div class="grant-logo"><img src="/img/logos/umbc.png" alt="University of Maryland, Baltimore County"></div>
+  <div class="grant-body">
+    <p class="grant-title">Optimizing AI Workflows for Reliable, Low-Cost Agentic Systems</p>
+    <p class="grant-meta">
+      <span class="grant-amount">$25,000</span><span class="sep">|</span>Aug 2026 &ndash; Aug 2027<span class="sep">|</span>PI: R. Yus<br>
+      UMBC Strategic Awards for Research Transitions (START)
+    </p>
+  </div>
+</div>
+<div class="grant">
+  <div class="grant-logo"><img src="/img/logos/umbc.png" alt="University of Maryland, Baltimore County"></div>
+  <div class="grant-body">
+    <p class="grant-title">SPACES: Learning by Making UMBC Smarter &mdash; A Reusable Framework for Interdisciplinary, Service-Learning Projects</p>
+    <p class="grant-meta">
+      <span class="grant-amount">$24,500</span><span class="sep">|</span>Jan 2026 &ndash; Jan 2028<span class="sep">|</span>PI: R. Yus<br>
+      UMBC Hrabowski Innovation Fund
+    </p>
+  </div>
+</div>
+<div class="grant">
+  <div class="grant-logo"><img src="/img/logos/umbc.png" alt="University of Maryland, Baltimore County"></div>
+  <div class="grant-body">
+    <p class="grant-title">Cybersecurity Graduate Fellows program</p>
+    <p class="grant-meta">
+      <span class="grant-amount">$45,500</span><span class="sep">|</span>Jan 2025 &ndash; Dec 2025<span class="sep">|</span>PI: R. Yus<br>
+      UMBC Cybersecurity Institute
+    </p>
+  </div>
+</div>
+<div class="grant">
+  <div class="grant-logo"><img src="/img/logos/umbc.png" alt="University of Maryland, Baltimore County"></div>
+  <div class="grant-body">
+    <p class="grant-title">A Multidisciplinary Approach to Developing a Community-driven Framework for Sensorization in Assisted Living Communities</p>
+    <p class="grant-meta">
+      <span class="grant-amount">$20,000</span><span class="sep">|</span>Sep 2025 &ndash; Aug 2026<span class="sep">|</span>PIs: R. Yus, T. Reynolds<br>
+      UMBC COEIT Interdisciplinary Proposal (CIP) Award
+    </p>
+  </div>
+</div>
+<div class="grant">
+  <div class="grant-logo"><img src="/img/logos/umbc.png" alt="University of Maryland, Baltimore County"></div>
+  <div class="grant-body">
+    <p class="grant-title">Evaluation of standards and methods that claim to prove the authenticity of electronic audio-visual content</p>
+    <p class="grant-meta">
+      <span class="grant-amount">$50,000</span><span class="sep">|</span>Jan 2025 &ndash; Jun 2026<span class="sep">|</span>PI: K. Kullman; Co-PIs: E. Golaszewski, R. Yus, A. Sherman<br>
+      UMBC Center and Institute Departmentally-Engaged Research (CIDER) Grant Program
+    </p>
+  </div>
+</div>
+<div class="grant">
+  <div class="grant-logo"><img src="/img/logos/umbc.png" alt="University of Maryland, Baltimore County"></div>
+  <div class="grant-body">
+    <p class="grant-title">Supplement for Undergraduate Research Experiences (SURE) award</p>
+    <p class="grant-meta">
+      <span class="grant-amount">$1,500</span><span class="sep">|</span>Sep 2022 &ndash; May 2023<span class="sep">|</span>PI: R. Yus<br>
+      UMBC
+    </p>
+  </div>
+</div>
 
   </div>
 
