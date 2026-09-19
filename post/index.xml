@@ -5,12 +5,22 @@
     <link>https://damslabumbc.github.io/post/</link>
       <atom:link href="https://damslabumbc.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Latest News</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Tue, 30 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Mon, 24 Aug 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://damslabumbc.github.io/media/logo_hu047037e1b297a4ac9228434653f60124_26532_300x300_fit_lanczos_3.png</url>
       <title>Latest News</title>
       <link>https://damslabumbc.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>Fall 2026 group meetings start this Friday!</title>
+      <link>https://damslabumbc.github.io/post/8-24-2026-fall-group-meetings/</link>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/post/8-24-2026-fall-group-meetings/</guid>
+      <description>&lt;p&gt;The DAMS lab&amp;rsquo;s Fall 2026 group meetings begin this Friday, August 28. We will meet every Friday from 12:00 to 1:00 pm in ITE 325b.&lt;/p&gt;
+&lt;p&gt;Each week we will have an invited talk, discuss early ideas, work in progress, or results heading for submission with plenty of room left for questions and discussion.&lt;/p&gt;
+&lt;p&gt;The meetings are open to all. Whether you are curious about what the group is up to, thinking about joining, or looking for people to collaborate with, please stop by. No need to let us know in advance.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Paper accepted at WiSec 2026!</title>
