@@ -5,12 +5,24 @@
     <link>https://damslabumbc.github.io/post/</link>
       <atom:link href="https://damslabumbc.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Latest News</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Mon, 24 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Tue, 29 Sep 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://damslabumbc.github.io/media/logo_hu047037e1b297a4ac9228434653f60124_26532_300x300_fit_lanczos_3.png</url>
       <title>Latest News</title>
       <link>https://damslabumbc.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>Invited talk by Shomir Wilson this Friday!</title>
+      <link>https://damslabumbc.github.io/post/9-29-2026-shomir-wilson-talk/</link>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/post/9-29-2026-shomir-wilson-talk/</guid>
+      <description>&lt;p&gt;Shomir Wilson (Penn State) will give an invited talk at this Friday&amp;rsquo;s DAMS lab meeting, October 2, from 12:00 to 1:00 pm. The talk will be held online and is open to all — please &lt;a href=&#34;https://damslabumbc.github.io/#contact&#34;&gt;get in touch&lt;/a&gt; for the joining link.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sociotechnical NLP: Privacy, Biases, Safety, and Beyond&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Natural language processing (NLP) has profoundly impacted how people use and perceive artificial intelligence (AI). I will present vignettes from my lab&amp;rsquo;s research to study the sociotechnical capabilities and limitations of NLP systems. Results from this work include human language technologies to support consumer privacy, measurement of the demographic biases of large language models (LLMs), and assessments of LLMs&#39; social intelligence. I will conclude with observations on the human context of research, especially mentoring and research communication.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;About the speaker&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Shomir Wilson is an Associate Professor in the College of Information Sciences and Technology at the Pennsylvania State University, where he leads the Human Language Technologies Lab. Prior to becoming faculty he held postdoctoral positions at Carnegie Mellon University and the University of Edinburgh, and he received his Ph.D. in Computer Science from the University of Maryland. His research interests span natural language processing, privacy, and computational social science. His work has been funded by the National Science Foundation and the National Institutes of Health. For more about his work, visit &lt;a href=&#34;https://shomir.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shomir.net&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Fall 2026 group meetings start this Friday!</title>
