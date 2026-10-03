@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Marc Sel | DAMS Research Group</title>
+    <link>https://damslabumbc.github.io/author/marc-sel/</link>
+      <atom:link href="https://damslabumbc.github.io/author/marc-sel/index.xml" rel="self" type="application/rss+xml" />
+    <description>Marc Sel</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Tue, 11 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://damslabumbc.github.io/media/logo_hu047037e1b297a4ac9228434653f60124_26532_300x300_fit_lanczos_3.png</url>
+      <title>Marc Sel</title>
+      <link>https://damslabumbc.github.io/author/marc-sel/</link>
+    </image>
+    
+    <item>
+      <title>International Mutual Recognition: A Description of Trust Services in US, UK, EU and JP and the Testbed “Hakoniwa”</title>
+      <link>https://damslabumbc.github.io/publication/secrypt-2023/</link>
+      <pubDate>Tue, 11 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/publication/secrypt-2023/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

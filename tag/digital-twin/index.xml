@@ -5,12 +5,20 @@
     <link>https://damslabumbc.github.io/tag/digital-twin/</link>
       <atom:link href="https://damslabumbc.github.io/tag/digital-twin/index.xml" rel="self" type="application/rss+xml" />
     <description>Digital Twin</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Mon, 16 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Fri, 01 Aug 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://damslabumbc.github.io/media/logo_hu047037e1b297a4ac9228434653f60124_26532_300x300_fit_lanczos_3.png</url>
       <title>Digital Twin</title>
       <link>https://damslabumbc.github.io/tag/digital-twin/</link>
     </image>
+    
+    <item>
+      <title>A customizable benchmarking tool for evaluating personalized thermal comfort provisioning in smart spaces using Digital Twins</title>
+      <link>https://damslabumbc.github.io/publication/pmc-2025/</link>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/publication/pmc-2025/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>DEMO: Web-CozyBench - A Web-Based Platform to Benchmark Thermal Comfort Provision using Digital Twins</title>
@@ -26,6 +34,28 @@
       <pubDate>Mon, 16 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://damslabumbc.github.io/publication/smartcomp-2025/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Co-zyBench</title>
+      <link>https://damslabumbc.github.io/project/co-zybench/</link>
+      <pubDate>Tue, 23 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/project/co-zybench/</guid>
+      <description>&lt;p&gt;Heating, Ventilation, and Air Conditioning (HVAC) systems account for 40% to 50% of energy
+usage in commercial buildings, so controlling them while preserving occupants&#39; comfort
+matters. State-of-the-art solutions use pervasive systems with sensors or smart devices to
+gauge individual thermal sensations, but assessing those methods is hard: real-world
+experiments are expensive, limited in access, and often overlook occupant and regional
+diversity.&lt;/p&gt;
+&lt;p&gt;Co-zyBench is a benchmark tool that takes a Digital Twin (DT) approach to evaluating
+personalized thermal comfort systems. It uses a co-simulation middleware interfacing
+between a DT of the smart building and its HVAC system and another DT representing
+occupants&#39; dynamic thermal preferences across spaces. Those DTs are generated from
+information about the space being evaluated, including data captured by its sensors.
+Co-zyBench reports metrics for energy consumption, thermal comfort, and occupant equality,
+and ships reference DTs based on standard buildings, HVAC systems, and occupants with
+diverse thermal preferences.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

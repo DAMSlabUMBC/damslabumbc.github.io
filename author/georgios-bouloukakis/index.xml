@@ -37,6 +37,14 @@
     </item>
     
     <item>
+      <title>A customizable benchmarking tool for evaluating personalized thermal comfort provisioning in smart spaces using Digital Twins</title>
+      <link>https://damslabumbc.github.io/publication/pmc-2025/</link>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/publication/pmc-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>DEMO: Web-CozyBench - A Web-Based Platform to Benchmark Thermal Comfort Provision using Digital Twins</title>
       <link>https://damslabumbc.github.io/publication/smartcompdemo-2025/</link>
       <pubDate>Mon, 16 Jun 2025 00:00:00 +0000</pubDate>
@@ -49,6 +57,14 @@
       <link>https://damslabumbc.github.io/publication/smartcomp-2025/</link>
       <pubDate>Mon, 16 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://damslabumbc.github.io/publication/smartcomp-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modeling Inhabited Smart Spaces to Support Interoperable IoT-Based Applications</title>
+      <link>https://damslabumbc.github.io/publication/mdm-2025/</link>
+      <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/publication/mdm-2025/</guid>
       <description></description>
     </item>
     
@@ -71,6 +87,14 @@
     </item>
     
     <item>
+      <title>Efficient Scheduling of Smart Building Energy Systems Using AI Planning</title>
+      <link>https://damslabumbc.github.io/publication/ict4s-2024/</link>
+      <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/publication/ict4s-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Co-zyBench: Using Co-Simulation and Digital Twins to Benchmark Thermal Comfort Provision in Smart Buildings</title>
       <link>https://damslabumbc.github.io/publication/percom-2024/</link>
       <pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate>
@@ -83,6 +107,14 @@
       <link>https://damslabumbc.github.io/publication/midd4dt-2023/</link>
       <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
       <guid>https://damslabumbc.github.io/publication/midd4dt-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SmartSPEC: A framework to generate customizable, semantics-based smart space datasets</title>
+      <link>https://damslabumbc.github.io/publication/pmc-2023/</link>
+      <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/publication/pmc-2023/</guid>
       <description></description>
     </item>
     

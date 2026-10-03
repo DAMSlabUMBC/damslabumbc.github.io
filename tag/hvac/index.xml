@@ -5,12 +5,20 @@
     <link>https://damslabumbc.github.io/tag/hvac/</link>
       <atom:link href="https://damslabumbc.github.io/tag/hvac/index.xml" rel="self" type="application/rss+xml" />
     <description>HVAC</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Mon, 16 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Fri, 01 Aug 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://damslabumbc.github.io/media/logo_hu047037e1b297a4ac9228434653f60124_26532_300x300_fit_lanczos_3.png</url>
       <title>HVAC</title>
       <link>https://damslabumbc.github.io/tag/hvac/</link>
     </image>
+    
+    <item>
+      <title>A customizable benchmarking tool for evaluating personalized thermal comfort provisioning in smart spaces using Digital Twins</title>
+      <link>https://damslabumbc.github.io/publication/pmc-2025/</link>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/publication/pmc-2025/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>DEMO: Web-CozyBench - A Web-Based Platform to Benchmark Thermal Comfort Provision using Digital Twins</title>

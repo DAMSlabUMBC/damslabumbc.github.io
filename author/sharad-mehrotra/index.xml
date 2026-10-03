@@ -5,12 +5,36 @@
     <link>https://damslabumbc.github.io/author/sharad-mehrotra/</link>
       <atom:link href="https://damslabumbc.github.io/author/sharad-mehrotra/index.xml" rel="self" type="application/rss+xml" />
     <description>Sharad Mehrotra</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Mon, 01 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Mon, 02 Jun 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://damslabumbc.github.io/media/logo_hu047037e1b297a4ac9228434653f60124_26532_300x300_fit_lanczos_3.png</url>
       <title>Sharad Mehrotra</title>
       <link>https://damslabumbc.github.io/author/sharad-mehrotra/</link>
     </image>
+    
+    <item>
+      <title>Modeling Inhabited Smart Spaces to Support Interoperable IoT-Based Applications</title>
+      <link>https://damslabumbc.github.io/publication/mdm-2025/</link>
+      <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/publication/mdm-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PrivacySphere: Privacy-Preserving Smart Spaces</title>
+      <link>https://damslabumbc.github.io/publication/tps-isa-2024/</link>
+      <pubDate>Mon, 28 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/publication/tps-isa-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SmartSPEC: A framework to generate customizable, semantics-based smart space datasets</title>
+      <link>https://damslabumbc.github.io/publication/pmc-2023/</link>
+      <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/publication/pmc-2023/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Sentaur: Sensor Observable Data Model for Smart Spaces</title>

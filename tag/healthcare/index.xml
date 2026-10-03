@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Healthcare | DAMS Research Group</title>
+    <link>https://damslabumbc.github.io/tag/healthcare/</link>
+      <atom:link href="https://damslabumbc.github.io/tag/healthcare/index.xml" rel="self" type="application/rss+xml" />
+    <description>Healthcare</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Fri, 01 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://damslabumbc.github.io/media/logo_hu047037e1b297a4ac9228434653f60124_26532_300x300_fit_lanczos_3.png</url>
+      <title>Healthcare</title>
+      <link>https://damslabumbc.github.io/tag/healthcare/</link>
+    </image>
+    
+    <item>
+      <title>Co-designing Sensorization Plans in the Nursing Home Setting</title>
+      <link>https://damslabumbc.github.io/publication/amia-2024/</link>
+      <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/publication/amia-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Perspectives on sensorization in the nursing home among administrators, staff, residents and their family members</title>
+      <link>https://damslabumbc.github.io/publication/gsa-2024/</link>
+      <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/publication/gsa-2024/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

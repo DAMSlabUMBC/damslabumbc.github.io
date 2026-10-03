@@ -45,6 +45,22 @@
     </item>
     
     <item>
+      <title>A customizable benchmarking tool for evaluating personalized thermal comfort provisioning in smart spaces using Digital Twins</title>
+      <link>https://damslabumbc.github.io/publication/pmc-2025/</link>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/publication/pmc-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modeling Inhabited Smart Spaces to Support Interoperable IoT-Based Applications</title>
+      <link>https://damslabumbc.github.io/publication/mdm-2025/</link>
+      <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/publication/mdm-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>BL(u)E CRAB: A User-Centric Framework for Identifying Suspicious Bluetooth Trackers</title>
       <link>https://damslabumbc.github.io/publication/percom-demo-bluecrab-2025/</link>
       <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
@@ -79,10 +95,42 @@
     </item>
     
     <item>
+      <title>Co-designing Sensorization Plans in the Nursing Home Setting</title>
+      <link>https://damslabumbc.github.io/publication/amia-2024/</link>
+      <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/publication/amia-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Perspectives on sensorization in the nursing home among administrators, staff, residents and their family members</title>
+      <link>https://damslabumbc.github.io/publication/gsa-2024/</link>
+      <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/publication/gsa-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PrivacySphere: Privacy-Preserving Smart Spaces</title>
+      <link>https://damslabumbc.github.io/publication/tps-isa-2024/</link>
+      <pubDate>Mon, 28 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/publication/tps-isa-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>GenAIPABench: A Benchmark for Generative AI-based Privacy Assistants</title>
       <link>https://damslabumbc.github.io/publication/popets-2024/</link>
       <pubDate>Thu, 18 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://damslabumbc.github.io/publication/popets-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient Scheduling of Smart Building Energy Systems Using AI Planning</title>
+      <link>https://damslabumbc.github.io/publication/ict4s-2024/</link>
+      <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/publication/ict4s-2024/</guid>
       <description></description>
     </item>
     
@@ -95,10 +143,40 @@
     </item>
     
     <item>
+      <title>Co-zyBench</title>
+      <link>https://damslabumbc.github.io/project/co-zybench/</link>
+      <pubDate>Tue, 23 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/project/co-zybench/</guid>
+      <description>&lt;p&gt;Heating, Ventilation, and Air Conditioning (HVAC) systems account for 40% to 50% of energy
+usage in commercial buildings, so controlling them while preserving occupants&#39; comfort
+matters. State-of-the-art solutions use pervasive systems with sensors or smart devices to
+gauge individual thermal sensations, but assessing those methods is hard: real-world
+experiments are expensive, limited in access, and often overlook occupant and regional
+diversity.&lt;/p&gt;
+&lt;p&gt;Co-zyBench is a benchmark tool that takes a Digital Twin (DT) approach to evaluating
+personalized thermal comfort systems. It uses a co-simulation middleware interfacing
+between a DT of the smart building and its HVAC system and another DT representing
+occupants&#39; dynamic thermal preferences across spaces. Those DTs are generated from
+information about the space being evaluated, including data captured by its sensors.
+Co-zyBench reports metrics for energy consumption, thermal comfort, and occupant equality,
+and ships reference DTs based on standard buildings, HVAC systems, and occupants with
+diverse thermal preferences.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>DEMSA: a DT-enabled Middleware for Self-adaptive Smart Spaces</title>
       <link>https://damslabumbc.github.io/publication/midd4dt-2023/</link>
       <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
       <guid>https://damslabumbc.github.io/publication/midd4dt-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SmartSPEC: A framework to generate customizable, semantics-based smart space datasets</title>
+      <link>https://damslabumbc.github.io/publication/pmc-2023/</link>
+      <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/publication/pmc-2023/</guid>
       <description></description>
     </item>
     

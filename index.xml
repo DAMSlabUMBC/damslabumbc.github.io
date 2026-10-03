@@ -262,6 +262,14 @@ To write that last one well, look through a few of our &lt;a href=&#34;https://d
     </item>
     
     <item>
+      <title>A customizable benchmarking tool for evaluating personalized thermal comfort provisioning in smart spaces using Digital Twins</title>
+      <link>https://damslabumbc.github.io/publication/pmc-2025/</link>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/publication/pmc-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>DEMO: Web-CozyBench - A Web-Based Platform to Benchmark Thermal Comfort Provision using Digital Twins</title>
       <link>https://damslabumbc.github.io/publication/smartcompdemo-2025/</link>
       <pubDate>Mon, 16 Jun 2025 00:00:00 +0000</pubDate>
@@ -274,6 +282,14 @@ To write that last one well, look through a few of our &lt;a href=&#34;https://d
       <link>https://damslabumbc.github.io/publication/smartcomp-2025/</link>
       <pubDate>Mon, 16 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://damslabumbc.github.io/publication/smartcomp-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modeling Inhabited Smart Spaces to Support Interoperable IoT-Based Applications</title>
+      <link>https://damslabumbc.github.io/publication/mdm-2025/</link>
+      <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/publication/mdm-2025/</guid>
       <description></description>
     </item>
     
@@ -372,6 +388,30 @@ To write that last one well, look through a few of our &lt;a href=&#34;https://d
     </item>
     
     <item>
+      <title>Co-designing Sensorization Plans in the Nursing Home Setting</title>
+      <link>https://damslabumbc.github.io/publication/amia-2024/</link>
+      <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/publication/amia-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Perspectives on sensorization in the nursing home among administrators, staff, residents and their family members</title>
+      <link>https://damslabumbc.github.io/publication/gsa-2024/</link>
+      <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/publication/gsa-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PrivacySphere: Privacy-Preserving Smart Spaces</title>
+      <link>https://damslabumbc.github.io/publication/tps-isa-2024/</link>
+      <pubDate>Mon, 28 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/publication/tps-isa-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>GenAIPABench: A Benchmark for Generative AI-based Privacy Assistants</title>
       <link>https://damslabumbc.github.io/publication/popets-2024/</link>
       <pubDate>Thu, 18 Jul 2024 00:00:00 +0000</pubDate>
@@ -389,6 +429,14 @@ To write that last one well, look through a few of our &lt;a href=&#34;https://d
 &lt;p&gt;&lt;em&gt;GenAIPABench: A Benchmark for Generative AI-based Privacy Assistants&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Aamir Hamid, Hemanth Reddy Samidi, Tim Finin (University of Maryland, Baltimore County,USA), Primal Pappachan (Portland State University,USA), Roberto Yus (University of Maryland, Baltimore County,USA)&lt;/p&gt;
 &lt;p&gt;The paper introduces GenAIPABench, a comprehensive benchmark designed to evaluate the performance of Generative AI-based Privacy Assistants in understanding and addressing privacy policy and data protection regulation queries. By providing a standardized framework for assessment, our work aims to propel forward the development of AI tools that support users in navigating privacy concerns more effectively. This acceptance not only highlights the importance of our research in the field of privacy technologies but also marks a significant milestone for our team&amp;rsquo;s ongoing efforts to improve digital privacy protection.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Efficient Scheduling of Smart Building Energy Systems Using AI Planning</title>
+      <link>https://damslabumbc.github.io/publication/ict4s-2024/</link>
+      <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/publication/ict4s-2024/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -419,6 +467,28 @@ To write that last one well, look through a few of our &lt;a href=&#34;https://d
 &lt;p&gt;&lt;em&gt;Co-zyBench: Using Co-Simulation and Digital Twins to Benchmark Thermal Comfort Provision in Smart Buildings&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Jun Ma (Telecom SudParis, France); Dimitrije Panic (Telecom SudParis, France); Roberto Yus (University of Maryland, Baltimore County, USA); Georgios Bouloukakis (Telecom SudParis, France)&lt;/p&gt;
 &lt;p&gt;Heating, Ventilation, and Air Conditioning (HVAC) systems account for 40% to 50% of energy usage in commercial buildings. Thus, innovative ways to control and manage HVAC systems while preserving occupants&#39; comfort are required. State-of-the-art solutions employ pervasive systems with sensors or smart devices to gauge individual thermal sensations, yet assessing these methods is challenging. Real-world experiments are expensive, limited in access, and often overlook occupant and regional diversity. To address this, we introduce Co-zyBench, a benchmark tool using a Digital Twin (DT) approach for evaluating personalized thermal comfort systems. It employs a co-simulation middleware interfacing between a DT of the smart building and its HVAC system and another DT representing occupants&#39; dynamic thermal preferences in various spaces. The DTs that support Co-zyBench are generated based on information, including data captured by sensors, of the space in which the thermal comfort system has to be evaluated. Co-zyBench incorporates metrics for energy consumption, thermal comfort, and occupant equality. It also features reference DTs based on standard buildings, HVAC systems, and occupants with diverse thermal preferences.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Co-zyBench</title>
+      <link>https://damslabumbc.github.io/project/co-zybench/</link>
+      <pubDate>Tue, 23 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/project/co-zybench/</guid>
+      <description>&lt;p&gt;Heating, Ventilation, and Air Conditioning (HVAC) systems account for 40% to 50% of energy
+usage in commercial buildings, so controlling them while preserving occupants&#39; comfort
+matters. State-of-the-art solutions use pervasive systems with sensors or smart devices to
+gauge individual thermal sensations, but assessing those methods is hard: real-world
+experiments are expensive, limited in access, and often overlook occupant and regional
+diversity.&lt;/p&gt;
+&lt;p&gt;Co-zyBench is a benchmark tool that takes a Digital Twin (DT) approach to evaluating
+personalized thermal comfort systems. It uses a co-simulation middleware interfacing
+between a DT of the smart building and its HVAC system and another DT representing
+occupants&#39; dynamic thermal preferences across spaces. Those DTs are generated from
+information about the space being evaluated, including data captured by its sensors.
+Co-zyBench reports metrics for energy consumption, thermal comfort, and occupant equality,
+and ships reference DTs based on standard buildings, HVAC systems, and occupants with
+diverse thermal preferences.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -464,7 +534,15 @@ To write that last one well, look through a few of our &lt;a href=&#34;https://d
       <pubDate>Thu, 30 Nov 2023 00:00:00 +0000</pubDate>
       <guid>https://damslabumbc.github.io/post/11-30-23-abrcms-presentation/</guid>
       <description>&lt;p&gt;This year, Ruhshana received the opportunity to attend the &lt;a href=&#34;https://www.abrcms.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Annual Biomedical Research Conference For Minoritized Scientists Conference (ABRCMS 2023)&lt;/a&gt; to present her group&amp;rsquo;s research poster focused on analyzing health conditions, privacy, and utility tradeoffs in smart home devices. ABRCMS took place in Phoenix, Arizona.&lt;/p&gt;
-&lt;p&gt;The research abstract and poster written and contributed to by Ruhshana Bobojonova, Luke Zimmerman, Tartela Tabassum, Josh Cheeks, and Dr. Roberto Yus were approved by the ABRCMS committee, and Ruhshana received the opportunity to present at one of the biggest biomedical research conferences in the nation. Ruhshana also attended workshops focused on setting students up for success in graduate school as well as networked with representatives from universities and biomedical companies. One of the biggest things that stood out to Ruhshana was UMBC&amp;rsquo;s big representation in the conference. There were many keynote speakers, faculty, and students who represented UMBC!&lt;/p&gt;</description>
+&lt;p&gt;The research abstract and poster written and contributed to by Ruhshana Bobojonova, Luke Zimmermann, Tartela Tabassum, Josh Cheeks, and Dr. Roberto Yus were approved by the ABRCMS committee, and Ruhshana received the opportunity to present at one of the biggest biomedical research conferences in the nation. Ruhshana also attended workshops focused on setting students up for success in graduate school as well as networked with representatives from universities and biomedical companies. One of the biggest things that stood out to Ruhshana was UMBC&amp;rsquo;s big representation in the conference. There were many keynote speakers, faculty, and students who represented UMBC!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>SmartSPEC: A framework to generate customizable, semantics-based smart space datasets</title>
+      <link>https://damslabumbc.github.io/publication/pmc-2023/</link>
+      <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/publication/pmc-2023/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -568,6 +646,14 @@ lack of transparency in the process and supply chain. This thesis presents a sys
 as a base representing standard elements of trust, constructed as an integration of state-of-the-art ontologies in the field. It also includes knowledge about the manufacturing process and the supply chain. With this information, the system uses a
 mechanism to address the concerns using SPARQL queries that can, among others, label potential trust issues in the manufacturing of electric vehicles. We showcase a
 use case in which we identify trust issues in certain popular EV manufacturers.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>International Mutual Recognition: A Description of Trust Services in US, UK, EU and JP and the Testbed “Hakoniwa”</title>
+      <link>https://damslabumbc.github.io/publication/secrypt-2023/</link>
+      <pubDate>Tue, 11 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/publication/secrypt-2023/</guid>
+      <description></description>
     </item>
     
     <item>
