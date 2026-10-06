@@ -5,12 +5,30 @@
     <link>https://damslabumbc.github.io/tag/internet-of-things/</link>
       <atom:link href="https://damslabumbc.github.io/tag/internet-of-things/index.xml" rel="self" type="application/rss+xml" />
     <description>Internet of Things</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Tue, 30 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Mon, 05 Oct 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://damslabumbc.github.io/media/logo_hu047037e1b297a4ac9228434653f60124_26532_300x300_fit_lanczos_3.png</url>
       <title>Internet of Things</title>
       <link>https://damslabumbc.github.io/tag/internet-of-things/</link>
     </image>
+    
+    <item>
+      <title>Enabling Unified FL-driven Application Deployment Across Heterogeneous Research Testbeds</title>
+      <link>https://damslabumbc.github.io/publication/iot-2026/</link>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/publication/iot-2026/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sensorless IoT</title>
+      <link>https://damslabumbc.github.io/project/sensorlessiot/</link>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/project/sensorlessiot/</guid>
+      <description>&lt;p&gt;IoT deployments collect enormous amounts of sensor data, but making use of it still requires knowing which sensors to query, which machine learning models to run, and how to stitch the results together — expertise most organizations do not have. This project introduces a semantic abstraction layer that hides that complexity, so users can ask directly for high-level concepts such as occupancy or energy consumption and let the system work out which sensors, models and data pipelines are needed to answer them.&lt;/p&gt;
+&lt;p&gt;Supported by NSF CAREER award &lt;a href=&#34;https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2542782&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#2542782&lt;/a&gt;, July 2026 – June 2031.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Towards Fast Detection of Suspicious Bluetooth Trackers using Anomaly Detection</title>
@@ -77,12 +95,21 @@
     </item>
     
     <item>
-      <title>Passive Mode for IoT</title>
-      <link>https://damslabumbc.github.io/project/iotpassivemode/</link>
+      <title>Smart Campus</title>
+      <link>https://damslabumbc.github.io/project/smartcampus/</link>
+      <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/project/smartcampus/</guid>
+      <description>&lt;p&gt;Several of the group&amp;rsquo;s systems are deployed and evaluated on UMBC&amp;rsquo;s campus, which doubles as a living testbed for research on IoT data management and privacy. This page collects that campus-deployment work; new deployments are added here as they are published.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Network Traffic Analysis of Smart Devices</title>
+      <link>https://damslabumbc.github.io/project/networktraffic/</link>
       <pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://damslabumbc.github.io/project/iotpassivemode/</guid>
-      <description>&lt;p&gt;Traditional &amp;ldquo;idle&amp;rdquo; mode designations lack the granularity required to fully describe the behaviors of non-active IoT devices. For example, there is a notable difference between a smart speaker having its microphone muted and it idly listening for a voice command. This is demonstrated by manufacturers&#39; inclusions of &amp;ldquo;privacy modes&amp;rdquo; in smart devices such as cameras. The ambiguity surrounding the expected behavior of device idle states implies the existence of a logical &amp;ldquo;passive&amp;rdquo; state which describes the expected behavior of the devices themselves. Despite this, no accepted standards exist to define such a state. This hinders researchers&#39; abilities to compare devices&#39; non-active behaviors, requires manufacturers spend resources to define their own passive states, reduces transparency in data privacy practices by encouraging the creation of proprietary mode definitions, and places a significant burden on users to understand the individual privacy implications of each device.&lt;/p&gt;
-&lt;p&gt;This project seeks to provide a formal definition for these passive modes which can enable straightforward construction of device-specific definitions. We further study the passive mode behavior of these devices to determine the gap between the observed behaviors and a truely &amp;ldquo;passive&amp;rdquo; state.&lt;/p&gt;
+      <guid>https://damslabumbc.github.io/project/networktraffic/</guid>
+      <description>&lt;p&gt;Smart devices talk to the network far more than their users expect, and the traffic they generate reveals a lot: which services they contact, how often, and what they do when nobody is using them. Analyzing that traffic is one of the few ways to check a device&amp;rsquo;s actual behavior against what its documentation and privacy settings promise.&lt;/p&gt;
+&lt;p&gt;This project measures smart-device network traffic to characterize device behavior, expose privacy leakage, and give users, researchers and manufacturers a shared vocabulary for what a device should be doing in each of its modes. Its first line of work defines and studies &lt;em&gt;passive modes&lt;/em&gt; — the states in which a device is powered on but not performing its intended function.&lt;/p&gt;
 </description>
     </item>
     
@@ -143,33 +170,21 @@
     </item>
     
     <item>
-      <title>Co-zyBench</title>
-      <link>https://damslabumbc.github.io/project/co-zybench/</link>
-      <pubDate>Tue, 23 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://damslabumbc.github.io/project/co-zybench/</guid>
-      <description>&lt;p&gt;Heating, Ventilation, and Air Conditioning (HVAC) systems account for 40% to 50% of energy
-usage in commercial buildings, so controlling them while preserving occupants&#39; comfort
-matters. State-of-the-art solutions use pervasive systems with sensors or smart devices to
-gauge individual thermal sensations, but assessing those methods is hard: real-world
-experiments are expensive, limited in access, and often overlook occupant and regional
-diversity.&lt;/p&gt;
-&lt;p&gt;Co-zyBench is a benchmark tool that takes a Digital Twin (DT) approach to evaluating
-personalized thermal comfort systems. It uses a co-simulation middleware interfacing
-between a DT of the smart building and its HVAC system and another DT representing
-occupants&#39; dynamic thermal preferences across spaces. Those DTs are generated from
-information about the space being evaluated, including data captured by its sensors.
-Co-zyBench reports metrics for energy consumption, thermal comfort, and occupant equality,
-and ships reference DTs based on standard buildings, HVAC systems, and occupants with
-diverse thermal preferences.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>DEMSA: a DT-enabled Middleware for Self-adaptive Smart Spaces</title>
       <link>https://damslabumbc.github.io/publication/midd4dt-2023/</link>
       <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
       <guid>https://damslabumbc.github.io/publication/midd4dt-2023/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Smart Thermal Comfort Provision</title>
+      <link>https://damslabumbc.github.io/project/thermalcomfort/</link>
+      <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/project/thermalcomfort/</guid>
+      <description>&lt;p&gt;Heating, ventilation and air conditioning accounts for roughly 40–60% of a building&amp;rsquo;s energy use, yet the reason to run it at all is the comfort of the people inside. Pervasive and mobile computing makes it possible to sense individual thermal sensations and manage HVAC around them, but evaluating such systems is hard: real-world experiments are expensive, slow, privacy-sensitive and rarely cover the diversity of occupants and climates, while simulations have to be shown to reflect reality.&lt;/p&gt;
+&lt;p&gt;This project builds Digital Twin (DT) based tools for the whole loop: a benchmark for comparing thermal-comfort provisioning strategies under realistic conditions, systems that use the twin to guide occupants and to adapt building control at run time, and planning methods that schedule HVAC together with the building&amp;rsquo;s other energy systems.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -181,12 +196,12 @@ diverse thermal preferences.&lt;/p&gt;
     </item>
     
     <item>
-      <title>PrivacyLens</title>
-      <link>https://damslabumbc.github.io/project/privacylens/</link>
+      <title>AI-Assisted Privacy Document Analysis</title>
+      <link>https://damslabumbc.github.io/project/privacydocs/</link>
       <pubDate>Fri, 11 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://damslabumbc.github.io/project/privacylens/</guid>
-      <description>&lt;p&gt;PrivacyLens is a novel framework devised to automatically collect, analyze, and publish privacy policies of smart IoT devices, responding to the growing concerns over user privacy as smart devices become increasingly integrated into daily lives. Despite the existence of privacy policies, a significant challenge arises as they are often overlooked or misunderstood by users, hence the need for an automated analysis to provide clearer insights to users and other stakeholders. Unlike previous works, this project pivots towards addressing the gap in privacy policies specific to smart devices which present unique challenges in collection and analysis due to their dispersed nature across various manufacturers and e-commerce platforms.&lt;/p&gt;
-&lt;p&gt;The PrivacyLens framework operates in three core stages; Collection, Analysis, and Publication. Initially, it crawls prominent e-commerce sites for smart IoT devices, extracting metadata and privacy policies, while also utilizing the Wayback Machine to garner historical privacy policies for longitudinal analysis. Following the collection, the framework employs Natural Language Processing (NLP) and Machine Learning (ML) techniques to dissect these policies, aiming to deduce features like overall quality, readability, and ambiguity among others. The final stage sees the publishing of this analyzed data on a dedicated website, updated monthly to provide users, policy authors, and regulators a robust, updated resource to understand and compare privacy practices across a multitude of smart devices. As of the submission, PrivacyLens has successfully amassed and analyzed over 1,200 privacy policies for 7,300 smart devices, presenting a significant stride towards fostering transparency and informed decision-making in the realm of smart device privacy. Through PrivacyLens, stakeholders varying from ordinary consumers to data protection regulators are equipped with a powerful tool to understand and navigate the privacy landscape of IoT devices, marking a crucial step towards creating a more responsible and transparent digital ecosystem.&lt;/p&gt;
+      <guid>https://damslabumbc.github.io/project/privacydocs/</guid>
+      <description>&lt;p&gt;Privacy policies are the main channel through which organizations tell people what happens to their data, yet they are long, intricate, and routinely skipped or misunderstood — and for smart devices they are scattered across manufacturers and e-commerce platforms, so even finding the right policy is hard.&lt;/p&gt;
+&lt;p&gt;This project applies AI to that document landscape from both ends. PrivacyLens collects, analyzes and publishes smart-device privacy policies at scale, giving consumers, policy authors and regulators a way to understand and compare them. GenAIPABench measures how well generative-AI privacy assistants answer people&amp;rsquo;s questions about policies and regulations — because genAI&amp;rsquo;s tendency to produce inaccurate information has to be quantified before such assistants can be trusted.&lt;/p&gt;
 </description>
     </item>
     

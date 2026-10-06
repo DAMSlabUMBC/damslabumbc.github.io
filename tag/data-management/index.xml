@@ -5,12 +5,22 @@
     <link>https://damslabumbc.github.io/tag/data-management/</link>
       <atom:link href="https://damslabumbc.github.io/tag/data-management/index.xml" rel="self" type="application/rss+xml" />
     <description>Data Management</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Mon, 02 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Wed, 01 Jul 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://damslabumbc.github.io/media/logo_hu047037e1b297a4ac9228434653f60124_26532_300x300_fit_lanczos_3.png</url>
       <title>Data Management</title>
       <link>https://damslabumbc.github.io/tag/data-management/</link>
     </image>
+    
+    <item>
+      <title>Sensorless IoT</title>
+      <link>https://damslabumbc.github.io/project/sensorlessiot/</link>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/project/sensorlessiot/</guid>
+      <description>&lt;p&gt;IoT deployments collect enormous amounts of sensor data, but making use of it still requires knowing which sensors to query, which machine learning models to run, and how to stitch the results together — expertise most organizations do not have. This project introduces a semantic abstraction layer that hides that complexity, so users can ask directly for high-level concepts such as occupancy or energy consumption and let the system work out which sensors, models and data pipelines are needed to answer them.&lt;/p&gt;
+&lt;p&gt;Supported by NSF CAREER award &lt;a href=&#34;https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2542782&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#2542782&lt;/a&gt;, July 2026 – June 2031.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Modeling Inhabited Smart Spaces to Support Interoperable IoT-Based Applications</title>

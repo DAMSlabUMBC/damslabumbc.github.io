@@ -5,7 +5,7 @@
     <link>https://damslabumbc.github.io/tag/benchmark/</link>
       <atom:link href="https://damslabumbc.github.io/tag/benchmark/index.xml" rel="self" type="application/rss+xml" />
     <description>Benchmark</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Tue, 19 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Fri, 11 Aug 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://damslabumbc.github.io/media/logo_hu047037e1b297a4ac9228434653f60124_26532_300x300_fit_lanczos_3.png</url>
       <title>Benchmark</title>
@@ -13,11 +13,12 @@
     </image>
     
     <item>
-      <title>GenAIPABench</title>
-      <link>https://damslabumbc.github.io/project/genaipabench/</link>
-      <pubDate>Tue, 19 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://damslabumbc.github.io/project/genaipabench/</guid>
-      <description>&lt;p&gt;Privacy policies of websites are often lengthy and intricate. Privacy assistants assist in simplifying policies and making them more accessible and user-friendly. The emergence of generative AI (genAI) offers new opportunities to build privacy assistants that can answer users&#39; questions about privacy policies. However, genAI&amp;rsquo;s reliability is a concern due to its potential for producing inaccurate information. This study introduces GenAIPABench, a benchmark for evaluating Generative AI-based Privacy Assistants (GenAIPAs). GenAIPABench includes: 1) A set of questions about privacy policies and data protection regulations, with annotated answers for various organizations and regulations; 2) Metrics to assess the accuracy, relevance, and consistency of responses; and 3) A tool for generating prompts to introduce privacy documents and varied privacy questions to test system robustness. We evaluated three leading genAI systems—ChatGPT-4, Bard, and Bing AI—using GenAIPABench to gauge their effectiveness as GenAIPAs. Our results demonstrate significant promise in genAI capabilities in the privacy domain while also highlighting challenges in managing complex queries, ensuring consistency, and verifying source accuracy.&lt;/p&gt;
+      <title>AI-Assisted Privacy Document Analysis</title>
+      <link>https://damslabumbc.github.io/project/privacydocs/</link>
+      <pubDate>Fri, 11 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/project/privacydocs/</guid>
+      <description>&lt;p&gt;Privacy policies are the main channel through which organizations tell people what happens to their data, yet they are long, intricate, and routinely skipped or misunderstood — and for smart devices they are scattered across manufacturers and e-commerce platforms, so even finding the right policy is hard.&lt;/p&gt;
+&lt;p&gt;This project applies AI to that document landscape from both ends. PrivacyLens collects, analyzes and publishes smart-device privacy policies at scale, giving consumers, policy authors and regulators a way to understand and compare them. GenAIPABench measures how well generative-AI privacy assistants answer people&amp;rsquo;s questions about policies and regulations — because genAI&amp;rsquo;s tendency to produce inaccurate information has to be quantified before such assistants can be trusted.&lt;/p&gt;
 </description>
     </item>
     

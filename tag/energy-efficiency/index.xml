@@ -28,5 +28,15 @@
       <description></description>
     </item>
     
+    <item>
+      <title>Smart Thermal Comfort Provision</title>
+      <link>https://damslabumbc.github.io/project/thermalcomfort/</link>
+      <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/project/thermalcomfort/</guid>
+      <description>&lt;p&gt;Heating, ventilation and air conditioning accounts for roughly 40–60% of a building&amp;rsquo;s energy use, yet the reason to run it at all is the comfort of the people inside. Pervasive and mobile computing makes it possible to sense individual thermal sensations and manage HVAC around them, but evaluating such systems is hard: real-world experiments are expensive, slow, privacy-sensitive and rarely cover the diversity of occupants and climates, while simulations have to be shown to reflect reality.&lt;/p&gt;
+&lt;p&gt;This project builds Digital Twin (DT) based tools for the whole loop: a benchmark for comparing thermal-comfort provisioning strategies under realistic conditions, systems that use the twin to guide occupants and to adapt building control at run time, and planning methods that schedule HVAC together with the building&amp;rsquo;s other energy systems.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

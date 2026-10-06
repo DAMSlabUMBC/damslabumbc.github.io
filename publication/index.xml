@@ -5,12 +5,20 @@
     <link>https://damslabumbc.github.io/publication/</link>
       <atom:link href="https://damslabumbc.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Tue, 30 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Mon, 05 Oct 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://damslabumbc.github.io/media/logo_hu047037e1b297a4ac9228434653f60124_26532_300x300_fit_lanczos_3.png</url>
       <title>Publications</title>
       <link>https://damslabumbc.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Enabling Unified FL-driven Application Deployment Across Heterogeneous Research Testbeds</title>
+      <link>https://damslabumbc.github.io/publication/iot-2026/</link>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/publication/iot-2026/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Towards Fast Detection of Suspicious Bluetooth Trackers using Anomaly Detection</title>
@@ -169,14 +177,6 @@
       <link>https://damslabumbc.github.io/publication/pmc-2023/</link>
       <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
       <guid>https://damslabumbc.github.io/publication/pmc-2023/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>GENAIPABENCH: A Benchmark for Generative AI-based Privacy Assistants</title>
-      <link>https://damslabumbc.github.io/publication/genaipa-2023/</link>
-      <pubDate>Sun, 10 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://damslabumbc.github.io/publication/genaipa-2023/</guid>
       <description></description>
     </item>
     

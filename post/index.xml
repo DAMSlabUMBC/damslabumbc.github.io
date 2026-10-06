@@ -5,12 +5,23 @@
     <link>https://damslabumbc.github.io/post/</link>
       <atom:link href="https://damslabumbc.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Latest News</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Fri, 02 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Mon, 05 Oct 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://damslabumbc.github.io/media/logo_hu047037e1b297a4ac9228434653f60124_26532_300x300_fit_lanczos_3.png</url>
       <title>Latest News</title>
       <link>https://damslabumbc.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>Paper accepted at IoT 2026!</title>
+      <link>https://damslabumbc.github.io/post/10-5-2026-iot2026-accepted/</link>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/post/10-5-2026-iot2026-accepted/</guid>
+      <description>&lt;p&gt;Our paper on deploying a single federated learning application across heterogeneous research testbeds, in collaboration with the University of Patras, has been accepted at the &lt;a href=&#34;https://iot-conference.org/iot2026/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;16th International Conference on the Internet of Things (IoT 2026)&lt;/a&gt;, to be held in Newcastle upon Tyne, UK, on November 17–20.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Enabling Unified FL-driven Application Deployment Across Heterogeneous Research Testbeds&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Andreas Mendrinos, Georgios Paterakis, Roberto Yus, and Georgios Bouloukakis&lt;/p&gt;
+&lt;p&gt;Modern AI applications increasingly run on geographically distributed and heterogeneous infrastructures that combine high-performance computing (HPC) systems, cloud platforms, and resource-constrained edge devices. Research testbeds provide such infrastructure, but their heterogeneous provisioning mechanisms, networking models, and deployment workflows complicate the development and execution of a single application across several of them. This paper reports the experience of deploying the same Federated Learning (FL) application across four widely used testbeds: Grid&#39;5000, Chameleon, SLICES, and FIT IoT-LAB. We follow a progressive methodology, from single-testbed to three-testbed deployments, and we integrate constrained IoT nodes through a proxy-based architecture that keeps local training on the device while moving the FL runtime to the gateway. From the lessons learned, we design and implement a lightweight middleware that exposes provider-independent resource discovery, requirement-based matching, and allocation through a unified REST API, and translates these operations into the native reservation mechanisms of each testbed. We validate the middleware through live allocations on three infrastructures and an end-to-end cross-testbed FL run, and extract a set of practical guidelines for cross-testbed FL deployment.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Roberto Yus to join AOK Library publishing panel</title>

@@ -242,7 +242,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.70cdc6d1dfcdcaa404bc07e0fc15f4b2.css" />
+  <link rel="stylesheet" href="/css/wowchemy.971190e94aed4f3c7d494f9aa2a18d20.css" />
 
   
 
@@ -690,7 +690,37 @@
   padding: .8rem 1.1rem; margin: 1.6rem 0;
   font-size: .96rem;
 }
+/* --- visual revamp (2026-10-05): layout only, text untouched --- */
+.article-container { max-width: 1200px; }
+.join-path { border-top: 3px solid #1565c0; }
+.join-path .jp-ico { color: #1565c0; opacity: 1; }
+.join-photos {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem; margin: 2rem 0 2.4rem;
+}
+.join-photos a { display: block; }
+.join-photos img { width: 100%; height: 220px; object-fit: cover; border-radius: 10px; display: block; }
+.join-faq {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.1rem; margin: 1.4rem 0 2rem;
+}
+.join-faq-item {
+  border: 1px solid rgba(128,128,128,.25); border-top: 3px solid #1565c0; border-radius: 10px;
+  padding: 1.1rem 1.3rem 1.2rem;
+}
+.join-faq-item h3 { font-size: 1.05rem; margin: 0 0 .6rem; }
+.join-faq-item p { font-size: .93rem; line-height: 1.55; margin: 0; }
+.join-steps > li::before { border-color: #1565c0; color: #1565c0; }
+@media (min-width: 992px) {
+  .join-steps { display: flex; gap: 1.4rem; }
+  .join-steps > li { flex: 1; padding: 2.5rem 0 0 0; }
+  .join-steps > li::before { top: 0; left: 0; }
+}
+.join-cta { border-left-color: #1565c0; background: rgba(21,101,192,.07); border-radius: 0 8px 8px 0; }
+.join-banner { margin: .2rem 0 1.8rem; }
+.join-banner img { width: 100%; height: 300px; object-fit: cover; object-position: center 35%; border-radius: 12px; display: block; }
 </style>
+<div class="join-banner"><img src="banner.jpg" alt="" loading="lazy"></div>
 <p class="join-lead">We build systems that sit between people and the sensors around them &mdash; in
 smart buildings, smart homes, and instrumented testbeds. If you like working on real deployments,
 semantic data models, or the privacy questions that come with connected devices, there is probably
@@ -720,6 +750,11 @@ a project here for you.</p>
 </div>
 <p>Our group welcomes applicants from any race, ethnicity, religion, national origin, gender identity, gender expression, caregiver and family commitments, political affiliation, sexual orientation, and eligible age or disability status. Furthermore, we are committed to maintaining a supportive and collaborative group environment.</p>
 <p>See more about <a href="/uploads/DAMS_groupPolicies.pdf" target="_blank">our group policies</a>.</p>
+<div class="join-photos">
+  <a href="photo-1.jpg" target="_blank" rel="noopener"><img src="photo-1.jpg" alt="" loading="lazy"></a>
+  <a href="photo-2.jpg" target="_blank" rel="noopener"><img src="photo-2.jpg" alt="" loading="lazy"></a>
+  <a href="photo-3.jpg" target="_blank" rel="noopener"><img src="photo-3.jpg" alt="" loading="lazy"></a>
+</div>
 <h2 id="graduate-students">Graduate students</h2>
 <p>If you&rsquo;re interested in pursuing a Ph.D. with either direct or general admit, or in thesis or project-based masters research, reach out to Prof. Yus by <a href="mailto:ryus@umbc.edu">email</a> with:</p>
 <ol class="join-steps">
@@ -738,12 +773,20 @@ a project here for you.</p>
 <li>Strong communication skills (written and oral) are a plus.</li>
 <li>Knowledge of programming languages (e.g., Java, Python), Web development (e.g., HTML, Javascript, React), and Databases (e.g., MySQL, PostgreSQL) are a plus.</li>
 </ul>
+<div class="join-faq">
+<div class="join-faq-item">
 <h3 id="why-do-research">Why do research?</h3>
 <p>Through undergraduate research, you&rsquo;ll: 1) learn about the latest questions currently under scientific investigation and approaches being used to tackle them, 2) help solve real and important scientific problems, and 3) gain valuable experience in critical thinking, problem solving, collaboration, and communication.</p>
+</div>
+<div class="join-faq-item">
 <h3 id="what-will-you-do">What will you do?</h3>
 <p>The DAMS Group is focused on designing mechanisms to make IoT systems bridge the gap between user requirements and IoT device capabilities. Undergraduate researchers will generally work on projects related to the research areas of the group: 1) Data Management, 2) AI (Knowledge Representation &amp; Reasoning), and 3) Privacy. These may involve activities such as interacting with IoT devices and systems, writing code to extract insights from sensor data, integrating ML algorithms within an IoT system, and so on.</p>
+</div>
+<div class="join-faq-item">
 <h3 id="what-are-the-hours-for-the-position">What are the hours for the position?</h3>
 <p>Apart from attendance at weekly group meetings, students are free to work according to a flexible schedule. We have a lab office available.</p>
+</div>
+</div>
 <h3 id="how-do-i-apply">How do I apply?</h3>
 <p>First, read the <a href="/uploads/DAMS_Expectations_UGrad.pdf" target="_blank">DAMS Group Undergraduate Research Agreement</a> carefully to make sure you understand what&rsquo;s involved. Then send a single email to <a href="mailto:ryus@umbc.edu">Prof. Yus</a> with the subject line <strong>&ldquo;Undergrad Application&rdquo;</strong>, including:</p>
 <ol class="join-steps">

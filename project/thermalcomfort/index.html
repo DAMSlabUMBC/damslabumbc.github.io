@@ -1,0 +1,2063 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.2.0 for Hugo" />
+  
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Roberto Yus" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Heating, ventilation and air conditioning accounts for roughly 40–60% of a building&rsquo;s energy use, yet the reason to run it at all is the comfort of the people inside. Pervasive and mobile computing makes it possible to sense individual thermal sensations and manage HVAC around them, but evaluating such systems is hard: real-world experiments are expensive, slow, privacy-sensitive and rarely cover the diversity of occupants and climates, while simulations have to be shown to reflect reality." />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://damslabumbc.github.io/project/thermalcomfort/" />
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.971190e94aed4f3c7d494f9aa2a18d20.css" />
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/index.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu302981aa99fa15a8a6e0a46294dd9bb8_23619_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu302981aa99fa15a8a6e0a46294dd9bb8_23619_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://damslabumbc.github.io/project/thermalcomfort/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image" />
+  
+  <meta property="og:site_name" content="DAMS Research Group" />
+  <meta property="og:url" content="https://damslabumbc.github.io/project/thermalcomfort/" />
+  <meta property="og:title" content="Smart Thermal Comfort Provision | DAMS Research Group" />
+  <meta property="og:description" content="Heating, ventilation and air conditioning accounts for roughly 40–60% of a building&rsquo;s energy use, yet the reason to run it at all is the comfort of the people inside. Pervasive and mobile computing makes it possible to sense individual thermal sensations and manage HVAC around them, but evaluating such systems is hard: real-world experiments are expensive, slow, privacy-sensitive and rarely cover the diversity of occupants and climates, while simulations have to be shown to reflect reality." /><meta property="og:image" content="https://damslabumbc.github.io/project/thermalcomfort/featured.png" />
+    <meta property="twitter:image" content="https://damslabumbc.github.io/project/thermalcomfort/featured.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2023-12-11T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2023-12-11T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://damslabumbc.github.io/project/thermalcomfort/"
+  },
+  "headline": "Smart Thermal Comfort Provision",
+  
+  "image": [
+    "https://damslabumbc.github.io/project/thermalcomfort/featured.png"
+  ],
+  
+  "datePublished": "2023-12-11T00:00:00Z",
+  "dateModified": "2023-12-11T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Roberto Yus"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "DAMS Research Group",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://damslabumbc.github.io/media/logo_hu047037e1b297a4ac9228434653f60124_26532_192x192_fit_lanczos_3.png"
+    }
+  },
+  "description": "Heating, ventilation and air conditioning accounts for roughly 40–60% of a building\u0026rsquo;s energy use, yet the reason to run it at all is the comfort of the people inside. Pervasive and mobile computing makes it possible to sense individual thermal sensations and manage HVAC around them, but evaluating such systems is hard: real-world experiments are expensive, slow, privacy-sensitive and rarely cover the diversity of occupants and climates, while simulations have to be shown to reflect reality."
+}
+</script>
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>Smart Thermal Comfort Provision | DAMS Research Group</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="71078e436bc22a707f4c8634fe66bc0a" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.b8153d4570dcbb34350a2a846dba8c03.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container-xl">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/"><img src="/media/logo_hu047037e1b297a4ac9228434653f60124_26532_0x70_resize_lanczos_3.png" alt="DAMS Research Group">
+          <span class="navbar-brand-text d-none d-sm-inline">DAMS Research Group</span></a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/"><img src="/media/logo_hu047037e1b297a4ac9228434653f60124_26532_0x70_resize_lanczos_3.png" alt="DAMS Research Group">
+        <span class="navbar-brand-text d-none d-sm-inline">DAMS Research Group</span></a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>People</span><span class="caret"></span>
+          </a>
+          <div class="dropdown-menu">
+            
+              <a class="dropdown-item" href="/members"><span>Members</span></a>
+            
+              <a class="dropdown-item" href="/alumni"><span>Alumni</span></a>
+            
+          </div>
+        </li>
+
+        
+        
+
+        
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Research</span><span class="caret"></span>
+          </a>
+          <div class="dropdown-menu">
+            
+              <a class="dropdown-item" href="/research"><span>Overview</span></a>
+            
+              <a class="dropdown-item" href="/research/#funding"><span>Funding</span></a>
+            
+              <a class="dropdown-item" href="/research/#projects"><span>Projects</span></a>
+            
+          </div>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/publication"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/post"><span>News</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/join"><span>Join</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+      
+      
+        
+      
+
+      
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    
+
+
+<article class="article article-project article-project-enhanced">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Smart Thermal Comfort Provision</h1>
+
+  
+  <p class="page-subtitle">Digital-twin tools for benchmarking, guiding and controlling comfort and energy in smart buildings</p>
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Dec 11, 2023
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    
+    <div class="row project-hero">
+      <div class="col-lg-7 article-style">
+        <p>Heating, ventilation and air conditioning accounts for roughly 40–60% of a building&rsquo;s energy use, yet the reason to run it at all is the comfort of the people inside. Pervasive and mobile computing makes it possible to sense individual thermal sensations and manage HVAC around them, but evaluating such systems is hard: real-world experiments are expensive, slow, privacy-sensitive and rarely cover the diversity of occupants and climates, while simulations have to be shown to reflect reality.</p>
+<p>This project builds Digital Twin (DT) based tools for the whole loop: a benchmark for comparing thermal-comfort provisioning strategies under realistic conditions, systems that use the twin to guide occupants and to adapt building control at run time, and planning methods that schedule HVAC together with the building&rsquo;s other energy systems.</p>
+
+      </div>
+      <div class="col-lg-5">
+        
+          
+          
+          <a href="/project/thermalcomfort/featured.png" target="_blank" rel="noopener" class="project-cover">
+            <img src="/project/thermalcomfort/featured_hu6799b6a58cf3248343cccb771931ea33_168494_1000x0_resize_lanczos_3.png" alt="Smart Thermal Comfort Provision" class="img-fluid">
+          </a>
+        
+      </div>
+    </div>
+
+    
+    <div class="project-sections">
+      
+      <div class="row project-section align-items-center">
+        <div class="col-lg-6">
+          
+            
+              
+              <a href="/project/thermalcomfort/co-zybench.png" target="_blank" rel="noopener"><img src="/project/thermalcomfort/co-zybench_huf7824bc4717124234a98b80b7718d8cf_295533_1000x0_resize_lanczos_3.png" alt="Co-zyBench — benchmarking thermal comfort provision" class="img-fluid project-section-img"></a>
+            
+          
+        </div>
+        <div class="col-lg-6 article-style">
+          <h3>Co-zyBench — benchmarking thermal comfort provision</h3>
+          Co-zyBench couples a Digital Twin of a building and its HVAC system with a second Digital Twin of the occupants' dynamic thermal preferences, connected through a co-simulation middleware, and reports energy-consumption, thermal-comfort and occupant-equity metrics for whatever control strategy is under test. It ships reference twins for standard buildings, HVAC configurations and occupant profiles, and can generate twins from a real building&rsquo;s architectural model, sensor readings and thermal-sensation data. Web-CozyBench puts it behind a web GUI so strategies can be compared without simulation expertise.
+        </div>
+      </div>
+      
+      <div class="row project-section align-items-center">
+        <div class="col-lg-6 order-lg-2">
+          
+            
+              
+              <a href="/project/thermalcomfort/digiguide.png" target="_blank" rel="noopener"><img src="/project/thermalcomfort/digiguide_hu8634f46221e10b88557b986dc9409721_335805_1000x0_resize_lanczos_3.png" alt="DigiGuide — guiding occupants to comfortable, efficient spaces" class="img-fluid project-section-img"></a>
+            
+          
+        </div>
+        <div class="col-lg-6 article-style">
+          <h3>DigiGuide — guiding occupants to comfortable, efficient spaces</h3>
+          DigiGuide turns the twin around: instead of controlling the building, it forecasts indoor conditions and occupant state in real time and uses a genetic algorithm to guide people to the spaces that best balance their comfort needs against energy use. In two large-scale scenarios (a co-working open space and an airport) it achieved 18.2% lower discomfort with 8.6% lower energy consumption than baseline approaches.
+        </div>
+      </div>
+      
+      <div class="row project-section align-items-center">
+        <div class="col-lg-6">
+          
+            
+              
+              <a href="/project/thermalcomfort/demsa.png" target="_blank" rel="noopener"><img src="/project/thermalcomfort/demsa.png" alt="DEMSA and AI planning — self-adaptive building control" class="img-fluid project-section-img"></a>
+            
+          
+        </div>
+        <div class="col-lg-6 article-style">
+          <h3>DEMSA and AI planning — self-adaptive building control</h3>
+          DEMSA is a Digital-Twin-enabled middleware that coordinates a building&rsquo;s edge server, its twin and AI-planning nodes so HVAC strategies adapt as occupants change, with a self-adaptive check that detects and corrects anomalous plans. The ICT4S work generalises the planning side: AI planning schedules HVAC, lighting and plug loads together, decoupling domain knowledge from the problem representation so the approach ports across buildings — up to 30% energy reduction in a smart-office evaluation.
+        </div>
+      </div>
+      
+    </div>
+    
+
+    <div class="row project-facts">
+      
+      <div class="col-md-6 project-highlights">
+        <h3><i class="fas fa-lightbulb" aria-hidden="true"></i> Highlights</h3>
+        <ul>
+          <li>Co-zyBench: a digital-twin benchmark for comparing thermal-comfort provisioning strategies, with energy, comfort and occupant-equity metrics</li>
+          <li>DigiGuide: real-time guidance of occupants to spaces that balance their comfort against energy use (18.2% less discomfort, 8.6% less energy)</li>
+          <li>DEMSA and AI planning: self-adaptive building control that schedules HVAC, lighting and plug loads together (up to 30% energy reduction)</li>
+          
+        </ul>
+      </div>
+      
+      
+      <div class="col-md-6 project-team">
+        <h3><i class="fas fa-users" aria-hidden="true"></i> Team</h3>
+        <ul>
+          
+            
+            
+            <li>
+              
+                
+                <img src="/author/jun-ma/avatar_hu2e2a9f189b4332b2bd987279169aa937_283983_96x96_fill_q75_lanczos_center.jpg" alt="" class="project-team-avatar">
+                <span class="project-team-text"><a href="/author/jun-ma/">Jun Ma</a><span class="project-team-role">Ph.D Student, Telecom SudParis, France</span></span>
+              
+            </li>
+          
+            
+            
+            <li>
+              
+                
+                <img src="/author/georgios-bouloukakis/avatar_hua158259ff089ad1499683b8beb69b887_122299_96x96_fill_q75_lanczos_center.jpg" alt="" class="project-team-avatar">
+                <span class="project-team-text"><a href="/author/georgios-bouloukakis/">Georgios Bouloukakis</a><span class="project-team-role">Assistant Professor, University of Patras, Greece</span></span>
+              
+            </li>
+          
+            
+            
+            <li>
+              
+                
+                <img src="/author/roberto-yus/avatar_hud9f680d9fd0901e8096a1696fa9f0d54_346067_96x96_fill_lanczos_center_3.png" alt="" class="project-team-avatar">
+                <span class="project-team-text"><a href="/author/roberto-yus/">Roberto Yus</a><span class="project-team-role">Assistant Professor, University of Maryland, Baltimore County</span></span>
+              
+            </li>
+          
+            
+            
+            <li>
+              
+                <span class="project-team-avatar project-team-avatar-blank"></span>
+                <span class="project-team-text">Dimitrije Panic</span>
+              
+            </li>
+          
+            
+            
+            <li>
+              
+                <span class="project-team-avatar project-team-avatar-blank"></span>
+                <span class="project-team-text">Houssam Hajj Hassan</span>
+              
+            </li>
+          
+            
+            
+            <li>
+              
+                <span class="project-team-avatar project-team-avatar-blank"></span>
+                <span class="project-team-text">Ajay Kattepur</span>
+              
+            </li>
+          
+            
+            
+            <li>
+              
+                <span class="project-team-avatar project-team-avatar-blank"></span>
+                <span class="project-team-text">Aziz Boubaker</span>
+              
+            </li>
+          
+            
+            
+            <li>
+              
+                <span class="project-team-avatar project-team-avatar-blank"></span>
+                <span class="project-team-text">Sabrine Azaiez</span>
+              
+            </li>
+          
+            
+            
+            <li>
+              
+                <span class="project-team-avatar project-team-avatar-blank"></span>
+                <span class="project-team-text">Denis Conan</span>
+              
+            </li>
+          
+        </ul>
+      </div>
+      
+    </div>
+    
+
+    
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/internet-of-things/">Internet of Things</a>
+  
+  <a class="badge badge-light" href="/tag/smart-buildings/">Smart Buildings</a>
+  
+  <a class="badge badge-light" href="/tag/digital-twin/">Digital Twin</a>
+  
+  <a class="badge badge-light" href="/tag/thermal-comfort/">Thermal Comfort</a>
+  
+  <a class="badge badge-light" href="/tag/energy-efficiency/">Energy Efficiency</a>
+  
+  <a class="badge badge-light" href="/tag/active/">Active</a>
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="/author/roberto-yus/"><img class="avatar mr-3 avatar-circle" src="/author/roberto-yus/avatar_hud9f680d9fd0901e8096a1696fa9f0d54_346067_270x270_fill_lanczos_center_3.png" alt="Roberto Yus"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/author/roberto-yus/">Roberto Yus</a></h5>
+      <h6 class="card-subtitle">Assistant Professor</h6>
+      <p class="card-text">My research interests include Data Management, Knowledge Representation, the Internet of Things, and Privacy.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://robertoyus.com/" target="_blank" rel="noopener">
+        <i class="fas fa-home"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:ryus@umbc.edu" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=x8h02QMAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.researchgate.net/profile/Roberto_Yus" target="_blank" rel="noopener">
+        <i class="fab fa-researchgate"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://dblp.uni-trier.de/pid/61/10575.html?view=by-year" target="_blank" rel="noopener">
+        <i class="ai ai-dblp"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://orcid.org/0000-0002-9311-954X" target="_blank" rel="noopener">
+        <i class="fab fa-orcid"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/robertoyus" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/publication/pmc-2025/">A customizable benchmarking tool for evaluating personalized thermal comfort provisioning in smart spaces using Digital Twins</a></li>
+      
+      <li><a href="/project/smartcampus/">Smart Campus</a></li>
+      
+      <li><a href="/publication/ict4s-2024/">Efficient Scheduling of Smart Building Energy Systems Using AI Planning</a></li>
+      
+      <li><a href="/project/sensorlessiot/">Sensorless IoT</a></li>
+      
+      <li><a href="/publication/smartcompdemo-2025/">DEMO: Web-CozyBench - A Web-Based Platform to Benchmark Thermal Comfort Provision using Digital Twins</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+
+
+    <div class="project-related-pages content-widget-hr">
+      
+      
+
+      
+      
+      
+
+      
+      
+      
+        <h2>Publications</h2>
+        
+          
+            
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/pmc-2025/" >A customizable benchmarking tool for evaluating personalized thermal comfort provisioning in smart spaces using Digital Twins</a>
+    </div>
+
+    
+
+    
+    <a href="/publication/pmc-2025/"  class="summary-link">
+      <div class="article-style">
+        Providing proper thermal comfort to individual occupants is crucial to improve well-being and work efficiency. However, Heating, …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      <a href="/author/jun-ma/">Jun Ma</a></span>, <span >
+      <a href="/author/dimitrije-panic/">Dimitrije Panic</a></span>, <span >
+      <a href="/author/roberto-yus/">Roberto Yus</a></span>, <span >
+      <a href="/author/georgios-bouloukakis/">Georgios Bouloukakis</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/pmc-2025/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/thermalcomfort/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/smartcompdemo-2025/" >DEMO: Web-CozyBench - A Web-Based Platform to Benchmark Thermal Comfort Provision using Digital Twins</a>
+    </div>
+
+    
+
+    
+    <a href="/publication/smartcompdemo-2025/"  class="summary-link">
+      <div class="article-style">
+        Web-CozyBench is a web-based benchmarking platform built on Co-zyBench to evaluate occupant-centric HVAC control systems using Digital …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      <a href="/author/jun-ma/">Jun Ma</a></span>, <span >
+      <a href="/author/aziz-boubaker/">Aziz Boubaker</a></span>, <span >
+      <a href="/author/sabrine-azaiez/">Sabrine Azaiez</a></span>, <span >
+      <a href="/author/roberto-yus/">Roberto Yus</a></span>, <span >
+      <a href="/author/georgios-bouloukakis/">Georgios Bouloukakis</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/uploads/2025161629.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/smartcompdemo-2025/cite.bib">
+  Cite
+</a>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/satrai-lab/Web-cozybench" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/thermalcomfort/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/smartcompdemo-2025/" >
+      <img src="/publication/smartcompdemo-2025/featured_hu56bb2ca805d615072f5330257860851e_251796_150x0_resize_lanczos_3.png" alt="DEMO: Web-CozyBench - A Web-Based Platform to Benchmark Thermal Comfort Provision using Digital Twins" loading="lazy">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/smartcomp-2025/" >DigiGuide: A DT-based Occupant Guiding System for Optimizing Comfort and Energy Consumption</a>
+    </div>
+
+    
+
+    
+    <a href="/publication/smartcomp-2025/"  class="summary-link">
+      <div class="article-style">
+        This paper presents DigiGuide, an innovative system that leverages Digital Twin (DT) methodologies combined with multi-objective …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      <a href="/author/jun-ma/">Jun Ma</a></span>, <span >
+      <a href="/author/roberto-yus/">Roberto Yus</a></span>, <span >
+      <a href="/author/georgios-bouloukakis/">Georgios Bouloukakis</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/uploads/2025161602.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/smartcomp-2025/cite.bib">
+  Cite
+</a>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/satrai-lab/DigiGuide" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/thermalcomfort/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/smartcomp-2025/" >
+      <img src="/publication/smartcomp-2025/featured_hu18e520c58b1e18cbe73f71dcfd7e61e7_974255_150x0_resize_lanczos_3.png" alt="DigiGuide: A DT-based Occupant Guiding System for Optimizing Comfort and Energy Consumption" loading="lazy">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/ict4s-2024/" >Efficient Scheduling of Smart Building Energy Systems Using AI Planning</a>
+    </div>
+
+    
+
+    
+    <a href="/publication/ict4s-2024/"  class="summary-link">
+      <div class="article-style">
+        Buildings account for a significant share of global energy consumption, with Heating, Ventilation, and Air Conditioning (HVAC) systems …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      <a href="/author/houssam-hajj-hassan/">Houssam Hajj Hassan</a></span>, <span >
+      <a href="/author/jun-ma/">Jun Ma</a></span>, <span >
+      <a href="/author/georgios-bouloukakis/">Georgios Bouloukakis</a></span>, <span >
+      <a href="/author/roberto-yus/">Roberto Yus</a></span>, <span >
+      <a href="/author/ajay-kattepur/">Ajay Kattepur</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/ict4s-2024/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/thermalcomfort/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/percom-2024/" >Co-zyBench: Using Co-Simulation and Digital Twins to Benchmark Thermal Comfort Provision in Smart Buildings</a>
+    </div>
+
+    
+
+    
+    <a href="/publication/percom-2024/"  class="summary-link">
+      <div class="article-style">
+        Heating, Ventilation, and Air Conditioning (HVAC) systems account for 40% to 50% of energy usage in commercial buildings. Thus, …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      <a href="/author/jun-ma/">Jun Ma</a></span>, <span >
+      <a href="/author/dimitrije-panic/">Dimitrije Panic</a></span>, <span >
+      <a href="/author/roberto-yus/">Roberto Yus</a></span>, <span >
+      <a href="/author/georgios-bouloukakis/">Georgios Bouloukakis</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/percom-2024/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/thermalcomfort/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/post/1-26-2024-percom/" >
+    <i class="fas fa-newspaper mr-1"></i>
+    News
+  </a>
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/percom-2024/" >
+      <img src="/publication/percom-2024/featured_hu6799b6a58cf3248343cccb771931ea33_168494_150x0_resize_lanczos_3.png" alt="Co-zyBench: Using Co-Simulation and Digital Twins to Benchmark Thermal Comfort Provision in Smart Buildings" loading="lazy">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/midd4dt-2023/" >DEMSA: a DT-enabled Middleware for Self-adaptive Smart Spaces</a>
+    </div>
+
+    
+
+    
+    <a href="/publication/midd4dt-2023/"  class="summary-link">
+      <div class="article-style">
+        Heating, Ventilation, and Air Conditioning (HVAC) systems account for a significant portion of energy consumption within buildings. In …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      <a href="/author/jun-ma/">Jun Ma</a></span>, <span >
+      <a href="/author/georgios-bouloukakis/">Georgios Bouloukakis</a></span>, <span >
+      <a href="/author/ajay-kattepur/">Ajay Kattepur</a></span>, <span >
+      <a href="/author/roberto-yus/">Roberto Yus</a></span>, <span >
+      <a href="/author/denis-conan/">Denis Conan</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://dl.acm.org/doi/10.1145/3631319.3632303" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/midd4dt-2023/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/thermalcomfort/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/post/12-11-2023-middleware/" >
+    <i class="fas fa-newspaper mr-1"></i>
+    News
+  </a>
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/midd4dt-2023/" >
+      <img src="/publication/midd4dt-2023/featured_huffaca4c6e5c60eda39f6971271d3588e_125285_150x0_resize_lanczos_3.png" alt="DEMSA: a DT-enabled Middleware for Self-adaptive Smart Spaces" loading="lazy">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+      
+
+      
+      
+      
+    </div>
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+  
+  <p class="powered-by">
+    
+      <a href="/privacy/">Privacy Policy</a>
+    
+    
+  </p>
+  
+
+  
+  <p class="powered-by">
+    © 2021 Roberto Yus
+  </p>
+  
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+      
+
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    <script src="/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js"></script>
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.4bba0826db6409c865d2e7b99039d6d0.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>

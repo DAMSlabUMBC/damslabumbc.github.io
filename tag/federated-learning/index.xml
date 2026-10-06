@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Federated Learning | DAMS Research Group</title>
+    <link>https://damslabumbc.github.io/tag/federated-learning/</link>
+      <atom:link href="https://damslabumbc.github.io/tag/federated-learning/index.xml" rel="self" type="application/rss+xml" />
+    <description>Federated Learning</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Mon, 05 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://damslabumbc.github.io/media/logo_hu047037e1b297a4ac9228434653f60124_26532_300x300_fit_lanczos_3.png</url>
+      <title>Federated Learning</title>
+      <link>https://damslabumbc.github.io/tag/federated-learning/</link>
+    </image>
+    
+    <item>
+      <title>Enabling Unified FL-driven Application Deployment Across Heterogeneous Research Testbeds</title>
+      <link>https://damslabumbc.github.io/publication/iot-2026/</link>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/publication/iot-2026/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
