@@ -5,12 +5,35 @@
     <link>https://damslabumbc.github.io/post/</link>
       <atom:link href="https://damslabumbc.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Latest News</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Mon, 05 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Wed, 14 Oct 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://damslabumbc.github.io/media/logo_hu047037e1b297a4ac9228434653f60124_26532_300x300_fit_lanczos_3.png</url>
       <title>Latest News</title>
       <link>https://damslabumbc.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>Invited talk by Pardis Emami-Naeini on October 30!</title>
+      <link>https://damslabumbc.github.io/post/10-14-2026-pardis-emami-naeini-talk/</link>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/post/10-14-2026-pardis-emami-naeini-talk/</guid>
+      <description>&lt;p&gt;Pardis Emami-Naeini (Duke University) will give an invited talk at the DAMS lab meeting on Friday, October 30, from 12:00 to 1:00 pm. The talk is open to all — please &lt;a href=&#34;https://damslabumbc.github.io/#contact&#34;&gt;get in touch&lt;/a&gt; if you would like to attend.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Enhancing Digital Safety for People with People&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Privacy and security risks are not merely the result of technical flaws, but of deeper failures that have effectively excluded stakeholders from the design process. This exclusion has produced privacy, security, and policy artifacts that fail to address people’s needs, leaving society exposed to consequential risks. As AI technologies become the new “technology,” there is mounting evidence that current digital safety and policy guardrails are insufficient to protect users. These failures are particularly critical in domains such as health and wellness and embodied systems, where risks extend beyond digital harm to affect users’ physical safety and well-being. In this talk, I will discuss how I leverage a highly interdisciplinary, human-centered approach to advance digital safety and AI governance in high-impact AI systems, including conversational AI for mental health and social robots.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;About the speaker&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Pardis Emami-Naeini is an Assistant Professor at Duke University. For more about her work, visit &lt;a href=&#34;https://users.cs.duke.edu/~pardis/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;her homepage&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Invited talk by Umar Iqbal this Friday!</title>
+      <link>https://damslabumbc.github.io/post/10-6-2026-umar-iqbal-talk/</link>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/post/10-6-2026-umar-iqbal-talk/</guid>
+      <description>&lt;p&gt;Umar Iqbal (Washington University in St. Louis) will give an invited talk at this Friday&amp;rsquo;s DAMS lab meeting, October 9, from 12:00 to 1:00 pm. The talk is open to all — please &lt;a href=&#34;https://damslabumbc.github.io/#contact&#34;&gt;get in touch&lt;/a&gt; if you would like to attend.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;About the speaker&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Umar Iqbal&amp;rsquo;s research interests are in computer security and privacy. His research focuses on bringing transparency and control in computing systems to empower users, platforms, and regulators to improve user privacy and security. His current focus areas include AI system security, web privacy and security, and technology policy.&lt;/p&gt;
+&lt;p&gt;Professor Iqbal joined the Department of Computer Science &amp;amp; Engineering at Washington University in Fall 2023. Previously, he was a Postdoctoral Scholar at the University of Washington. He is a recipient of the NSF CAREER Award (2026), ACM IMC Best Paper Award (2023), Caspar Bowden Runner-Up Award for Outstanding Research in Privacy Enhancing Technologies (2024), CRA/NSF Computing Innovation Fellowship (2021), and the University of Iowa Research Excellence Award (2021). For more about his work, visit &lt;a href=&#34;https://umariqbal.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;umariqbal.com&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Paper accepted at IoT 2026!</title>
