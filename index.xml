@@ -5,7 +5,7 @@
     <link>https://damslabumbc.github.io/</link>
       <atom:link href="https://damslabumbc.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>DAMS Research Group</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Wed, 14 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Thu, 22 Oct 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://damslabumbc.github.io/media/logo_hu047037e1b297a4ac9228434653f60124_26532_300x300_fit_lanczos_3.png</url>
       <title>DAMS Research Group</title>
@@ -183,6 +183,20 @@ To write that last one well, look through a few of our &lt;a href=&#34;https://d
       <guid>https://damslabumbc.github.io/privacy/</guid>
       <description>&lt;p&gt;&lt;strong&gt;This website doesn’t collect or store any visitor data, period&lt;/strong&gt;. I made a conscious choice not to have analytics or comment system (e.g., disqus) on this website to minimize any indirect tracking that may happen. Please let me know if you notice anything on this website that doesn’t follow this principle.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Paper accepted at Applied Clinical Informatics!</title>
+      <link>https://damslabumbc.github.io/post/10-22-2026-aci-accepted/</link>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/post/10-22-2026-aci-accepted/</guid>
+      <description>&lt;p&gt;Our paper on co-designing sensorization plans for long-term care settings together with nursing home leadership, direct care staff, residents, and resident family members has been accepted in the journal &lt;a href=&#34;https://connect.thieme.com/en/journals/applied-clinical-informatics&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Applied Clinical Informatics&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;No Sensorization without Representation: Co-designing Tailored Sensorization Plans with Nursing Home Leadership, Direct Care Staff, Residents, and Resident Family Members&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Zainab A. Balogun, Lewis Davis II, Luke Zimmermann, Yoon Chung Kim, Roberto Yus, Kelly Doran, Sarah Holmes, and Tera L. Reynolds&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Objective.&lt;/strong&gt; Although interest in using sensors in long-term care (LTC) settings is growing, little guidance exists on how to engage stakeholders in planning. This study aimed to (1) develop a systematic, community-engaged process for co-designing sensorization plans – defining goals and parameters (e.g., data collection, sharing) to support decision making prior to sensor deployment, (2) apply this process with LTC stakeholders, and (3) examine stakeholder perspectives across sensor approaches.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Methods.&lt;/strong&gt; We conducted a multi-phase, multi-method study in a single nursing home that included observations and engaging nursing home leadership, direct care staff, residents, and resident family members through surveys and interviews.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Results.&lt;/strong&gt; Most participants (72%, N=25) identified improving staff mental health as a top priority, citing high workloads driven by staffing shortages. Two sensorization plans were developed: (1) an individual-level plan to detect and address direct care staff stress and (2) a workplace-focused plan using automation to reduce documentation burden. A majority of the 22 interview participants (59%) preferred the workplace-focused plan due to its broader benefits for direct care staff and resident care. Participants identified trade-offs across the plans, including tensions between perceived usefulness of direct stress detection versus workload reductions, concerns about privacy and unintended sensor data uses, and questions about feasibility of sensor placement and staff buy-in. Additionally, we identified two practical lessons learned to improve the co-design process – the importance of: balancing meaningful stakeholder engagement with participant burden and creatively communicating complex sensorization plans to diverse stakeholders.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Conclusions.&lt;/strong&gt; These findings demonstrate both the feasibility of a structured, multi-stakeholder sensorization planning process and the value of engaging stakeholders early to identify community priorities, compare alternative sensorization strategies, and surface implementation trade-offs. Future work should continue to refine the co-design process and explore scalable approaches that integrate stakeholder engagement with computational tools to support efficient and democratic planning.&lt;/p&gt;</description>
     </item>
     
     <item>
