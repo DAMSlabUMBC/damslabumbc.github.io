@@ -5,7 +5,7 @@
     <link>https://damslabumbc.github.io/</link>
       <atom:link href="https://damslabumbc.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>DAMS Research Group</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Thu, 22 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Roberto Yus </copyright><lastBuildDate>Sat, 14 Nov 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://damslabumbc.github.io/media/logo_hu047037e1b297a4ac9228434653f60124_26532_300x300_fit_lanczos_3.png</url>
       <title>DAMS Research Group</title>
@@ -183,6 +183,17 @@ To write that last one well, look through a few of our &lt;a href=&#34;https://d
       <guid>https://damslabumbc.github.io/privacy/</guid>
       <description>&lt;p&gt;&lt;strong&gt;This website doesn’t collect or store any visitor data, period&lt;/strong&gt;. I made a conscious choice not to have analytics or comment system (e.g., disqus) on this website to minimize any indirect tracking that may happen. Please let me know if you notice anything on this website that doesn’t follow this principle.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Our sensorless IoT research featured by UMBC and in The Baltimore Banner!</title>
+      <link>https://damslabumbc.github.io/post/11-14-2026-umbc-banner-feature/</link>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>https://damslabumbc.github.io/post/11-14-2026-umbc-banner-feature/</guid>
+      <description>&lt;p&gt;The group&amp;rsquo;s work on the &amp;ldquo;sensorless&amp;rdquo; Internet of Things, supported by Roberto Yus&amp;rsquo;s &lt;a href=&#34;https://damslabumbc.github.io/post/6-7-2026-nsf-career/&#34;&gt;NSF CAREER award&lt;/a&gt;, has been featured in a &lt;a href=&#34;https://umbc.edu/stories/smart-devices-ai-for-better-informed-world/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UMBC story&lt;/a&gt; and in a UMBC feature on the next chapter of AI published in &lt;a href=&#34;https://www.thebanner.com/sponsored-content/navigating-the-next-chapter-of-ai-YMHKDQZFCNGQLEWYVJIS64OJCU/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Baltimore Banner&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In the UMBC Q&amp;amp;A, &lt;a href=&#34;https://umbc.edu/stories/smart-devices-ai-for-better-informed-world/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;The world is full of smart devices. But are we better informed?&lt;/em&gt;&lt;/a&gt;, Roberto discusses the gap between the raw data produced by billions of smart devices and the high-level questions people actually want answered: whether classrooms are well ventilated while students are in them, where the wheelchairs are in a hospital, or where a home wastes the most energy. He explains how the group combines AI and data management so that a system can automatically work out which sensors to look at, which AI models to apply, and how to combine the results, letting people get what they need without having to think about sensors at all. The conversation also covers the trade-offs between accuracy, speed, cost, and privacy, the importance of transparency when deploying sensors, and why a human has to stay in the loop. DAMS PhD students Aamir Hamid and Christian Badolato appear in the story.&lt;/p&gt;
+&lt;p&gt;The story also highlights the education and outreach side of the CAREER award: involving undergraduate students in research on the pain points of the campus, a new course on designing and deploying smart services for the campus, hands-on IoT projects at two Maryland high schools, and a summer camp for Baltimore-area students.&lt;/p&gt;
+&lt;p&gt;The work is also featured in &lt;a href=&#34;https://www.thebanner.com/sponsored-content/navigating-the-next-chapter-of-ai-YMHKDQZFCNGQLEWYVJIS64OJCU/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Navigating the next chapter of AI&lt;/em&gt;&lt;/a&gt;, a UMBC feature in The Baltimore Banner on making AI more efficient, more physical, and more human, which presents our research as an example of how AI can make the world&amp;rsquo;s sensors far more useful.&lt;/p&gt;</description>
     </item>
     
     <item>
